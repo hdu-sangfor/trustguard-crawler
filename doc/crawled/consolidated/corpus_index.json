@@ -1,0 +1,1167 @@
+[
+  {
+    "doc_id": "CWE-119",
+    "title": "弱点编号: CWE-119",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 9604,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-119.md"
+    }
+  },
+  {
+    "doc_id": "CWE-125",
+    "title": "弱点编号: CWE-125",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 4285,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-125.md"
+    }
+  },
+  {
+    "doc_id": "CWE-1321",
+    "title": "弱点编号: CWE-1321",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 2959,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-1321.md"
+    }
+  },
+  {
+    "doc_id": "CWE-20",
+    "title": "弱点编号: CWE-20",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 12934,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-20.md"
+    }
+  },
+  {
+    "doc_id": "CWE-200",
+    "title": "弱点编号: CWE-200",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 6403,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-200.md"
+    }
+  },
+  {
+    "doc_id": "CWE-22",
+    "title": "弱点编号: CWE-22",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 13258,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-22.md"
+    }
+  },
+  {
+    "doc_id": "CWE-287",
+    "title": "弱点编号: CWE-287",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 4005,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-287.md"
+    }
+  },
+  {
+    "doc_id": "CWE-295",
+    "title": "弱点编号: CWE-295",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 3275,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-295.md"
+    }
+  },
+  {
+    "doc_id": "CWE-352",
+    "title": "弱点编号: CWE-352",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 7262,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-352.md"
+    }
+  },
+  {
+    "doc_id": "CWE-401",
+    "title": "弱点编号: CWE-401",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 3317,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-401.md"
+    }
+  },
+  {
+    "doc_id": "CWE-416",
+    "title": "弱点编号: CWE-416",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 3395,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-416.md"
+    }
+  },
+  {
+    "doc_id": "CWE-434",
+    "title": "弱点编号: CWE-434",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 7550,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-434.md"
+    }
+  },
+  {
+    "doc_id": "CWE-476",
+    "title": "弱点编号: CWE-476",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 3921,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-476.md"
+    }
+  },
+  {
+    "doc_id": "CWE-502",
+    "title": "弱点编号: CWE-502",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 4370,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-502.md"
+    }
+  },
+  {
+    "doc_id": "CWE-611",
+    "title": "弱点编号: CWE-611",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 3014,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-611.md"
+    }
+  },
+  {
+    "doc_id": "CWE-77",
+    "title": "弱点编号: CWE-77",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 3740,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-77.md"
+    }
+  },
+  {
+    "doc_id": "CWE-78",
+    "title": "弱点编号: CWE-78",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 17438,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-78.md"
+    }
+  },
+  {
+    "doc_id": "CWE-787",
+    "title": "弱点编号: CWE-787",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 6020,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-787.md"
+    }
+  },
+  {
+    "doc_id": "CWE-79",
+    "title": "弱点编号: CWE-79",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 12823,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-79.md"
+    }
+  },
+  {
+    "doc_id": "CWE-798",
+    "title": "弱点编号: CWE-798",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 8910,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-798.md"
+    }
+  },
+  {
+    "doc_id": "CWE-862",
+    "title": "弱点编号: CWE-862",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 6793,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-862.md"
+    }
+  },
+  {
+    "doc_id": "CWE-863",
+    "title": "弱点编号: CWE-863",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 7189,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-863.md"
+    }
+  },
+  {
+    "doc_id": "CWE-89",
+    "title": "弱点编号: CWE-89",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 13408,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-89.md"
+    }
+  },
+  {
+    "doc_id": "CWE-918",
+    "title": "弱点编号: CWE-918",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 1920,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-918.md"
+    }
+  },
+  {
+    "doc_id": "CWE-94",
+    "title": "弱点编号: CWE-94",
+    "source": "MITRE CWE",
+    "category": "weakness",
+    "char_count": 6102,
+    "metadata": {
+      "cwe_rank": "Top 25 2024",
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\top25_2024\\cleaned_CWE-94.md"
+    }
+  },
+  {
+    "doc_id": "CWE-View-1000",
+    "title": "CWE 视图: 1000",
+    "source": "MITRE CWE",
+    "category": "weakness_view",
+    "char_count": 559,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\categories\\view_1000_Research_Concepts.md"
+    }
+  },
+  {
+    "doc_id": "CWE-View-1003",
+    "title": "CWE 视图: 1003",
+    "source": "MITRE CWE",
+    "category": "weakness_view",
+    "char_count": 648,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\categories\\view_1003_Weaknesses_for_Simplified_Mapping_of_Published_Vulnerabilities.md"
+    }
+  },
+  {
+    "doc_id": "CWE-View-699",
+    "title": "CWE 视图: 699",
+    "source": "MITRE CWE",
+    "category": "weakness_view",
+    "char_count": 580,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\categories\\view_699_Software_Development.md"
+    }
+  },
+  {
+    "doc_id": "CAPEC_Mechanisms_of_Attack",
+    "title": "CAPEC (Common Attack Pattern Enumeration and Classification)",
+    "source": "MITRE CAPEC",
+    "category": "attack_pattern",
+    "char_count": 555,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\capec\\CAPEC_Mechanisms_of_Attack.md"
+    }
+  },
+  {
+    "doc_id": "CAPEC_Top_Attack_Patterns",
+    "title": "CAPEC Top 攻击模式",
+    "source": "MITRE CAPEC",
+    "category": "attack_pattern",
+    "char_count": 2655,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\capec\\CAPEC_Top_Attack_Patterns.md"
+    }
+  },
+  {
+    "doc_id": "OWASP_ASVS_v4.0.3",
+    "title": "OWASP ASVS (Application Security Verification Standard) v4.0.3",
+    "source": "OWASP",
+    "category": "security_standard",
+    "char_count": 1835,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\owasp\\OWASP_ASVS_v4.0.3.md"
+    }
+  },
+  {
+    "doc_id": "OWASP_WSTG_v4.2",
+    "title": "OWASP WSTG (Web Security Testing Guide) v4.2",
+    "source": "OWASP",
+    "category": "security_standard",
+    "char_count": 1318,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\cwe\\owasp\\OWASP_WSTG_v4.2.md"
+    }
+  },
+  {
+    "doc_id": "CISA_KEV_Catalog",
+    "title": "CISA Known Exploited Vulnerabilities (KEV) 目录",
+    "source": "NIST",
+    "category": "security_framework",
+    "char_count": 1053,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\CISA_KEV_Catalog.md"
+    }
+  },
+  {
+    "doc_id": "ISO27001_2022_Framework",
+    "title": "ISO/IEC 27001:2022",
+    "source": "NIST",
+    "category": "security_framework",
+    "char_count": 1696,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\ISO27001_2022_Framework.md"
+    }
+  },
+  {
+    "doc_id": "NIST_CSF_2.0_Framework",
+    "title": "NIST Cybersecurity Framework (CSF) 2.0",
+    "source": "NIST",
+    "category": "security_framework",
+    "char_count": 2778,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\NIST_CSF_2.0_Framework.md"
+    }
+  },
+  {
+    "doc_id": "NIST_SP800-53_Rev5",
+    "title": "NIST SP 800-53 Rev. 5",
+    "source": "NIST",
+    "category": "security_framework",
+    "char_count": 2148,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\NIST_SP800-53_Rev5.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-12348",
+    "title": "漏洞编号: CVE-2026-12348",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 367,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-12348.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35258",
+    "title": "漏洞编号: CVE-2026-35258",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 1073,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35258.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35259",
+    "title": "漏洞编号: CVE-2026-35259",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 780,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35259.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35261",
+    "title": "漏洞编号: CVE-2026-35261",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 864,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35261.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35262",
+    "title": "漏洞编号: CVE-2026-35262",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 1018,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35262.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35263",
+    "title": "漏洞编号: CVE-2026-35263",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 811,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35263.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35265",
+    "title": "漏洞编号: CVE-2026-35265",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 698,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35265.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35267",
+    "title": "漏洞编号: CVE-2026-35267",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 706,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35267.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35268",
+    "title": "漏洞编号: CVE-2026-35268",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 819,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35268.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35269",
+    "title": "漏洞编号: CVE-2026-35269",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 756,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35269.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35270",
+    "title": "漏洞编号: CVE-2026-35270",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 858,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35270.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35271",
+    "title": "漏洞编号: CVE-2026-35271",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 1075,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35271.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35272",
+    "title": "漏洞编号: CVE-2026-35272",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 806,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35272.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35274",
+    "title": "漏洞编号: CVE-2026-35274",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 923,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35274.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35275",
+    "title": "漏洞编号: CVE-2026-35275",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 1037,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35275.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35276",
+    "title": "漏洞编号: CVE-2026-35276",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 752,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35276.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35278",
+    "title": "漏洞编号: CVE-2026-35278",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 755,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35278.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35279",
+    "title": "漏洞编号: CVE-2026-35279",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 753,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35279.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35280",
+    "title": "漏洞编号: CVE-2026-35280",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 904,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35280.md"
+    }
+  },
+  {
+    "doc_id": "CVE-2026-35281",
+    "title": "漏洞编号: CVE-2026-35281",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 904,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\nist\\nvd_recent\\cleaned_CVE-2026-35281.md"
+    }
+  },
+  {
+    "doc_id": "AI_LLM_Security_Framework",
+    "title": "AI 与 LLM 安全框架",
+    "source": "China Standards",
+    "category": "regulation_and_standard",
+    "char_count": 1763,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\china_standards\\AI_LLM_Security_Framework.md"
+    }
+  },
+  {
+    "doc_id": "China_CyberLaw_System",
+    "title": "中国网络安全法律法规体系",
+    "source": "China Standards",
+    "category": "regulation_and_standard",
+    "char_count": 1159,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\china_standards\\China_CyberLaw_System.md"
+    }
+  },
+  {
+    "doc_id": "Cloud_Security_Matrix",
+    "title": "云安全责任共担模型与安全控制矩阵",
+    "source": "China Standards",
+    "category": "regulation_and_standard",
+    "char_count": 1321,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\china_standards\\Cloud_Security_Matrix.md"
+    }
+  },
+  {
+    "doc_id": "Data_Security_Lifecycle",
+    "title": "数据安全全生命周期管理",
+    "source": "China Standards",
+    "category": "regulation_and_standard",
+    "char_count": 1201,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\china_standards\\Data_Security_Lifecycle.md"
+    }
+  },
+  {
+    "doc_id": "Equal_Protection_2.0_Mapping",
+    "title": "等保2.0 与 NIST CSF / ISO 27001 对照表",
+    "source": "China Standards",
+    "category": "regulation_and_standard",
+    "char_count": 1169,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\china_standards\\Equal_Protection_2.0_Mapping.md"
+    }
+  },
+  {
+    "doc_id": "GB_Standards_Catalog",
+    "title": "中国网络安全国家标准体系 (GB/T)",
+    "source": "China Standards",
+    "category": "regulation_and_standard",
+    "char_count": 2692,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\china_standards\\GB_Standards_Catalog.md"
+    }
+  },
+  {
+    "doc_id": "CISA_KEV_Recent_100",
+    "title": "CISA Known Exploited Vulnerabilities (KEV)",
+    "source": "CISA",
+    "category": "known_exploited_vulnerability",
+    "char_count": 46443,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\CISA_KEV_Recent_100.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-12348",
+    "title": "CVE-2026-12348",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 319,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-12348.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35258",
+    "title": "CVE-2026-35258",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 1026,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35258.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35259",
+    "title": "CVE-2026-35259",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 733,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35259.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35261",
+    "title": "CVE-2026-35261",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 817,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35261.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35262",
+    "title": "CVE-2026-35262",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 971,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35262.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35263",
+    "title": "CVE-2026-35263",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 764,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35263.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35265",
+    "title": "CVE-2026-35265",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 651,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35265.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35267",
+    "title": "CVE-2026-35267",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 659,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35267.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35268",
+    "title": "CVE-2026-35268",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 772,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35268.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35269",
+    "title": "CVE-2026-35269",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 709,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35269.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35270",
+    "title": "CVE-2026-35270",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 811,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35270.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35271",
+    "title": "CVE-2026-35271",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 1028,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35271.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35272",
+    "title": "CVE-2026-35272",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 759,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35272.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35274",
+    "title": "CVE-2026-35274",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 876,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35274.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35275",
+    "title": "CVE-2026-35275",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 990,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35275.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35276",
+    "title": "CVE-2026-35276",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 705,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35276.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35278",
+    "title": "CVE-2026-35278",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 708,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35278.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35279",
+    "title": "CVE-2026-35279",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 706,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35279.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35280",
+    "title": "CVE-2026-35280",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 857,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35280.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35281",
+    "title": "CVE-2026-35281",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 857,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35281.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35282",
+    "title": "CVE-2026-35282",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 857,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35282.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35283",
+    "title": "CVE-2026-35283",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 857,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35283.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35284",
+    "title": "CVE-2026-35284",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 857,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35284.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35285",
+    "title": "CVE-2026-35285",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 857,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35285.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35286",
+    "title": "CVE-2026-35286",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 686,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35286.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35288",
+    "title": "CVE-2026-35288",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 896,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35288.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35289",
+    "title": "CVE-2026-35289",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 706,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35289.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35291",
+    "title": "CVE-2026-35291",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 652,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35291.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35292",
+    "title": "CVE-2026-35292",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 770,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35292.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35293",
+    "title": "CVE-2026-35293",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 667,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35293.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35294",
+    "title": "CVE-2026-35294",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 824,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35294.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35295",
+    "title": "CVE-2026-35295",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 678,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35295.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35296",
+    "title": "CVE-2026-35296",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 681,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35296.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35298",
+    "title": "CVE-2026-35298",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 789,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35298.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35299",
+    "title": "CVE-2026-35299",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 647,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35299.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35300",
+    "title": "CVE-2026-35300",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 672,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35300.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35301",
+    "title": "CVE-2026-35301",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 770,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35301.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35302",
+    "title": "CVE-2026-35302",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 853,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35302.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35303",
+    "title": "CVE-2026-35303",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 647,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35303.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35304",
+    "title": "CVE-2026-35304",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 677,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35304.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35305",
+    "title": "CVE-2026-35305",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 932,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35305.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35306",
+    "title": "CVE-2026-35306",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 932,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35306.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35307",
+    "title": "CVE-2026-35307",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 795,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35307.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35308",
+    "title": "CVE-2026-35308",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 819,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35308.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35309",
+    "title": "CVE-2026-35309",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 700,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35309.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35310",
+    "title": "CVE-2026-35310",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 676,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35310.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35311",
+    "title": "CVE-2026-35311",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 644,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35311.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35312",
+    "title": "CVE-2026-35312",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 696,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35312.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35313",
+    "title": "CVE-2026-35313",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 805,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35313.md"
+    }
+  },
+  {
+    "doc_id": "cleaned_CVE-2026-35314",
+    "title": "CVE-2026-35314",
+    "source": "NVD",
+    "category": "vulnerability",
+    "char_count": 926,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\cleaned_CVE-2026-35314.md"
+    }
+  },
+  {
+    "doc_id": "OWASP_Top10_2021_Detailed",
+    "title": "OWASP Top 10:2021 - Web Application Security Risks",
+    "source": "OWASP",
+    "category": "security_standard",
+    "char_count": 2666,
+    "metadata": {
+      "file": "E:\\desk\\work\\学习\\RAG\\text\\爬虫\\crawled_data\\live\\markdown\\OWASP_Top10_2021_Detailed.md"
+    }
+  }
+]

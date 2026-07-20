@@ -1,0 +1,199 @@
+{
+  "summary": {
+    "total_count": 2
+  },
+  "findings": [
+    {
+      "finding_id": "CVE-2026-22849",
+      "cwe": "",
+      "vuln_type": "xss",
+      "severity": "UNKNOWN",
+      "cvss": 0,
+      "description": "[NVD] Saleor lacks proper HTML sanitization in rich text fields\n\n[Task Description]\nSaleor is an e-commerce platform. Starting in version 3.0.0 and prior to versions 3.20.108, 3.21.43, and 3.22.27, Saleor was allowing users to modify rich text fields with HTML without running any backend HTML cleaners thus allowing malicious actors to perform stored XSS attacks on dashboards and storefronts. Malicious staff members could craft script injections to target other staff members, possibly stealing their access and/or refresh tokens. This issue has been patched in versions 3.22.27, 3.21.43, and 3.20.108. In case of inability to upgrade straight away, a possible workaround is to use client-side cleaner.",
+      "recommendation": "This finding is a **TRUE POSITIVE**. The `pageUpdate` GraphQL mutation stored EditorJS `text` blocks verbatim, allowing staff to persist `<img onerror>` gadgets that were later rendered to other users. Server-side sanitization now strips dangerous tags/attributes before persisting and converts any remaining markup to an allow-listed subset so previously exploitable payloads are neutralized.",
+      "vuln_title": "CVE-2026-22849: saleor Xss",
+      "vul_pos": [
+        {
+          "file": "saleor/graphql/page/types.py",
+          "line_start": 158,
+          "line_end": 158,
+          "role": "sink",
+          "snippet": "content = JSONString(description=\"Content of the page.\" + RICH_CONTENT)"
+        },
+        {
+          "file": "saleor/graphql/page/mutations/page_create.py",
+          "line_start": 25,
+          "line_end": 28,
+          "role": "source",
+          "snippet": "class PageInput(BaseInputObjectType):\n    slug = graphene.String(description=\"Page internal name.\")\n    title = graphene.String(description=\"Page title.\")\n    content = JSONString(description=\"Page content.\" + RICH_CONTENT)"
+        }
+      ],
+      "dataflow": [
+        {
+          "step": 1,
+          "file": "saleor/graphql/page/mutations/page_create.py",
+          "line": 28,
+          "type": "source",
+          "description": "PageInput.content field declared as JSONString — accepts arbitrary JSON/HTML from authenticated staff users with MANAGE_PAGES permission. No input validation or schema constraints on the content payload."
+        },
+        {
+          "step": 2,
+          "file": "saleor/graphql/page/mutations/page_update.py",
+          "line": 20,
+          "type": "propagate",
+          "description": "PageUpdate mutation inherits from PageCreate and reuses PageInput (line 23: `input = PageInput(...)`) as its mutation argument. Staff with MANAGE_PAGES can submit arbitrary content JSON via the pageUpdate mutation."
+        },
+        {
+          "step": 3,
+          "file": "saleor/graphql/page/mutations/page_create.py",
+          "line": 78,
+          "type": "propagate",
+          "description": "PageCreate.clean_input validates slug, publication date, attributes, and SEO fields but performs NO sanitization or encoding on the `content` field. The raw user-supplied JSON passes through unchanged into cleaned_input."
+        },
+        {
+          "step": 4,
+          "file": "saleor/graphql/core/mutations.py",
+          "line": 828,
+          "type": "propagate",
+          "description": "DeprecatedModelMutation.perform_mutation calls cls.clean_input(info, instance, data) — the unsanitized content value is returned in cleaned_input."
+        },
+        {
+          "step": 5,
+          "file": "saleor/graphql/core/mutations.py",
+          "line": 842,
+          "type": "propagate",
+          "description": "perform_mutation calls cls.construct_instance(instance, cleaned_input) which copies all cleaned_input values directly onto the Django model instance fields."
+        },
+        {
+          "step": 6,
+          "file": "saleor/graphql/core/mutations.py",
+          "line": 492,
+          "type": "propagate",
+          "description": "Inside construct_instance, for the `content` field: `f.save_form_data(instance, data)` sets Page.content to the raw user-supplied JSON. No sanitization occurs at this layer."
+        },
+        {
+          "step": 7,
+          "file": "saleor/core/db/fields.py",
+          "line": 25,
+          "type": "propagate",
+          "description": "When instance.save() is called (mutations.py:848), Django invokes SanitizedJSONField.get_db_prep_save which calls the registered sanitizer: `json.dumps(self._sanitizer_method(value))` — i.e., clean_editor_js."
+        },
+        {
+          "step": 8,
+          "file": "saleor/core/utils/editorjs.py",
+          "line": 122,
+          "type": "propagate",
+          "description": "clean_text_data_block is the only HTML-facing sanitizer. It scans for `<a href=\"...\">` patterns and rewrites javascript: scheme URLs to `#invalid`, but returns the input text verbatim if no anchor tag matches the regex (line 154). <script> tags, event handlers (onerror, onclick), <img> gadgets, and all other HTML pass through completely unmodified."
+        },
+        {
+          "step": 9,
+          "file": "saleor/graphql/page/types.py",
+          "line": 158,
+          "type": "sink",
+          "description": "Page.content GraphQL field (JSONString) serializes the stored content directly to clients. Dashboard and storefront frontends render this JSON as rich HTML without additional server-side encoding, executing any embedded <script> or event-handler payloads in victims' browsers — stored XSS."
+        }
+      ],
+      "tags": [
+        "python",
+        "xss"
+      ],
+      "fix_version": "3.22.27"
+    },
+    {
+      "finding_id": "CVE-2026-24136",
+      "cwe": "",
+      "vuln_type": "idor",
+      "severity": "UNKNOWN",
+      "cvss": 0,
+      "description": "[NVD] Saleor has an Insecure Direct Object Reference (IDOR) in GraphQL API\n\n[Task Description]\nSaleor is an e-commerce platform. Versions 3.2.0 through 3.20.109, 3.21.0-a.0 through 3.21.44 and 3.22.0-a.0 through 3.22.28 have a n Insecure Direct Object Reference (IDOR) vulnerability that allows unauthenticated actors to extract sensitive information in plain text. Orders created before Saleor 3.2.0 could have PIIs exfiltrated. The issue has been patched in Saleor versions: 3.22.29, 3.21.45, and 3.20.110. To workaround, temporarily block non-staff users from fetching order information (the order() GraphQL query) using a WAF.",
+      "recommendation": "This finding is a **[TRUE POSITIVE]**. The GraphQL `order` query previously lacked any access control, so anonymous callers could enumerate arbitrary orders and read PII. The resolver now validates that the requester either owns the order or is granted `MANAGE_ORDERS`, blocking the IDOR. The accompanying regression test was updated to assert that anonymous requests see a permission error.",
+      "vuln_title": "CVE-2026-24136: saleor Idor",
+      "vul_pos": [
+        {
+          "file": "saleor/graphql/order/schema.py",
+          "line_start": 121,
+          "line_end": 133,
+          "role": "source",
+          "snippet": "    order = BaseField(\n        Order,\n        description=\"Look up an order by ID or external reference.\",\n        id=graphene.Argument(graphene.ID, description=\"ID of an order.\"),\n        external_reference=graphene.Argument(\n            graphene.String,\n            description=(\n                \"External ID of an order. \"\n                \"\\n\\nRequires one of the following permissions: MANAGE_ORDERS.\"\n            ),\n        ),\n        doc_category=DOC_CATEGORY_ORDERS,\n    )"
+        },
+        {
+          "file": "saleor/graphql/order/schema.py",
+          "line_start": 212,
+          "line_end": 230,
+          "role": "source",
+          "snippet": "    @staticmethod\n    def resolve_order(_root, info: ResolveInfo, *, external_reference=None, id=None):\n        validate_one_of_args_is_in_query(\n            \"id\", id, \"external_reference\", external_reference\n        )\n        database_connection_name = get_database_connection_name(info.context)\n        if not id:\n            requester = get_user_or_app_from_context(info.context)\n            permissions = [OrderPermissions.MANAGE_ORDERS]\n            if not has_one_of_permissions(requester, permissions):\n                raise PermissionDenied(permissions=permissions)\n            try:\n                id = ext_ref_to_global_id_or_error(\n                    models.Order, external_reference, database_connection_name\n                )\n            except ValidationError:\n                return None\n        _, id = from_global_id_or_error(id, Order)\n        return resolve_order(info, id)"
+        },
+        {
+          "file": "saleor/graphql/order/resolvers.py",
+          "line_start": 90,
+          "line_end": 102,
+          "role": "sink",
+          "snippet": "def resolve_order(info, id):\n    if id is None:\n        return None\n    try:\n        id = UUID(id)\n        lookup = Q(id=id)\n    except ValueError:\n        lookup = Q(number=id) & Q(use_old_id=True)\n    database_connection_name = get_database_connection_name(info.context)\n    order = models.Order.objects.using(database_connection_name).filter(lookup).first()\n    if not order:\n        return None\n    return SyncWebhookControlContext(node=order, allow_sync_webhooks=True)"
+        }
+      ],
+      "dataflow": [
+        {
+          "step": 1,
+          "file": "saleor/graphql/order/schema.py",
+          "line": 121,
+          "type": "source",
+          "description": "GraphQL field 'order' declared as BaseField (not PermissionsField) — accepts user-controlled 'id' argument from any caller, including unauthenticated users. Unlike neighboring queries 'orders' and 'draft_orders' which require MANAGE_ORDERS, this field has no permissions guard."
+        },
+        {
+          "step": 2,
+          "file": "saleor/graphql/core/fields.py",
+          "line": 33,
+          "type": "propagate",
+          "description": "BaseField.get_resolver() returns the resolver directly without wrapping it in any permission check. Contrast with PermissionsField (line 57-62) which wraps resolvers with one_of_permissions_required() when permissions are set."
+        },
+        {
+          "step": 3,
+          "file": "saleor/graphql/order/schema.py",
+          "line": 213,
+          "type": "propagate",
+          "description": "resolve_order() dispatcher receives the user-supplied 'id'. validate_one_of_args_is_in_query ensures either id or external_reference is provided but performs no authorization."
+        },
+        {
+          "step": 4,
+          "file": "saleor/graphql/order/schema.py",
+          "line": 218,
+          "type": "propagate",
+          "description": "Permission check gate: when id is NOT provided (external_reference path), the code checks MANAGE_ORDERS. When id IS provided — the most common attack vector — the entire if-not-id block (lines 218-228) is skipped. This is the core IDOR bypass: direct ID lookups evade all permission enforcement."
+        },
+        {
+          "step": 5,
+          "file": "saleor/graphql/order/schema.py",
+          "line": 229,
+          "type": "propagate",
+          "description": "from_global_id_or_error() decodes the attacker-controlled global ID to an internal primary key. No validation of caller identity or order ownership."
+        },
+        {
+          "step": 6,
+          "file": "saleor/graphql/order/schema.py",
+          "line": 230,
+          "type": "propagate",
+          "description": "Decoded ID is passed directly to the backend resolve_order() in resolvers.py. No auth context, user identity, or ownership check is forwarded."
+        },
+        {
+          "step": 7,
+          "file": "saleor/graphql/order/resolvers.py",
+          "line": 93,
+          "type": "propagate",
+          "description": "resolve_order() attempts to parse the id as UUID for direct lookup; on ValueError falls back to legacy old-ID number lookup — both paths allow unauthenticated access to any historical order."
+        },
+        {
+          "step": 8,
+          "file": "saleor/graphql/order/resolvers.py",
+          "line": 99,
+          "type": "sink",
+          "description": "Order.objects.filter(lookup).first() executes the database query with attacker-controlled lookup key. No permission, ownership, or authentication check. The returned Order object contains PII: user_email, billing_address, shipping_address, user full name, and order line details — all exfiltrated to the unauthenticated caller."
+        }
+      ],
+      "tags": [
+        "python",
+        "idor"
+      ],
+      "fix_version": "3.22.29"
+    }
+  ]
+}

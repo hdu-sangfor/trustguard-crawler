@@ -1,0 +1,5 @@
+{
+  "project_name": "caddy",
+  "language": "go",
+  "execution_env": "docker"
+}
