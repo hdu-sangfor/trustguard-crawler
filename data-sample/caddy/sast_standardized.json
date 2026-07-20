@@ -1,0 +1,337 @@
+{
+  "summary": {
+    "total_count": 3
+  },
+  "findings": [
+    {
+      "finding_id": "CVE-2026-27587",
+      "cwe": "",
+      "vuln_type": "broken_function_level_authorization",
+      "severity": "HIGH",
+      "cvss": 7.5,
+      "description": "[NVD] Caddy's HTTP `path` request matcher is intended to be case-insensitive, but when the match pattern contains percent-escape sequences (`%xx`) it compares against the request's escaped path without lowercasing. An attacker can bypass path-based routing and any access controls attached to that route by changing the casing of the request path.\n\n[Task Description]\nCaddy is an extensible server platform that uses TLS by default. Prior to version 2.11.1, Caddy's HTTP `path` request matcher is intended to be case-insensitive, but when the match pattern contains percent-escape sequences (`%xx`) it compares against the request's escaped path without lowercasing. An attacker can bypass path-based routing and any access controls attached to that route by changing the casing of the request path. Version 2.11.1 contains a fix for the issue.",
+      "recommendation": "This finding is a **TRUE POSITIVE**. Percent-encoded path matchers were lower-cased during provisioning, but the request path was compared in its raw escaped form without normalization, letting uppercase escape sequences bypass protected routes. The fix lower-cases the cleaned escaped path whenever a matcher contains `%`, restoring the intended case-insensitive comparison even in raw path space.",
+      "vuln_title": "CVE-2026-27587: caddy Broken Function Level Authorization",
+      "vul_pos": [
+        {
+          "file": "modules/caddyhttp/matchers.go",
+          "line_start": 475,
+          "line_end": 479,
+          "role": "sink",
+          "snippet": "if strings.Contains(matchPattern, \"%\") {\n\t\t\t\treqPathForPattern := CleanPath(r.URL.EscapedPath(), mergeSlashes)\n\t\t\t\tif m.matchPatternWithEscapeSequence(reqPathForPattern, matchPattern) {\n\t\t\t\t\treturn true, nil\n\t\t\t\t}"
+        },
+        {
+          "file": "modules/caddyhttp/matchers.go",
+          "line_start": 624,
+          "line_end": 626,
+          "role": "sink",
+          "snippet": "default:\n\t\t\tsb.WriteString(pathCh)\n\t\t\tiPath++"
+        },
+        {
+          "file": "modules/caddyhttp/matchers.go",
+          "line_start": 635,
+          "line_end": 637,
+          "role": "sink",
+          "snippet": "matches, _ := path.Match(matchPath, sb.String())\n\treturn matches"
+        },
+        {
+          "file": "modules/caddyhttp/routes.go",
+          "line_start": 241,
+          "line_end": 267,
+          "role": "source",
+          "snippet": "func wrapRoute(route Route) Middleware {\n\treturn func(next Handler) Handler {\n\t\treturn HandlerFunc(func(rw http.ResponseWriter, req *http.Request) error {\n\t\t\t...\n\t\t\tmatches, err := route.MatcherSets.AnyMatchWithError(req)\n\t\t\t...\n\t\t\tif !matches {\n\t\t\t\treturn nextCopy.ServeHTTP(rw, req)\n\t\t\t}"
+        },
+        {
+          "file": "caddyconfig/httpcaddyfile/httptype.go",
+          "line_start": 1427,
+          "line_end": 1430,
+          "role": "source",
+          "snippet": "if strings.HasPrefix(tkn.Text, \"/\") {\n\t\treturn caddy.ModuleMap{\n\t\t\t\"path\": caddyconfig.JSON(caddyhttp.MatchPath{tkn.Text}, warnings),\n\t\t}, true, nil"
+        }
+      ],
+      "dataflow": [
+        {
+          "step": 1,
+          "file": "caddyconfig/httpcaddyfile/httptype.go",
+          "line": 1427,
+          "type": "source",
+          "description": "Caddyfile config token starting with '/' is converted into a MatchPath matcher. The pattern (e.g., '/admin/%2Fsecret') is lowercased during Provision (matchers.go:412), establishing the intended case-insensitive contract."
+        },
+        {
+          "step": 2,
+          "file": "modules/caddyhttp/matchers.go",
+          "line": 405,
+          "type": "propagate",
+          "description": "MatchPath.Provision lowercases every configured path pattern via strings.ToLower (line 412), establishing the design intent of case-insensitive matching."
+        },
+        {
+          "step": 3,
+          "file": "modules/caddyhttp/routes.go",
+          "line": 124,
+          "type": "propagate",
+          "description": "Route.Provision calls ProvisionMatchers which loads MatchPath modules from config via ctx.LoadModule, wiring the matchers into the route's MatcherSets."
+        },
+        {
+          "step": 4,
+          "file": "modules/caddyhttp/routes.go",
+          "line": 243,
+          "type": "source",
+          "description": "External HTTP request arrives at wrapRoute's HandlerFunc. The *http.Request carries the attacker-controlled URL path in both r.URL.Path (decoded) and r.URL.EscapedPath() (raw/escaped)."
+        },
+        {
+          "step": 5,
+          "file": "modules/caddyhttp/routes.go",
+          "line": 257,
+          "type": "propagate",
+          "description": "route.MatcherSets.AnyMatchWithError(req) is called to evaluate whether the request matches this route's matchers. Delegates to MatchPath.MatchWithError."
+        },
+        {
+          "step": 6,
+          "file": "modules/caddyhttp/matchers.go",
+          "line": 424,
+          "type": "propagate",
+          "description": "MatchPath.MatchWithError receives the *http.Request. At line 431, reqPath := strings.ToLower(r.URL.Path) lowercases the decoded path — the normal code path is properly case-insensitive."
+        },
+        {
+          "step": 7,
+          "file": "modules/caddyhttp/matchers.go",
+          "line": 475,
+          "type": "sink",
+          "description": "When the match pattern contains '%' (e.g., '/admin/%2Fsecret'), the code switches to r.URL.EscapedPath() — the raw/escaped form — and passes it through CleanPath but WITHOUT calling strings.ToLower. This is the root cause: the escaped path retains the attacker's original casing."
+        },
+        {
+          "step": 8,
+          "file": "modules/caddyhttp/matchers.go",
+          "line": 535,
+          "type": "propagate",
+          "description": "matchPatternWithEscapeSequence iterates the escaped path character-by-character. At line 556, pathCh := string(escapedPath[iPath]) reads each raw byte, preserving the attacker's casing."
+        },
+        {
+          "step": 9,
+          "file": "modules/caddyhttp/matchers.go",
+          "line": 625,
+          "type": "sink",
+          "description": "In the default (non-%, non-*) case, sb.WriteString(pathCh) appends the character with its original casing into the comparison string. Percent-escaped sequences get lowercased (line 567), but ordinary characters like 'A'-'Z' do not."
+        },
+        {
+          "step": 10,
+          "file": "modules/caddyhttp/matchers.go",
+          "line": 636,
+          "type": "sink",
+          "description": "path.Match(matchPath, sb.String()) performs the final glob comparison. Since matchPath was lowercased during Provision but sb.String() retains the attacker's mixed case, a request like '/Admin/%2fsecret' fails to match the provisioned '/admin/%2fsecret' — the comparison is case-sensitive."
+        },
+        {
+          "step": 11,
+          "file": "modules/caddyhttp/matchers.go",
+          "line": 532,
+          "type": "propagate",
+          "description": "MatchWithError returns false — the matcher did not match because of the casing discrepancy."
+        },
+        {
+          "step": 12,
+          "file": "modules/caddyhttp/routes.go",
+          "line": 263,
+          "type": "sink",
+          "description": "Since !matches, the route is skipped entirely: return nextCopy.ServeHTTP(rw, req). All handlers attached to this route — including authentication middleware (e.g., HTTPBasicAuth at caddyauth/basicauth.go:142) — are bypassed. The attacker reaches the next route or falls through to an unprotected handler."
+        }
+      ],
+      "tags": [
+        "go",
+        "broken",
+        "function",
+        "level",
+        "authorization"
+      ],
+      "fix_version": "2.11.1"
+    },
+    {
+      "finding_id": "CVE-2026-27588",
+      "cwe": "",
+      "vuln_type": "business_logic",
+      "severity": "HIGH",
+      "cvss": 7.5,
+      "description": "[NVD] Caddy's HTTP `host` request matcher is documented as case-insensitive, but when configured with a large host list (>100 entries) it becomes case-sensitive due to an optimized matching path. An attacker can bypass host-based routing and any access controls attached to that route by changing the casing of the `Host` header.\n\n[Task Description]\nCaddy is an extensible server platform that uses TLS by default. Prior to version 2.11.1, Caddy's HTTP `host` request matcher is documented as case-insensitive, but when configured with a large host list (>100 entries) it becomes case-sensitive due to an optimized matching path. An attacker can bypass host-based routing and any access controls attached to that route by changing the casing of the `Host` header. Version 2.11.1 contains a fix for the issue.",
+      "recommendation": "This finding is a **TRUE POSITIVE**. Host lists exceeding 100 entries were sorted with their original casing, so the binary search looked up `Host` headers case-sensitively and allowed bypassing route protections by altering letter case. The fix lower-cases every exact host entry during provisioning and performs the binary search against the lower-cased request host so comparisons stay case-insensitive even for large lists.",
+      "vuln_title": "CVE-2026-27588: caddy Business Logic",
+      "vul_pos": [
+        {
+          "file": "modules/caddyhttp/matchers.go",
+          "line_start": 316,
+          "line_end": 325,
+          "role": "sink",
+          "snippet": "\t\tpos := sort.Search(len(m), func(i int) bool {\n\t\t\tif m.fuzzy(m[i]) {\n\t\t\t\treturn false\n\t\t\t}\n\t\t\treturn m[i] >= reqHost\n\t\t})\n\t\tif pos < len(m) && m[pos] == reqHost {\n\t\t\treturn true, nil\n\t\t}"
+        },
+        {
+          "file": "modules/caddyhttp/matchers.go",
+          "line_start": 303,
+          "line_end": 312,
+          "role": "source",
+          "snippet": "func (m MatchHost) MatchWithError(r *http.Request) (bool, error) {\n\treqHost, _, err := net.SplitHostPort(r.Host)\n\tif err != nil {\n\t\t// OK; probably didn't have a port\n\t\treqHost = r.Host\n\n\t\t// make sure we strip the brackets from IPv6 addresses\n\t\treqHost = strings.TrimPrefix(reqHost, \"[\")\n\t\treqHost = strings.TrimSuffix(reqHost, \"]\")\n\t}"
+        }
+      ],
+      "dataflow": [
+        {
+          "step": 1,
+          "file": "modules/caddyhttp/matchers.go",
+          "line": 304,
+          "type": "source",
+          "description": "Attacker-controlled Host header (r.Host) is extracted via net.SplitHostPort into reqHost. No lower-casing or normalization is applied to reqHost."
+        },
+        {
+          "step": 2,
+          "file": "modules/caddyhttp/matchers.go",
+          "line": 265,
+          "type": "propagate",
+          "description": "In Provision(), host entries are stored with original casing: only ASCII conversion (idna.ToASCII) is applied, but strings.ToLower at line 268 is used only for duplicate detection in the 'seen' map, not for storing back to m[i]. Exact hosts retain mixed-case values."
+        },
+        {
+          "step": 3,
+          "file": "modules/caddyhttp/matchers.go",
+          "line": 314,
+          "type": "propagate",
+          "description": "m.large() check routes to the binary-search fast path when the host list exceeds 100 entries (defined at line 394). For small lists, a linear scan with strings.EqualFold handles case-insensitivity correctly."
+        },
+        {
+          "step": 4,
+          "file": "modules/caddyhttp/matchers.go",
+          "line": 320,
+          "type": "propagate",
+          "description": "sort.Search performs binary search using case-sensitive comparison: m[i] >= reqHost. Neither m[i] nor reqHost is lower-cased, so the inequality comparison is case-sensitive."
+        },
+        {
+          "step": 5,
+          "file": "modules/caddyhttp/matchers.go",
+          "line": 322,
+          "type": "sink",
+          "description": "The exact-match check m[pos] == reqHost uses direct string equality (case-sensitive). When the attacker changes Host header casing (e.g., 'ADMIN.example.com' vs 'admin.example.com'), the binary search fails to find the match."
+        },
+        {
+          "step": 6,
+          "file": "modules/caddyhttp/matchers.go",
+          "line": 335,
+          "type": "propagate",
+          "description": "Fallback linear loop breaks immediately for non-fuzzy (exact) hosts when m.large() is true, preventing strings.EqualFold from ever executing for exact entries. Only wildcard/placeholder hosts reach the loop body."
+        },
+        {
+          "step": 7,
+          "file": "modules/caddyhttp/routes.go",
+          "line": 257,
+          "type": "propagate",
+          "description": "wrapRoute calls route.MatcherSets.AnyMatchWithError(req). The host matcher returns false due to casing mismatch."
+        },
+        {
+          "step": 8,
+          "file": "modules/caddyhttp/routes.go",
+          "line": 263,
+          "type": "sink",
+          "description": "When matches is false, the route is skipped and the request falls through to nextCopy.ServeHTTP — bypassing host-based routing and any access controls attached to the intended route."
+        }
+      ],
+      "tags": [
+        "go",
+        "business",
+        "logic"
+      ],
+      "fix_version": "2.11.1"
+    },
+    {
+      "finding_id": "CVE-2026-30851",
+      "cwe": "CWE-287,CWE-345",
+      "vuln_type": "broken_function_level_authorization",
+      "severity": "HIGH",
+      "cvss": 8.1,
+      "description": "[NVD] Caddy's `forward_auth` directive with `copy_headers` generates conditional header-set operations that only fire when the upstream auth service includes the named header in its response. No delete or remove operation is generated for the original client-supplied request header with the same name.\n\nWhen an auth service returns `200 OK` without one of the configured `copy_headers` headers, the client-supplied header passes through unchanged to the backend. Any requester holding a valid authentication token can inject arbitrary values for trusted identity headers, resulting in privilege escalation.\n\nThis is a regression introduced by PR #6608 in November 2024. All stable releases from v2.10.0 onward are affected.\n\n---\n\n[Task Description]\nCaddy is an extensible server platform that uses TLS by default. From version 2.10.0 to before version 2.11.2, forward_auth copy_headers does not strip client-supplied headers, allowing identity injection and privilege escalation. This issue has been patched in version 2.11.2.",
+      "recommendation": "This finding is a **TRUE POSITIVE**. The forward auth shortcut let client-controlled identity headers (for example `Remote-User`) flow through untouched whenever the upstream auth service omitted them, so backends trusted spoofed roles. The fix canonicalizes header mappings, removes the attacker-controlled copies before copying trusted values, and updates the regression test to assert the sanitized behavior.\n\n`modules/caddyhttp/reverseproxy/forwardauth/caddyfile.go`\n\n`verify_requirements/tests/forward_auth_bfla_test.go`",
+      "vuln_title": "CVE-2026-30851: caddy Broken Function Level Authorization",
+      "vul_pos": [
+        {
+          "file": "modules/caddyhttp/reverseproxy/forwardauth/caddyfile.go",
+          "line_start": 207,
+          "line_end": 231,
+          "role": "sink",
+          "snippet": "copyHeaderRoutes := []caddyhttp.Route{}\nfor _, from := range sortedHeadersToCopy {\n\tto := http.CanonicalHeaderKey(headersToCopy[from])\n\tplaceholderName := \"http.reverse_proxy.header.\" + http.CanonicalHeaderKey(from)\n\thandler := &headers.Handler{\n\t\tRequest: &headers.HeaderOps{\n\t\t\tSet: http.Header{\n\t\t\t\tto: []string{\"{\" + placeholderName + \"}\"},\n\t\t\t},\n\t\t},\n\t}\n\tcopyHeaderRoutes = append(copyHeaderRoutes, caddyhttp.Route{\n\t\tMatcherSetsRaw: []caddy.ModuleMap{{\n\t\t\t\"not\": h.JSON(caddyhttp.MatchNot{MatcherSetsRaw: []caddy.ModuleMap{{\n\t\t\t\t\"vars\": h.JSON(caddyhttp.VarsMatcher{\"{\" + placeholderName + \"}\": []string{\"\"}}),\n\t\t\t}}}),\n\t\t}},\n\t\tHandlersRaw: []json.RawMessage{caddyconfig.JSONModuleObject(\n\t\t\thandler,\n\t\t\t\"handler\",\n\t\t\t\"headers\",\n\t\t\tnil,\n\t\t)},\n\t})\n}"
+        },
+        {
+          "file": "modules/caddyhttp/reverseproxy/forwardauth/caddyfile.go",
+          "line_start": 135,
+          "line_end": 160,
+          "role": "source",
+          "snippet": "case \"copy_headers\":\n\targs := dispenser.RemainingArgs()\n\thadBlock := false\n\tfor nesting := dispenser.Nesting(); dispenser.NextBlock(nesting); {\n\t\thadBlock = true\n\t\targs = append(args, dispenser.Val())\n\t}\n\n\t// directive name + args\n\tdispenser.DeleteN(len(args) + 1)\n\tif hadBlock {\n\t\t// opening & closing brace\n\t\tdispenser.DeleteN(2)\n\t}\n\n\tfor _, headerField := range args {\n\t\tif strings.Contains(headerField, \">\") {\n\t\t\tparts := strings.Split(headerField, \">\")\n\t\t\theadersToCopy[parts[0]] = parts[1]\n\t\t} else {\n\t\t\theadersToCopy[headerField] = headerField\n\t\t}\n\t}\n\tif len(headersToCopy) == 0 {\n\t\treturn nil, dispenser.ArgErr()\n\t}"
+        }
+      ],
+      "dataflow": [
+        {
+          "step": 1,
+          "file": "modules/caddyhttp/reverseproxy/forwardauth/caddyfile.go",
+          "line": 135,
+          "type": "source",
+          "description": "User Caddyfile 'copy_headers' directive parsed: attacker-controlled header names (e.g., Remote-User, Remote-Email) are read from config and stored into headersToCopy map. This defines which headers the auth service is trusted to provide — but no corresponding Delete is configured to strip the client-supplied versions first."
+        },
+        {
+          "step": 2,
+          "file": "modules/caddyhttp/reverseproxy/forwardauth/caddyfile.go",
+          "line": 197,
+          "type": "propagate",
+          "description": "Headers to copy are sorted for deterministic output; the sorted list drives the route generation loop."
+        },
+        {
+          "step": 3,
+          "file": "modules/caddyhttp/reverseproxy/forwardauth/caddyfile.go",
+          "line": 207,
+          "type": "propagate",
+          "description": "copyHeaderRoutes generation begins. For each header in headersToCopy, a route is created with a headers.Handler that only calls Set (no Delete). The route uses a MatchNot wrapper with a vars matcher that skips when the placeholder is empty — meaning if the auth service omits the header, the client's original value survives unchanged."
+        },
+        {
+          "step": 4,
+          "file": "modules/caddyhttp/reverseproxy/forwardauth/caddyfile.go",
+          "line": 211,
+          "type": "propagate",
+          "description": "headers.Handler constructed with Request.HeaderOps containing only Set operations. The Set value references {http.reverse_proxy.header.<Header>} placeholder sourced from the auth response. No Delete operation is configured to strip the client-supplied header before Set."
+        },
+        {
+          "step": 5,
+          "file": "modules/caddyhttp/reverseproxy/forwardauth/caddyfile.go",
+          "line": 218,
+          "type": "propagate",
+          "description": "Route appended to copyHeaderRoutes with MatchNot+vars guard: if the auth response placeholder is empty, the entire Set handler is skipped — leaving the client's spoofed header intact."
+        },
+        {
+          "step": 6,
+          "file": "modules/caddyhttp/reverseproxy/reverseproxy.go",
+          "line": 955,
+          "type": "propagate",
+          "description": "At runtime, after the reverse proxy receives the auth service response, response headers are stored as replacer placeholders: repl.Set('http.reverse_proxy.header.'+field, value). If the auth service does not include a given header, the placeholder remains unset/empty."
+        },
+        {
+          "step": 7,
+          "file": "modules/caddyhttp/reverseproxy/forwardauth/caddyfile.go",
+          "line": 233,
+          "type": "propagate",
+          "description": "The copyHeaderRoutes are appended to goodResponseHandler.Routes. These routes execute in the handle_response handler chain for 2xx auth responses."
+        },
+        {
+          "step": 8,
+          "file": "modules/caddyhttp/headers/headers.go",
+          "line": 86,
+          "type": "propagate",
+          "description": "headers.Handler.ServeHTTP applies Request HeaderOps (Set only) to the original request. When the route is skipped (placeholder empty), this handler never runs; when it runs, it only Sets — never Deletes the pre-existing client header value."
+        },
+        {
+          "step": 9,
+          "file": "modules/caddyhttp/reverseproxy/forwardauth/caddyfile.go",
+          "line": 207,
+          "type": "sink",
+          "description": "VULNERABILITY MANIFESTS: The copyHeaderRoutes lack a preceding Delete operation. When the auth service omits a header (e.g., Remote-User) from its 2xx response, the placeholder is empty, the vars matcher matches (value is ''), MatchNot skips the route entirely, and the client-supplied spoofed header (e.g., 'Remote-User: spoofed-admin') survives untouched through the request chain to the backend application — enabling identity injection and privilege escalation (BFLA/CWE-285)."
+        }
+      ],
+      "tags": [
+        "go",
+        "broken",
+        "function",
+        "level",
+        "authorization"
+      ],
+      "fix_version": "2.11.2"
+    }
+  ]
+}

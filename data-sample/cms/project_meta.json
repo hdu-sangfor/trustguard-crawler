@@ -1,0 +1,5 @@
+{
+  "project_name": "cms",
+  "language": "php",
+  "execution_env": "docker"
+}

@@ -1,0 +1,245 @@
+{
+  "summary": {
+    "total_count": 3
+  },
+  "findings": [
+    {
+      "finding_id": "CVE-2025-30207",
+      "cwe": "CWE-22,CWE-23",
+      "vuln_type": "path_traversal_lfi_rfi",
+      "severity": "HIGH",
+      "cvss": 7.5,
+      "description": "[NVD] The missing path traversal check allowed attackers to navigate all files on the server that were accessible to the PHP process, including files outside of the Kirby installation.\n\nThe vulnerable implementation delegated all existing files to PHP, including existing files outside of the document root. This leads to a different response that allows attackers to determine whether the requested file exists.\n\nBecause Kirby's router only delegates such requests to PHP and does not load or execute them, contents of the files were not exposed as PHP treats requests to files outside of the document root as invalid.\n\n[Task Description]\nKirby is an open-source content management system. A vulnerability in versions prior to 3.9.8.3, 3.10.1.2, and 4.7.1 affects all Kirby setups that use PHP's built-in server. Such setups are commonly only used during local development. Sites that use other server software (such as Apache, nginx or Caddy) are not affected. A missing path traversal check allowed attackers to navigate all files on the server that were accessible to the PHP process, including files outside of the Kirby installation. The vulnerable implementation delegated all existing files to PHP, including existing files outside of the document root. This leads to a different response that allows attackers to determine whether the requested file exists. Because Kirby's router only delegates such requests to PHP and does not load or execute them, contents of the files were not exposed as PHP treats requests to files outside of the document root as invalid. The problem has been patched in Kirby 3.9.8.3, Kirby 3.10.1.2, and Kirby 4.7.1. In all of the mentioned releases, the maintainers of Kirby have updated the router to check if existing static files are within the document root. Requests to files outside the document root are treated as page requests of the error page and will no longer allow to determine whether the file exists or not.",
+      "recommendation": "This finding is a **TRUE POSITIVE**. Percent-encoded `../` segments let the development router return files outside the document root, so the exploit was able to read `/tmp/traversal_secret.txt`. The router now canonicalizes the request path, normalizes the document root, and only lets the PHP built-in server handle files that resolve inside that root, blocking traversal attempts.",
+      "vuln_title": "CVE-2025-30207: cms Path Traversal Lfi Rfi",
+      "vul_pos": [
+        {
+          "file": "router.php",
+          "line_start": 7,
+          "line_end": 9,
+          "role": "sink",
+          "snippet": "// Emulate Apache's `mod_rewrite` functionality\nif ($uri !== '/' && file_exists($_SERVER['DOCUMENT_ROOT'] . '/' . $uri)) {\n\treturn false;\n}"
+        },
+        {
+          "file": "router.php",
+          "line_start": 3,
+          "line_end": 5,
+          "role": "source",
+          "snippet": "$uri = urldecode(\n\tparse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)\n);"
+        }
+      ],
+      "dataflow": [
+        {
+          "step": 1,
+          "file": "router.php",
+          "line": 3,
+          "type": "source",
+          "description": "Attacker-controlled HTTP request path ($_SERVER['REQUEST_URI']) is extracted via parse_url() and URL-decoded via urldecode() into $uri. Neither operation sanitizes '../' path traversal sequences or percent-encoded variants like '%2e%2e%2f'."
+        },
+        {
+          "step": 2,
+          "file": "router.php",
+          "line": 8,
+          "type": "propagate",
+          "description": "The attacker-controlled $uri is concatenated with $_SERVER['DOCUMENT_ROOT'] to form a filesystem path. No canonicalization (realpath()), basename(), or startsWith check is applied, so traversal sequences in $uri escape the document root."
+        },
+        {
+          "step": 3,
+          "file": "router.php",
+          "line": 8,
+          "type": "sink",
+          "description": "file_exists() is called with the unvalidated traversal path. When the file exists (even outside the document root), return false instructs PHP's built-in server to serve the file as static content, producing a response distinguishable from a non-existent file, thereby leaking filesystem information."
+        }
+      ],
+      "tags": [
+        "php",
+        "path",
+        "traversal",
+        "lfi",
+        "rfi"
+      ],
+      "fix_version": "4.7.1"
+    },
+    {
+      "finding_id": "CVE-2025-31493",
+      "cwe": "CWE-22,CWE-23",
+      "vuln_type": "path_traversal_lfi_rfi",
+      "severity": "CRITICAL",
+      "cvss": 9.1,
+      "description": "[NVD] The missing path traversal check allowed attackers to navigate and access all files on the server that were accessible to the PHP process, including files outside of the collections root or even outside of the Kirby installation. PHP code within such files was executed.\n\nSuch attacks first require an attack vector in the site code that is caused by dynamic collection names, such as `collection('tags-' . get('tags'))`. It generally also requires knowledge of the site structure and the server's file system by the attacker, although it can be possible to find vulnerable setups through automated methods such as fuzzing.\n\nIn a vulnerable setup, this could cause damage to the confidentiality and integrity of the server, for example:\n\n- it could allow the attacker to build a map of the server's file system for subsequent attacks,\n- it could allow access to configuration files that may contain sensitive information like security tokens or\n- it could cause the unintended execution of PHP scripts.\n\n[Task Description]\nKirby is an open-source content management system. A vulnerability in versions prior to 3.9.8.3, 3.10.1.2, and 4.7.1 affects all Kirby sites that use the `collection()` helper or `$kirby->collection()` method with a dynamic collection name (such as a collection name that depends on request or user data). Sites that only use fixed calls to the `collection()` helper/`$kirby->collection()` method (i.e. calls with a simple string for the collection name) are *not* affected. A missing path traversal check allowed attackers to navigate and access all files on the server that were accessible to the PHP process, including files outside of the collections root or even outside of the Kirby installation. PHP code within such files was executed. Such attacks first require an attack vector in the site code that is caused by dynamic collection names, such as `collection('tags-' . get('tags'))`. It generally also requires knowledge of the site structure and the server's file system by the attacker, although it can be possible to find vulnerable setups through automated methods such as fuzzing. In a vulnerable setup, this could cause damage to the confidentiality and integrity of the server. The problem has been patched in Kirby 3.9.8.3, Kirby 3.10.1.2, and Kirby 4.7.1. In all of the mentioned releases, the maintainers of Kirby have added a check for the collection path that ensures that the resulting path is contained within the configured collections root. Collection paths that point outside of the collections root will not be loaded.",
+      "recommendation": "This finding is a **TRUE POSITIVE**. User-controlled collection names were concatenated into filesystem paths in `src/Cms/Collections.php`, so `../../secret/malicious` loaded attacker-picked PHP outside `site/collections`. The fix resolves the path before loading and enforces it stays inside the collections root; traversal attempts now raise `NotFoundException` instead of executing arbitrary files.",
+      "vuln_title": "CVE-2025-31493: cms Path Traversal Lfi Rfi",
+      "vul_pos": [
+        {
+          "file": "src/Cms/Collections.php",
+          "line_start": 104,
+          "line_end": 124,
+          "role": "sink",
+          "snippet": "public function load(string $name): mixed\n\t{\n\t\t$kirby = App::instance();\n\n\t\t// first check for collection file\n\t\t$file = $kirby->root('collections') . '/' . $name . '.php';\n\n\t\tif (is_file($file) === true) {\n\t\t\t$collection = F::load($file, allowOutput: false);\n\n\t\t\tif ($collection instanceof Closure) {\n\t\t\t\treturn $collection;\n\t\t\t}\n\t\t}\n\n\t\t// fallback to collections from plugins\n\t\t$collections = $kirby->extensions('collections');\n\n\t\treturn $collections[$name] ??\n\t\t\tthrow new NotFoundException('The collection cannot be found');\n\t}"
+        },
+        {
+          "file": "config/helpers.php",
+          "line_start": 177,
+          "line_end": 180,
+          "role": "source",
+          "snippet": "function get(mixed $key = null, mixed $default = null): mixed\n\t{\n\t\treturn App::instance()->request()->get($key, $default);\n\t}"
+        }
+      ],
+      "dataflow": [
+        {
+          "step": 1,
+          "file": "config/helpers.php",
+          "line": 177,
+          "type": "source",
+          "description": "HTTP GET parameter read via get() helper; attacker-controlled input enters the application (e.g. get('filter') returns '../../secret/malicious')"
+        },
+        {
+          "step": 2,
+          "file": "config/helpers.php",
+          "line": 58,
+          "type": "source",
+          "description": "collection() helper called with attacker-influenced name in user-land code (e.g. collection('tags-' . get('filter'))); the raw traversal-laden string becomes the $name parameter"
+        },
+        {
+          "step": 3,
+          "file": "src/Cms/App.php",
+          "line": 364,
+          "type": "propagate",
+          "description": "App::collection() receives $name verbatim and forwards it to Collections::get() — no sanitization, no allowlist check"
+        },
+        {
+          "step": 4,
+          "file": "src/Cms/Collections.php",
+          "line": 61,
+          "type": "propagate",
+          "description": "Collections::get() passes $name directly to $this->load($name) without validation"
+        },
+        {
+          "step": 5,
+          "file": "src/Cms/Collections.php",
+          "line": 109,
+          "type": "sink",
+          "description": "Path traversal sink: $file = $kirby->root('collections') . '/' . $name . '.php' concatenates attacker-controlled $name into a filesystem path with no realpath() or starts-with check; e.g. ../../config/config.php resolves outside collections root"
+        },
+        {
+          "step": 6,
+          "file": "src/Cms/Collections.php",
+          "line": 112,
+          "type": "sink",
+          "description": "F::load() is called with the traversed path; the method checks is_file() but does not canonicalize or validate that the resolved path is within the collections root"
+        },
+        {
+          "step": 7,
+          "file": "src/Filesystem/F.php",
+          "line": 425,
+          "type": "sink",
+          "description": "F::loadIsolated() executes return include $___file___ on the attacker-specified file, causing arbitrary PHP code execution outside the intended collections directory"
+        }
+      ],
+      "tags": [
+        "php",
+        "path",
+        "traversal",
+        "lfi",
+        "rfi"
+      ],
+      "fix_version": "4.7.1"
+    },
+    {
+      "finding_id": "CVE-2025-35939",
+      "cwe": "",
+      "vuln_type": "Insecure File Uploads",
+      "severity": "MEDIUM",
+      "cvss": 5.3,
+      "description": "[NVD] Craft CMS stores arbitrary content provided by unauthenticated users in session files. This content could be accessed and executed, possibly using an independent vulnerability. Craft CMS redirects requests that require authentication to the login page and generates a session file on the server at /var/lib/php/sessions. Such session files are named sess_[session_value], where [session_value] is provided to the client in a Set-Cookie response header. Craft CMS stores the return URL requested by the client without sanitizing parameters. Consequently, an unauthenticated client can introduce arbitrary values, such as PHP code, to a known local file location on the server. Craft CMS versions 5.7.5 and 4.15.3 have been released to address this issue.\n\n[Task Description]\nCraft CMS stores arbitrary content provided by unauthenticated users in session files. This content could be accessed and executed, possibly using an independent vulnerability. Craft CMS redirects requests that require authentication to the login page and generates a session file on the server at '/var/lib/php/sessions'. Such session files are named 'sess_[session_value]', where '[session_value]' is provided to the client in a 'Set-Cookie' response header. Craft CMS stores the return URL requested by the client without sanitizing parameters. Consequently, an unauthenticated client can introduce arbitrary values, such as PHP code, to a known local file location on the server. Craft CMS versions 5.7.5 and 4.15.3 have been released to address this issue.",
+      "recommendation": "This finding is a **TRUE POSITIVE**. `yii\\web\\User::loginRequired()` wrote the raw absolute URL from unauthenticated requests directly into PHP session files. A crafted CP request therefore dropped attacker-controlled PHP snippets into predictable `sess_*` files. The fix base64-encodes any return URL before persisting it and decodes it on read, so session storage never contains executable fragments while downstream behavior is unchanged.",
+      "vuln_title": "CVE-2025-35939: cms Insecure File Uploads",
+      "vul_pos": [
+        {
+          "file": "vendor/yiisoft/yii2/web/User.php",
+          "line_start": 419,
+          "line_end": 421,
+          "role": "sink",
+          "snippet": "    public function setReturnUrl($url)\n    {\n        Yii::$app->getSession()->set($this->returnUrlParam, $url);\n    }"
+        },
+        {
+          "file": "vendor/yiisoft/yii2/web/Request.php",
+          "line_start": 1066,
+          "line_end": 1084,
+          "role": "source",
+          "snippet": "    protected function resolveRequestUri()\n    {\n        if ($this->headers->has('X-Rewrite-Url')) { // IIS\n            $requestUri = $this->headers->get('X-Rewrite-Url');\n        } elseif (isset($_SERVER['REQUEST_URI'])) {\n            $requestUri = $_SERVER['REQUEST_URI'];\n            if ($requestUri !== '' && $requestUri[0] !== '/') {\n                $requestUri = preg_replace('/^(http|https):\\/\\/[^\\/]+/i', '', $requestUri);\n            }\n        } elseif (isset($_SERVER['ORIG_PATH_INFO'])) { // IIS 5.0 CGI\n            $requestUri = $_SERVER['ORIG_PATH_INFO'];\n            if (!empty($_SERVER['QUERY_STRING'])) {\n                $requestUri .= '?' . $_SERVER['QUERY_STRING'];\n            }\n        } else {\n            throw new InvalidConfigException('Unable to determine the request URI.');\n        }\n\n        return $requestUri;\n    }"
+        }
+      ],
+      "dataflow": [
+        {
+          "step": 1,
+          "file": "vendor/yiisoft/yii2/web/Request.php",
+          "line": 1071,
+          "type": "source",
+          "description": "resolveRequestUri() reads the raw $_SERVER['REQUEST_URI'] directly — attacker controls the full URL path and query string via their HTTP request"
+        },
+        {
+          "step": 2,
+          "file": "vendor/yiisoft/yii2/web/Request.php",
+          "line": 1042,
+          "type": "propagate",
+          "description": "getUrl() returns the unresolved, attacker-controlled request URI from resolveRequestUri()"
+        },
+        {
+          "step": 3,
+          "file": "vendor/yiisoft/yii2/web/Request.php",
+          "line": 1026,
+          "type": "propagate",
+          "description": "getAbsoluteUrl() concatenates host info with the raw URI from getUrl(), producing a fully attacker-controlled absolute URL string"
+        },
+        {
+          "step": 4,
+          "file": "src/web/Controller.php",
+          "line": 178,
+          "type": "propagate",
+          "description": "beforeAction() calls _enforceAllowAnonymous($action) on every controller entry, triggering the access-control gate"
+        },
+        {
+          "step": 5,
+          "file": "src/web/Controller.php",
+          "line": 202,
+          "type": "propagate",
+          "description": "_enforceAllowAnonymous() detects an unauthenticated CP request and calls $this->requireLogin()"
+        },
+        {
+          "step": 6,
+          "file": "src/web/Controller.php",
+          "line": 421,
+          "type": "propagate",
+          "description": "requireLogin() calls $userSession->loginRequired() on the Yii User component, passing control to the framework's auth redirect logic"
+        },
+        {
+          "step": 7,
+          "file": "vendor/yiisoft/yii2/web/User.php",
+          "line": 453,
+          "type": "propagate",
+          "description": "loginRequired() checks conditions (session enabled, GET request, not AJAX) and calls $this->setReturnUrl($request->getAbsoluteUrl()) with the raw attacker-controlled URL — no sanitization before persisting"
+        },
+        {
+          "step": 8,
+          "file": "vendor/yiisoft/yii2/web/User.php",
+          "line": 421,
+          "type": "sink",
+          "description": "setReturnUrl() writes the attacker-controlled URL verbatim into the PHP session via Yii::$app->getSession()->set(), persisting arbitrary content (e.g., PHP code like <?php ... ?>) to a predictable session file on disk"
+        },
+        {
+          "step": 9,
+          "file": "src/web/User.php",
+          "line": 124,
+          "type": "sink",
+          "description": "Craft::web::User::getReturnUrl() overrides readback — it only strips curly braces { } via str_replace on the stored value, but the raw attacker payload in the session file is never sanitized on write"
+        }
+      ],
+      "tags": [
+        "php",
+        "insecure file uploads"
+      ],
+      "fix_version": "5.7.5"
+    }
+  ]
+}
