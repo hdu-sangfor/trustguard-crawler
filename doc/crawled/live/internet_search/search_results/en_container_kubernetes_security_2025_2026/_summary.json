@@ -1,0 +1,44 @@
+{
+  "keyword": "container kubernetes security 2025 2026",
+  "language": "en",
+  "searched_at": "2026-07-24 21:38:53",
+  "total_results": 19,
+  "fetched_count": 5,
+  "results": [
+    {
+      "title": "Container-Security | Cloud Native & Open Source: A Team...",
+      "url": "https://www.msbiro.net/tags/container-security/",
+      "snippet": "Kubernetes Security: 2025 Stable Features & 2026 preview.Securing Kubernetes 1.33 Pods: The Impact of User Namespace Isolation. Kubernetes 1.33 was released on April 23, 2025, and, as usual, introduces a host of fixes and new features.",
+      "fetched": true,
+      "char_count": 5720
+    },
+    {
+      "title": "View and Search All Articles | Datadog Security Labs",
+      "url": "https://securitylabs.datadoghq.com/articles/?author=Jeremy_Fox",
+      "snippet": "kubernetes. container security. Kubernetes security fundamentals: PKI. emerging threats and vulnerabilities. July 10, 2025.",
+      "fetched": true,
+      "char_count": 3797
+    },
+    {
+      "title": "View and Search All Articles | Datadog Security Labs",
+      "url": "https://securitylabs--datadoghq--com.proxy.hfzk.net.cn/articles/?tag=kubernetes",
+      "snippet": "kubernetes. container security.OpenSSL January 2026 Security Update: CMS and PKCS#12 Buffer Overflows. emerging vulnerability.",
+      "fetched": true,
+      "char_count": 3797
+    },
+    {
+      "title": "Kubernetes in 2026: The Infrastructure Honesty You Actually Deserve",
+      "url": "https://sivaro.in/articles/kubernetes-in-2026-the-infrastructure-honesty-you-actually/",
+      "snippet": "Kubernetes is a container orchestration platform — started by Google, run by the CNCF, and for the last decade, the default answer to \"how do we run our services?\" It handles deployment, scaling, networking, and lifecycle management for containerized applications. That's the definition.",
+      "fetched": true,
+      "char_count": 15543
+    },
+    {
+      "title": "Kubernetes Visibility and Security Challenges | Coralogix... | LinkedIn",
+      "url": "https://www.linkedin.com/posts/coralogix_observability-kubernetes-activity-7408917519358439424-ekfP",
+      "snippet": "Kubernetes Security: 2025 Stable Features and 2026 preview cncf.io.",
+      "fetched": true,
+      "char_count": 298
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "keyword": "zero trust architecture implementation guide",
+  "language": "en",
+  "searched_at": "2026-07-24 21:31:49",
+  "total_results": 20,
+  "fetched_count": 3,
+  "results": [
+    {
+      "title": "SP 1800-35, Implementing a Zero Trust Architecture: High ...",
+      "url": "https://csrc.nist.gov/pubs/sp/1800/35/final",
+      "snippet": "Jun 10, 2025 · The Guide includes detailed technical information on each example ZTA implementation, providing models that organizations can emulate. The guide also summarizes best practices and lessons learned from the implementations and integrations to make it easier and more cost-effective to implement ZTA.",
+      "fetched": true,
+      "char_count": 313
+    },
+    {
+      "title": "Implementing a Zero Trust Architecture: High-Level Document",
+      "url": "https://www.nist.gov/publications/implementing-zero-trust-architecture-high-level-document",
+      "snippet": "Jun 10, 2025 · This NIST Cybersecurity Practice Guide explains how organizations can implement ZTA consistent with the concepts and principles outlined in NIST Special Publication (SP) 800-207, Zero Trust Architecture.",
+      "fetched": true,
+      "char_count": 1906
+    },
+    {
+      "title": "Zero Trust Architecture: The Complete Implementation Guide ...",
+      "url": "https://tatvanetworks.com/guides/zero-trust-implementation-guide",
+      "snippet": "A strategic and technical guide to implementing Zero Trust - from identity-centric access to micro-segmentation and continuous verification.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "Zero Trust Architecture: Complete Implementation Guide [2026]",
+      "url": "https://www.citadelcloudmanagement.com/blog/zero-trust-architecture-complete-implementation-guide-2026",
+      "snippet": "Jun 25, 2026 · Zero trust architecture implementation guide: principles, step-by-step deployment, tool selection, cost analysis, and real-world patterns for 2026.",
+      "fetched": true,
+      "char_count": 14474
+    },
+    {
+      "title": "Solutions - Cisco Zero Trust Architecture Guide",
+      "url": "https://www.cisco.com/c/en/us/solutions/collateral/enterprise/design-zone-security/zt-ag.html",
+      "snippet": "Feb 22, 2023 · This architecture guide is focused on the Cisco Zero Trust Framework with the User and Device Security, Application and Data Security, and Network and Cloud Security pillars.",
+      "fetched": false,
+      "char_count": 0
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "site": "OpenCVE",
+  "crawled_at": "2026-07-24 22:01:32",
+  "total_found": 15,
+  "saved": 15,
+  "articles": [
+    {
+      "title": "Critical (CVSS 4.0)",
+      "url": "https://www.opencve.io/cve/?q=cvss40%3E%3D9"
+    },
+    {
+      "title": "CVEs to check",
+      "url": "https://www.opencve.io/cve/?q=userTag%3Atocheck"
+    },
+    {
+      "title": "CVE-2026-36027",
+      "url": "https://www.opencve.io/cve/CVE-2026-36027"
+    },
+    {
+      "title": "CVE-2026-24697",
+      "url": "https://www.opencve.io/cve/CVE-2026-24697"
+    },
+    {
+      "title": "CVE-2026-24698",
+      "url": "https://www.opencve.io/cve/CVE-2026-24698"
+    },
+    {
+      "title": "CVE-2026-24700",
+      "url": "https://www.opencve.io/cve/CVE-2026-24700"
+    },
+    {
+      "title": "CVE-2026-56843",
+      "url": "https://www.opencve.io/cve/CVE-2026-56843"
+    },
+    {
+      "title": "CVE-2026-57895",
+      "url": "https://www.opencve.io/cve/CVE-2026-57895"
+    },
+    {
+      "title": "Fujielectric",
+      "url": "https://www.opencve.io/cve/?vendor=fujielectric"
+    },
+    {
+      "title": "CVE-2026-22927",
+      "url": "https://www.opencve.io/cve/CVE-2026-22927"
+    },
+    {
+      "title": "Omnissa Workspace One Tunnel For Windows",
+      "url": "https://www.opencve.io/cve/?vendor=omnissa&product=omnissa_workspace_one_tunnel_for_windows"
+    },
+    {
+      "title": "CVE-2026-53482",
+      "url": "https://www.opencve.io/cve/CVE-2026-53482"
+    },
+    {
+      "title": "Powerprotect Data Domain",
+      "url": "https://www.opencve.io/cve/?vendor=dell&product=powerprotect_data_domain"
+    },
+    {
+      "title": "CVE-2026-53480",
+      "url": "https://www.opencve.io/cve/CVE-2026-53480"
+    },
+    {
+      "title": "CVE-2026-15108",
+      "url": "https://www.opencve.io/cve/CVE-2026-15108"
+    }
+  ]
+}

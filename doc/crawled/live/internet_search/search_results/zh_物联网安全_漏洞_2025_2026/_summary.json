@@ -1,79 +1,93 @@
 {
   "keyword": "物联网安全 漏洞 2025 2026",
   "language": "zh",
-  "searched_at": "2026-07-24 13:17:43",
-  "total_results": 10,
-  "fetched_count": 5,
+  "searched_at": "2026-07-24 21:12:29",
+  "total_results": 20,
+  "fetched_count": 8,
   "results": [
     {
-      "title": "2026年1月网络安全威胁情报与漏洞分析-腾讯云开发者社区-腾讯云",
-      "url": "https://cloud.tencent.cn/developer/article/2619709",
-      "snippet": "2026年1月网络安全威胁情报与漏洞分析.React2Shell：React.js中正在被积极利用的关键RCE漏洞.",
+      "title": "物联网安全",
+      "url": "https://www.silabs.com/security",
+      "snippet": "Coming Soon in 2026.",
+      "fetched": true,
+      "char_count": 12900
+    },
+    {
+      "title": "物联网安全面临日益严重的网络威胁-GlobalSign",
+      "url": "https://www.globalsign.cn/blog_detailed_135",
+      "snippet": "自从区块链技术出现以来，它主要被称为加密货币的基础，但它也与物联网有很大关系。随着世界变得更加互联，区块链技术将在确保这些设备的安全和保护免受潜在的网络攻击方面发挥至关重要的作用。 · 统计数据显示，到2026年，全球区块链物联网市场将增长到2400美元以上。由于物联网设备处理的数据量巨大且容易受到网络罪犯的攻击，因此区块链技术可以通过创建去中心化的账本系统来增强互联设备与物联网平台之间交换数据的安全性。与传统的集中式系统（整个数据存储在单个服务器上）不同，区块链数据库将数据分布在分散的计算机网络上，使其更能抵御网络攻击。",
+      "fetched": true,
+      "char_count": 2761
+    },
+    {
+      "title": "物联网安全 2025：威胁演进与零信任架构实践_物联网安全事件-CSDN博客",
+      "url": "https://blog.csdn.net/2301_77933942/article/details/150228535",
+      "snippet": "August 11, 2025 - 本文通过实证研究验证了零信任架构在物联网场景下的技术可行性：安全组网方案使攻击面收敛效率提升3.8倍，分级加密降低数据泄露成本76%，统一管理使运维效率提升400%。但现有方案仍面临量子计算威胁、边缘计算资源受限等挑战。建议未来研究方向包括：1）构建量子安全零信任框架；2）研发低功耗设备安全芯片；3）建立物联网零信任成熟度评估模型。Gartner预测，到2026年采用零信任架构的物联网企业安全投入将增长300%（Gartner, 2023）。技术指标传统方案零信任方案设备接入响应时间秒级毫秒级。",
       "fetched": false,
       "char_count": 0
     },
     {
-      "title": "2026年1月网络安全威胁情报与漏洞分析本文详细分析了2026...",
-      "url": "https://juejin.cn/post/7596478936386699306",
-      "snippet": "2026-01-19. 7. 阅读3分钟.React2Shell：React.js中正在被积极利用的关键RCE漏洞 2025年12月3日，React服务器组件中一个关键的无身份验证远程代码执行漏洞被披露。",
-      "fetched": true,
-      "char_count": 1124
-    },
-    {
-      "title": "AI攻防风暴：2025网络安全漏洞深度解析与自主防御新纪元 - 鲸林向海",
-      "url": "https://www.itsolotime.com/archives/20442",
-      "snippet": "2025年全网通用型漏洞行业分布的分析来看，漏洞主要集中在“通用行业”，其记录占比高达87.5%（44,951个），表明绝大多数漏洞为跨行业通用的软件或组件漏洞，SonicWall SMA1000零日漏洞利用事件.",
+      "title": "2025年物联网安全漏洞Top10：开发必看的防护策略与代码示例 - 五五开发",
+      "url": "https://www.55kaifa.com/hangyedongtai/3935.html",
+      "snippet": "February 18, 2025 - 漏洞描述：物联网设备在加密通信方面可能存在缺陷，如密钥管理不当、加密算法过时等。 · 加固措施：使用安全的加密算法和密钥管理方案，确保通信过程的安全性。",
       "fetched": false,
       "char_count": 0
     },
     {
-      "title": "物联网安全,老生常谈还是创新前沿?DePIN提供新思路 - OFweek物联网",
-      "url": "https://iot.ofweek.com/2024-09/ART-132200-8500-30644980.html",
-      "snippet": "物联网安全 DePIN. 价值正从比特回流到原子:被低估的从来不是DePIN,而是物联网本身 2026-04-23.",
-      "fetched": true,
-      "char_count": 3480
-    },
-    {
-      "title": "2025网络安全重要趋势",
-      "url": "https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2025/05/cybersecurity-considerations-2025.pdf",
-      "snippet": "1 毕马威《2024年全球首席执行官展望》KPMG 2024 Global CEO Outlook2024年8月。 2 世界经济论坛《战略性网络安全人才框架》Strategic Cybersecurity Talent Framework2024年4月。Lou Fiorello 副总裁 — 安全产品 ServiceNow.",
+      "title": "【2025版】最新万物安全|物联网安全，从零基础到精通，收藏这篇就够了！-CSDN博客",
+      "url": "https://blog.csdn.net/Python_0011/article/details/145655128",
+      "snippet": "February 15, 2025 - 据thefastmode网报道，ioXt联盟宣布TAC Security成为其认证计划的授权实验室，TAC Security可对物联网设备进行高级安全测试和风险评估，确保符合全球安全标准，其计划将物联网安全评估纳入企业安全一体化框架，相关服务于2025年2月推出。 ... 12月13日，网络安全研究人员发现斯柯达和大众汽车的某些车型的车载娱乐系统中存在多个漏洞，这些漏洞可能让黑客远程跟踪并访问用户的敏感数据。这些漏洞可能被恶意行为者利用来注入恶意软件，从而未经授权访问车辆的多种功能。",
       "fetched": false,
       "char_count": 0
     },
     {
-      "title": "NGINX惊爆18年老洞，野外攻击已开始-安全KER - 安全资讯平台",
-      "url": "https://www.anquanke.com/post/id/315546",
-      "snippet": "CVE-2026-42945隐藏在NGINX Plus和NGINX开源版本的ngx_http_rewrite_module模块中。浅谈SQL注入手工测试思路. 2025-12-11 15:14:59. 微软 Office 漏洞允许攻击者执行远程代码.",
+      "title": "首页 - IOTsec-Zone - 物联网安全社区",
+      "url": "https://www.iotsec-zone.com/",
+      "snippet": "零点击代码执行漏洞复现（CVE-2023-45866 ）lg... 蓝牙协议lg...车机lg... 背包小新lg... 2025-11-12 · 131233 · 原创 · D-link M30固件解密lg... AES算法lg...固件解密lg... Alex99006lg... 2025-11-8 · 114859 · 原创 · D-Link DIR-882解密lg... 固件解密lg... Alex99006lg... 2025-10-8 · 157163 · 原创 · 查看更多 · 作者栏 · 查看更多 · 社区公众号 · 预览 · IOTsec-Zone · 活动专栏 · 书籍《物联网安全漏洞挖掘实战》lg...",
       "fetched": true,
-      "char_count": 1231
+      "char_count": 2242
     },
     {
-      "title": "kanxue.com/book-79-1429.htm",
-      "url": "https://www.kanxue.com/book-79-1429.htm",
-      "snippet": "课时五:实际漏洞分析 - 物联网安全入门 - 看雪学苑｜专业信息安全学习平台.课时一:物联网硬件层安全讲解-1. 课时一:物联网硬件层安全讲解-2. 课时一:物联网硬件层安全讲解-3.",
+      "title": "The State of IoT Security in Mid-2026: Record Botnets, a Returning Malware Empire, and a Regulatory Clock About to Start | SecureIoT.house",
+      "url": "https://secureiot.house/iot-security-mid-2026-state-of-play-where-we-stand/",
+      "snippet": "June 14, 2026 - The spring of 2026 was particularly active. In March, TP-Link patched four high-severity flaws in its Archer NX router line, including an authentication bypass — CVE-2025-15517 — that lets an unauthenticated attacker upload firmware and take full control of the device, paired with a hardcoded cryptographic key in CVE-2025-15605.",
+      "fetched": true,
+      "char_count": 9630
+    },
+    {
+      "title": "IoT Hacking Statistics 2026 | Latest Trends, Attacks & Data",
+      "url": "https://www.dexpose.io/iot-hacking-statistics/",
+      "snippet": "June 3, 2026 - A Mirai-based botnet called Broadside, active in late 2025, exploited a year-old firmware vulnerability in TBK-brand DVRs that the majority of deployed units had never patched. More sophisticated actors use firmware exploitation to plant persistent implants. The TOTOLINK EX200 vulnerability, disclosed in January 2026, allowed an authenticated attacker to trigger an unauthenticated root telnet service, granting full device control with no fix available from the manufacturer.",
+      "fetched": true,
+      "char_count": 82729
+    },
+    {
+      "title": "The Top Internet of Things (IoT) Cybersecurity Breaches in 2026",
+      "url": "https://asimily.com/blog/the-top-internet-of-things-iot-cybersecurity-breaches-in-2026/",
+      "snippet": "May 12, 2026 - In January 2026, Check Point Research identified an active, large-scale exploitation campaign targeting CVE-2025-37164, a critical unauthenticated remote code execution vulnerability in HPE OneView, a centralized infrastructure management platform ...",
+      "fetched": true,
+      "char_count": 15986
+    },
+    {
+      "title": "IoT Security News 2026: Threats, Risks & What to Do",
+      "url": "https://techerrorsolutions.com/iot-security-news/",
+      "snippet": "June 21, 2026 - Microsoft Azure absorbed a separate Aisuru flood peaking at 15.72 Tbps in October 2025. By early 2026, authorities confirmed the combined Aisuru and Kimwolf botnets had compromised more than 3 million devices globally.",
       "fetched": false,
       "char_count": 0
     },
     {
-      "title": "FreeBuf早报 | Claude新模型发布即挖500个0day漏洞；NGINX...",
-      "url": "https://f5.pm/go-393905.html",
-      "snippet": "2. Ingress NGINX 控制器曝出四个新漏洞，两个高危漏洞CVSS评分达8.8.4. unstructured库高危漏洞（CVSS 9.8）可导致远程代码执行.",
+      "title": "2025高危联网设备统计报告：中国成第二大风险重灾区 - 安全内参 | 决策者的网络安全知识库",
+      "url": "https://www.secrss.com/articles/77563",
+      "snippet": "工业物联网网关漏洞修复率仅31%，汽车制造、半导体工厂遭APT组织\"熔炉\"（Furnace）定向攻击。",
       "fetched": true,
-      "char_count": 1510
+      "char_count": 2615
     },
     {
-      "title": "post.smzdm.com/p/a0vlm728",
-      "url": "https://post.smzdm.com/p/a0vlm728/",
-      "snippet": "许多设备因设计缺陷和安全防护不足，容易被黑客入侵，导致家庭生活被实时监控。 这篇内容深入剖析了物联网摄像头的安全漏洞，并提供了从物理设置到网络隔离的三重防护策略，帮助用户有效应对数字偷窥风险，让智能设备真正服. 务于安全。",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "畅捷通系统特征及漏洞探测利用 - shinianyunyan - 博客园",
-      "url": "https://www.cnblogs.com/priv/p/19296977",
-      "snippet": "合集: Web安全 , 常见CMS&OA-无漏洞复现.3. 泛微OA系统特征及漏洞探测利用(934). 4. kkFileView文件预览特征及漏洞复现(834).",
+      "title": "2025年网络安全/物联网安全/互联网安全报告合集（共50套 ...",
+      "url": "https://www.sgpjbg.com/bggroup/1741.html",
+      "snippet": "安全护航中，正在为您验证当前访问环境...",
       "fetched": true,
-      "char_count": 558
+      "char_count": 389
     }
   ]
 }

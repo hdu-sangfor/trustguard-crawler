@@ -1,0 +1,72 @@
+{
+  "keyword": "供应链攻击 案例 分析 2025 2026",
+  "language": "zh",
+  "searched_at": "2026-07-24 20:37:25",
+  "total_results": 20,
+  "fetched_count": 6,
+  "results": [
+    {
+      "title": "2025年度软件供应链安全态势分析报告_pdf_攻击_威胁",
+      "url": "https://www.sohu.com/a/1032893338_121124365",
+      "snippet": "Jun 6, 2026 · 本报告将从攻击态势、行业分布、技术演进、典型案例、防护体系等多个维度深入分析2025年软件供应链安全的核心趋势，并结合孝道科技安全研究团队的实战经验，为企业和组织提供有针对性的安全建议与建设路径。",
+      "fetched": true,
+      "char_count": 2004
+    },
+    {
+      "title": "2025年供应链攻击激增：攻击频率较往常翻倍 - 安全星图平台",
+      "url": "https://ti.dbappsecurity.com.cn/info/12036",
+      "snippet": "Sep 1, 2025 · 主要内容： 2025年以来，全球供应链攻击事件数量较往年同期增长一倍，攻击者主要针对软件开发工具和第三方库进行渗透。 攻击者通过篡改合法软件更新渠道，将恶意代码植入广泛使用的商业软件中，从而实现对下游用户的规模化攻击。",
+      "fetched": true,
+      "char_count": 407
+    },
+    {
+      "title": "2026年供应链安全深度解析：攻击趋势与防御实践 - 综合讨论 | OpenCla...",
+      "url": "https://clawd.org.cn/forum/post?id=7345",
+      "snippet": "2026年供应链安全深度解析：攻击趋势与防御实践 一、背景：为什么供应链安全成了\"必答题\"？ 在数字化转型深入推进的今天，企业IT架构越来越依赖开源组件、第三方库和云服务。",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "TeamPCP组织2025-2026全球软件供应链攻击活动综合分析 - 安全内参 | ...",
+      "url": "https://www.secrss.com/articles/91229",
+      "snippet": "Jun 12, 2026 · TeamPCP组织在2025年底至2026年5月间发起的这场持续性全球软件供应链攻击行动，是有史以来规模最大、链条最长、创新密度最高的供应链安全事件之一。 它从根本上改写了行业对供应链安全威胁模型的认知，揭示出现行DevSecOps体系在信任架构层面的结构性缺陷。",
+      "fetched": true,
+      "char_count": 13605
+    },
+    {
+      "title": "2025年供应链攻击与云服务故障大盘点_恶意_用户_后门",
+      "url": "https://www.sohu.com/a/972428136_114765",
+      "snippet": "Jan 4, 2026 · 在这个案例中，AI服务是ElizaOS，这是一个新兴的开源框架，用于创建基于一组预定义规则代表用户执行各种基于区块链交易的智能体。 学术研究人员能够通过向ElizaOS提供声称某些事件（实际上从未发生过）在过去发生的句子来破坏其记忆。",
+      "fetched": true,
+      "char_count": 4125
+    },
+    {
+      "title": "在线阅读版：《2025中国软件供应链安全分析报告》全文 - FreeBuf网络...",
+      "url": "https://www.freebuf.com/articles/development/438223.html",
+      "snippet": "Jul 8, 2025 · 近日，奇安信代码安全实验室发布《2025中国软件供应链安全分析报告》，这已是该系列报告连续发布的第5年。 本次报告不仅深入剖析过去一年软件供应链各阶段代码安全问题，更聚焦了开源大模型、智能网联汽车等新兴重点领域。",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "卡巴斯基探索2025年潜在的IT中断和供应链风险情景_新浪科技_新浪网",
+      "url": "https://finance.sina.com.cn/tech/roll/2024-12-17/doc-inczuerr1658634.shtml",
+      "snippet": "December 17, 2024 - 2024年，供应链攻击和IT中断成为主要的网络安全关注点，表明几乎没有任何基础设施能够免受风险的影响。CrowdStrike的一个错误更新影响了数百万系统，而XZ后门和Polyfill.io供应链攻击等复杂事件则揭示了广泛使用的工具中固有的风险。这些以及其他备受瞩目的案例凸显了需要采取严格的安全措施、强大的补丁和更新管理以及主动防御措施来保护全球供应链和基础设施。",
+      "fetched": true,
+      "char_count": 4703
+    },
+    {
+      "title": "从真实事件看软件供应链攻击的常见手法与防护 - 安全内参 | 决策者的网络安全知识库",
+      "url": "https://www.secrss.com/articles/44648",
+      "snippet": "July 13, 2022 - 就该事件而言，安全防护...起的。一名亚马逊员工利用作为亚马逊网络服务（AWS）内部人员的便利，盗取了1亿用户的信用卡资料，结果使云上租户Capital One遭到了严重的数据泄密。这次攻...",
+      "fetched": true,
+      "char_count": 2332
+    },
+    {
+      "title": "2025-2026年度互联网企业网络安全事件应急预案及演练",
+      "url": "http://set.baidu.com/view/573b55daa5c7aa00b52acfc789eb172ded639908.html",
+      "snippet": "We cannot provide a description for this page right now",
+      "fetched": false,
+      "char_count": 0
+    }
+  ]
+}

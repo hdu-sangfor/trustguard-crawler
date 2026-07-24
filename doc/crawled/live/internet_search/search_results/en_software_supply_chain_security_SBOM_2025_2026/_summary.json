@@ -1,0 +1,86 @@
+{
+  "keyword": "software supply chain security SBOM 2025 2026",
+  "language": "en",
+  "searched_at": "2026-07-24 21:33:23",
+  "total_results": 20,
+  "fetched_count": 10,
+  "results": [
+    {
+      "title": "Software Supply Chain Security Report 2026: A guidance timeline | ReversingLabs",
+      "url": "https://www.reversinglabs.com/blog/sscs-report-2026-guidance-timeline",
+      "snippet": "January 27, 2026 - ReversingLabs’ fourth annual Software Supply Chain Security Report 2026 notes that open-source malware detections jumped by 73% in 2025 compared with 2024 and that exposed development secrets grew by 11% across major repositories during this ...",
+      "fetched": true,
+      "char_count": 13956
+    },
+    {
+      "title": "2026 Software Supply Chain Security Report - 4th Annual | ReversingLabs",
+      "url": "https://www.reversinglabs.com/sscs-report",
+      "snippet": "April 9, 2026 - The 4th annual report from ... threats on open-source platforms (malware up 73%), attacks that target developer tooling, and efforts to infiltrate AI development pipelines as the use of AI ramps up risk...",
+      "fetched": true,
+      "char_count": 686
+    },
+    {
+      "title": "Call for Feedback: Advancing Software Supply Chain Security together! | ENISA",
+      "url": "https://www.enisa.europa.eu/news/call-for-feedback-advancing-software-supply-chain-security-together",
+      "snippet": "You may provide your feedback by ...Analysis_Implementation_Guide · Additionally, the baseline survey to assess the state of Software Bills of Materials (SBOMs) across Europe is still open and running until the 19 December 2025....",
+      "fetched": true,
+      "char_count": 2764
+    },
+    {
+      "title": "CISA, NSA, global partners release SBOM Guidance urging cross-border adoption to boost software supply chain security - Industrial Cyber",
+      "url": "https://industrialcyber.co/sbom/cisa-nsa-global-partners-release-sbom-guidance-urging-cross-border-adoption-to-boost-software-supply-chain-security/",
+      "snippet": "September 4, 2025 - When used widely across sectors, regions, and countries, supply chain illumination drives better ‘ingredients’ for everyone to use and helps ensure that known risks are addressed early. SBOM adoption is an integral condition for software to be secure by design. Last month, the CISA released draft guidance, ‘2025 Minimum Elements for a Software Bill of Materials (SBOM),’ for public comment.",
+      "fetched": true,
+      "char_count": 115
+    },
+    {
+      "title": "Software supply chain security tools guide (2026) - Minimus",
+      "url": "https://www.minimus.io/post/software-supply-chain-security-tools",
+      "snippet": "May 19, 2026 - Attackers modified historical Git tags of a popular GitHub Action used by an estimated 23,000+ repositories, exfiltrating CI/CD secrets to public Actions logs per the StepSecurity disclosure on March 14, 2025. Add the regulatory pressure. U.S. Executive Order 14028 (May 2021) requires federal software vendors to provide SBOMs.",
+      "fetched": true,
+      "char_count": 18118
+    },
+    {
+      "title": "The Ultimate SBOM Compliance Guide (2026) | Sbomify",
+      "url": "https://sbomify.com/compliance/",
+      "snippet": "In the US, Executive Order 14028 and NTIA minimum elements set the baseline; CISA's 2025 draft adds hash and license fields. In the EU, the Cyber Resilience Act legally requires SBOMs for digital products, while NIS2 mandates supply chain security.",
+      "fetched": true,
+      "char_count": 11327
+    },
+    {
+      "title": "Research Report | 2026 The State of Software Supply Chain Security",
+      "url": "https://www.digicert.com/content/dam/digicert/pdfs/report/the_state_of_software_supply_chain_security_report.pdf",
+      "snippet": "The percentage of software customers expected to require SBOMs is likely to increase in the coming years.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "SBOMs in 2026: Everyone's Generating Them, No One's Using Them | Aikido Security",
+      "url": "https://www.aikido.dev/blog/sboms-everyones-generating-them-no-ones-using-them",
+      "snippet": "June 10, 2026 - The ENISA data points to utilization as the challenge that will define 2026. That means automated generation on every build, continuous updates across the product support period, vulnerability workflows actually tied to SBOM data, and visibility into what your suppliers ship you. That is where the survey shows the biggest gaps, and it is where the CRA will apply the most pressure. This is where Aikido Security comes in, taking supply chain transparency beyond the compliance checkbox and into your vulnerability and licensing workflows.",
+      "fetched": true,
+      "char_count": 15443
+    },
+    {
+      "title": "Software supply chains are heading for a transparency test - Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/06/16/enisa-software-supply-chain-transparency/",
+      "snippet": "June 16, 2026 - Software supply chain visibility ... Adoption State of Play 2026 shows organizations preparing for CRA obligations through SBOM tooling, automation, and changes to software development practices....",
+      "fetched": true,
+      "char_count": 4061
+    },
+    {
+      "title": "Securing the Software Supply Chain: A Federal Imperative for 2026",
+      "url": "https://www.sonatype.com/blog/securing-the-software-supply-chain-a-federal-imperative-for-2026",
+      "snippet": "February 17, 2026 - CMMC 2.0 requirements are being phased into DoD contracts, raising the baseline expectations for contractor cybersecurity and supply chain assurance over time. The Army has issued explicit requirements for software bills of material (SBOMs) as part of modern software acquisition, making SBOM delivery an explicit expectation in many new contracts.",
+      "fetched": true,
+      "char_count": 7857
+    },
+    {
+      "title": "Global Cyber Agencies Issue New SBOMs for AI Guidance - Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/news/new-sboms-for-ai-guidance-2026/",
+      "snippet": "May 15, 2026 - The aim is to help public and private sector stakeholders improve transparency in their artificial intelligence (AI) systems and supply chains. The paper, Software Bill of Materials (SBOM) for Artificial Intelligence - Minimum Elements, was ...",
+      "fetched": true,
+      "char_count": 3901
+    }
+  ]
+}

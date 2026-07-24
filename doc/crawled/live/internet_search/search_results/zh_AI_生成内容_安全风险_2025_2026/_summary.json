@@ -1,0 +1,72 @@
+{
+  "keyword": "AI 生成内容 安全风险 2025 2026",
+  "language": "zh",
+  "searched_at": "2026-07-24 20:47:14",
+  "total_results": 20,
+  "fetched_count": 9,
+  "results": [
+    {
+      "title": "《2026年国际AI安全报告》发布：AI能力跃升伴生多重风险- DoNews快讯",
+      "url": "https://www.donews.com/news/detail/8/6414398.html",
+      "snippet": "February 4, 2026 - 2026年2月4日，《2026年国际AI安全报告》正式发布，由图灵奖得主Yoshua Bengio主持编纂。报告指出，通用型AI在数学、编程及自主运行能力上快速提升，全球普及加速但分布不均。深度伪造内容被频繁用于欺诈，AI亦可生成有害代码并发现软件漏洞，引发生物滥用与网络安全双重担忧。部分领先模型已强化安全防护，但现有风险管理手段仍存在失效风险。",
+      "fetched": true,
+      "char_count": 405
+    },
+    {
+      "title": "2026年网络安全预测：五大关键转变将重新定义企业防御-千家智慧城市网",
+      "url": "https://smartcity.qianjia.com/html/2026-01/06_422220.html",
+      "snippet": "2026年，企业主流安全事... Future统计，2025年已有63%的入侵事件始于身份伪造，较2022年翻了一番。 · AI Agent、RPA、IoT传感器等非人类身份（NHI）的数量将在2026年达到人类员工的8倍，而平均生命周期管理（JML）成熟度不足30%，形成“身份沼泽”。一旦机器凭证被窃取，可在毫秒级完成横向移动。 · ・将身份视为“动态攻击面”，引入行为基线+风险评分，实...",
+      "fetched": true,
+      "char_count": 4441
+    },
+    {
+      "title": "AI Risk 2026: What Business Leaders Need to Know - Aon",
+      "url": "https://www.aon.com/en/insights/articles/ai-risk-2026-practical-agenda",
+      "snippet": "In 2025, researchers uncovered malicious machine learning models (nullifAI) on a public platform5 and identified a text-to-SQL library vulnerable to prompt injection that could trigger remote code execution.6 These examples show that AI models, data pipelines and plugins require the same rigor as any software component.",
+      "fetched": true,
+      "char_count": 25319
+    },
+    {
+      "title": "2025年度AI合规监管年报及2026年度风险趋势预判_搜狐网",
+      "url": "https://m.sohu.com/a/976326351_120685946",
+      "snippet": "January 15, 2026 - 确定性三：更深的链条化责任。AI产业链上的责任延伸将更明显，供应链和跨境将成为高频审查点。一方面，国内不同部门、不同区域的监管协同加强，主责企业很难因将部分业务外包而免责。2025年的案例已揭示出，企业使用第三方云服务、开源模型存在安全漏洞时，监管仍会追究企业未尽审查责任。2026年预计会进一步落实这一“责任链穿透”原则：企业需要对上下游合作方的数据安全、防护能力进行尽职调查并留痕，否则即使问题出在第三方，主体",
+      "fetched": true,
+      "char_count": 8841
+    },
+    {
+      "title": "生成式人工智能的网络安全风险及应对策略 - 安全内参 | 决策者的网络安全知识库",
+      "url": "https://www.secrss.com/articles/80323",
+      "snippet": "随着生成式人工智能技术在网络空间的深度应用，网络攻击的复杂性和规模不断增加。当前，网络攻击工具、攻击频度、攻击智能化水平不断提升，基于生成式人工智能的大规模分布式拒绝服务攻击、恶意攻击代码生成、网络漏洞渗透测试等攻击手段趋于成熟，降低了网络犯罪实施门槛。根据奇安信《2024人工智能安全报告》，2023年，基于人工智能的深度伪造欺诈行为增长了30倍，基于人工智能的钓鱼邮件增加了10倍，并且有多个高级持续性威胁组织利",
+      "fetched": true,
+      "char_count": 4577
+    },
+    {
+      "title": "政策、风向与风险，AI安全十大趋势发布",
+      "url": "https://m.mp.oeeee.com/a/BAAFRD0000202601061505314.html",
+      "snippet": "January 6, 2026 - 1月6日举行的粤港澳大湾区生成式人工智能安全发展联合实验室福田服务站启用暨AI出海研讨会上，联合实验室发布了《2026年度AI安全十大趋势》白皮书。白皮书以政策合规、风险与治理、趋势研判为核心板块，系统预测2026年AI安全关键方向，为行业发展与监管实践提供重要参考。 ... 《2026年度AI安全十大趋势》白皮书政策篇聚焦两大核心趋势，分别是全球AI治理体系落地与开源模型监管博弈。白皮书指出，2025年是AI治理从“原则倡导”转向“制度落地”的转折点，合规能力已成企业核心竞争壁垒与国际合作基础，开源模型的监管博弈将长期贯穿技术创新与风险防控。",
+      "fetched": true,
+      "char_count": 2009
+    },
+    {
+      "title": "国枫观察 | OpenClaw的安全边界与合规风险",
+      "url": "https://www.grandwaylaw.com/guofengshijiao/5640.html",
+      "snippet": "March 2, 2026 - • 风险表现：OpenClaw设计上需要较高系统权限（例如文件访问、执行脚本等），这意味着企业如不当配置OpenClaw有可能让攻击者通过该智能体获取系统权限、实施恶意操作或数据泄露。知名安全平台VirusTotal在2026年2月发布研究报告《From Automation to Infection》指出，OpenClaw的Skills扩展体系被黑客武器化，五大核心攻击技术包括远程代码执行（RCE，导致恶意代码自动执行或黑客获得交互式终端权限）、恶意传播（被感染的AI Agent会向员工或其他联网Agent推荐未",
+      "fetched": true,
+      "char_count": 8541
+    },
+    {
+      "title": "人工智能大爆发后的监管命题：风险分类、路线分化与地缘政治阴影 - BBC News 中文",
+      "url": "https://www.bbc.com/zhongwen/articles/ckgnvl7pwr3o/simp",
+      "snippet": "March 14, 2025 - 中欧国际工商学院决策科学与管理信息系统教授谭寅亮向BBC中文指出，目前亟需监管关注的AI风险主要集中在三个领域：深度伪造技术的滥用、个人隐私保护，以及公共基础设施安全防护。",
+      "fetched": true,
+      "char_count": 4221
+    },
+    {
+      "title": "/更新说明（补充完整信息）-- 国际AI安全报告主席办公室/",
+      "url": "https://beareyes.com.cn/2/lib/202602/05/20260205704.htm",
+      "snippet": "February 4, 2026 - 蒙特利尔2026年2月5日 -- 《2026年国际AI安全报告》今日发布，为通用型AI能力、新兴风险以及风险管理与安全防护的现状提供了最新的、国际共享的科学评估。",
+      "fetched": true,
+      "char_count": 2144
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "keyword": "prompt injection defense techniques",
+  "language": "en",
+  "searched_at": "2026-07-24 21:32:22",
+  "total_results": 20,
+  "fetched_count": 1,
+  "results": [
+    {
+      "title": "What Is a Prompt Injection Attack? [Examples & Prevention] - Palo Alto Networks",
+      "url": "https://www.paloaltonetworks.com/cyberpedia/what-is-a-prompt-injection-attack",
+      "snippet": "Security teams should simulate prompt injection attempts by feeding the model a variety of adversarial AI prompts. Perform penetration testing using real-world adversarial input. Conduct red teaming exercises to simulate advanced attack methods. Utilize AI-driven attack simulations to assess model resilience. Update security policies and model behavior based on test results. Analyze past attack patterns to improve future model defenses.",
+      "fetched": true,
+      "char_count": 22352
+    }
+  ]
+}

@@ -1,16 +1,60 @@
 {
   "site": "Krebs on Security",
-  "crawled_at": "2026-07-24 12:30:19",
-  "total_found": 2,
-  "saved": 2,
+  "crawled_at": "2026-07-24 21:40:57",
+  "total_found": 13,
+  "saved": 13,
   "articles": [
     {
-      "title": "Skip to content",
-      "url": "https://krebsonsecurity.com/#content"
+      "title": "Continue reading→",
+      "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/#more-73982"
     },
     {
-      "title": "About the Author",
-      "url": "https://krebsonsecurity.com/about/"
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/"
+    },
+    {
+      "title": "30 Comments",
+      "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/#comments"
+    },
+    {
+      "title": "Jack Burkman",
+      "url": "https://en.wikipedia.org/wiki/Jack_Burkman"
+    },
+    {
+      "title": "storied history",
+      "url": "https://en.wikipedia.org/wiki/Jacob_Wohl"
+    },
+    {
+      "title": "sentenced in late 2025",
+      "url": "https://apnews.com/article/2022-midterm-elections-ohio-cleveland-893b60cd297b918f9e1b193c25caee97"
+    },
+    {
+      "title": "Continue reading→",
+      "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/#more-73834"
+    },
+    {
+      "title": "22 Comments",
+      "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/#comments"
+    },
+    {
+      "title": "issued similar findings",
+      "url": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/"
+    },
+    {
+      "title": "Continue reading→",
+      "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/#more-73923"
+    },
+    {
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/"
+    },
+    {
+      "title": "43 Comments",
+      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/#comments"
+    },
+    {
+      "title": "an indictment",
+      "url": "https://www.justice.gov/opa/pr/united-kingdom-national-charged-connection-multiple-cyber-attacks-including-critical"
     }
   ]
 }

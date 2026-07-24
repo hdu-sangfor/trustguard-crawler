@@ -1,0 +1,20 @@
+{
+  "site": "The Record",
+  "crawled_at": "2026-07-24 21:49:47",
+  "total_found": 4,
+  "saved": 3,
+  "articles": [
+    {
+      "title": "Spain fines 23andMe nearly $3 million for cybersecurity failings enabling 2023 hackJuly 21st, 2026",
+      "url": "https://therecord.media/spain-fines-23andme-3-million-cyber-failings-data-breach"
+    },
+    {
+      "title": "Taiwan to slow mobile data during national resilience drillsJuly 21st, 2026",
+      "url": "https://therecord.media/taiwan-mobile-5g-speed-reductions-han-kuang"
+    },
+    {
+      "title": "Kenya probes hack of president's website after bitcoin ransom demandJuly 21st, 2026",
+      "url": "https://therecord.media/kenya-probes-hack-of-presidents-website-after-ransom-demand"
+    }
+  ]
+}

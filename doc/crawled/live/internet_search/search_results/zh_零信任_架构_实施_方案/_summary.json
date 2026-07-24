@@ -1,0 +1,30 @@
+{
+  "keyword": "零信任 架构 实施 方案",
+  "language": "zh",
+  "searched_at": "2026-07-24 20:51:14",
+  "total_results": 20,
+  "fetched_count": 2,
+  "results": [
+    {
+      "title": "Azure 中的零信任安全性 | Microsoft Learn",
+      "url": "https://learn.microsoft.com/zh-cn/azure/security/fundamentals/zero-trust",
+      "snippet": "February 12, 2026 - 此图提供了构成零信任的...的中心。 这包括使用条件访问进行多重身份验证，这些条件访问将考虑用户帐户风险、设备状态以及设置的其他条件和策略。...",
+      "fetched": true,
+      "char_count": 4954
+    },
+    {
+      "title": "零信任模型 原理和架构及案例_零信任体系架构典型特征-CSDN博客",
+      "url": "https://blog.csdn.net/hao_wujing/article/details/149291729",
+      "snippet": "July 27, 2025 - 微隔离（Micro-Segmentation） 基于eBPF实现进程级网络控制，策略生效<10ms，CPU占用<3%（传统方案的1/5）7。 · 零信任网关（ZTNA Gateway） 分层认证架构（边缘代理→JWT验签→策略引擎），如蚂蚁Rust网关支持120万QPS7。",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "什么是零信任？",
+      "url": "https://www.redhat.com/en/topics/security/what-is-zero-trust",
+      "snippet": "September 15, 2025 - Find out more about zero trust, an approach to designing security architectures based on the premise that every interaction begins in an untrusted state.",
+      "fetched": true,
+      "char_count": 18608
+    }
+  ]
+}

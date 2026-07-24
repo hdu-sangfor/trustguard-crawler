@@ -1,0 +1,142 @@
+{
+  "keyword": "深度伪造 检测 技术",
+  "language": "zh",
+  "searched_at": "2026-07-24 20:50:18",
+  "total_results": 20,
+  "fetched_count": 15,
+  "results": [
+    {
+      "title": "深伪技术 - 维基百科，自由的百科全书",
+      "url": "https://zh.wikipedia.org/zh-hans/深伪技术",
+      "snippet": "December 7, 2025 - 深度伪造（英语：Deepfak... learning”（深度学习）和“fake”（伪造）的混成词，专指基于人工智能的人体图像合成技术的应用。此技术可将已有的图像或影片叠加至目标图像或影片上。伪造面部表情并将其呈现至目标影片的技术在2016年出现，此技术允许近实时地伪造现有2D视频中的面部表情。为发展Deepfakes检测技术，F...",
+      "fetched": true,
+      "char_count": 3284
+    },
+    {
+      "title": "深度伪造检测（Deepfake Detection）：识别真假影像的关键技术-CSDN博客",
+      "url": "https://blog.csdn.net/weixin_49007164/article/details/143641973",
+      "snippet": "November 12, 2024 - 随着人工智能技术的进步，深度伪造（Deepfake）技术迅速发展。深度伪造利用深度学习技术生成高仿真的人脸、声音、影像，使得虚假内容可以几乎以假乱真。这一技术最早用于娱乐和广告领域，但逐渐被不良分子用于制造虚假信息，导致欺诈、政治操控、个人隐私侵犯等问题。因此，深度伪造检测（Deepfake Detection）技术应运而生，旨在通过技术手段识别、检测并防范深度伪造内容，保障数字信息的真实性。",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "区块链与数据安全全重实验室成果发布：视觉深度伪造检测平台",
+      "url": "https://icsr.zju.edu.cn/2024/0506/c70143a2911365/page.htm",
+      "snippet": "随着深度伪造技术的持续演进，图像和视频的伪造检测变得愈发具有挑战性。图像和视频数据分布差异、伪造算法复杂多样导致现有伪造检测算法存在检测精度低、泛化性不足的问题。此外，面对不断演进的生成式人工智能技术、复杂多变的现实检测场景，以及多样化的数据攻击手段，现有伪造检测方法安全防护能力薄弱。为了应对这些挑战，浙江大学区块链与数据安全全国重点实验室大模型数据安全团队围绕深度伪造检测展开关键技术攻关，发布主要聚焦视觉深度伪造检测领域，推出视觉深度伪造检测平台DFscan场景视觉伪造技术的威胁。",
+      "fetched": true,
+      "char_count": 10806
+    },
+    {
+      "title": "深度伪造及其取证技术综述",
+      "url": "http://www.cjig.cn/zh/article/doi/10.11834/jig.230088/",
+      "snippet": "1 month ago - 视觉深度伪造检测技术综述 · 人工智能生成图像检测技术综述 · 医学影像中的生成技术 · 增量学习研究进展 · 具身智能前沿展望：数据、模型与系统演进 · 相关作者 · 王任颖 北京邮电大学网络空间安全学院 ·",
+      "fetched": true,
+      "char_count": 324
+    },
+    {
+      "title": "美国陆军开发出深度伪造检测技术：DefakeHop - 安全内参 | 决策者的网络安全知识库",
+      "url": "https://www.secrss.com/articles/31261",
+      "snippet": "美国陆军作战能力发展指挥部（DEVCOM）、陆军研究实验室（ARL）与南加州大学教授c-c Jay Kuo的研究小组着手解决深度伪造对社会和国家安全构成的重大威胁。研究成果就是一个称为DefakeHop的创新技术解决方案。 ... ARL研究人员Suya You博士和Shuowen（Sean）Hu博士指出，深度伪造是人工智能合成的、超现实的视频内容，伪造某人的言行。大多数最新的深度伪造视频检测和媒体取证方法都是基于深度学习的，而深度学习在健壮性、可伸缩性和可移植性方面具有许多固有的弱点。",
+      "fetched": true,
+      "char_count": 2122
+    },
+    {
+      "title": "深度伪造检测技术的挑战与应对：AI技术的边界探索-易源AI资讯 | 万维易源",
+      "url": "https://www.showapi.com/news/article/674456a84ddd79f11a0fba17",
+      "snippet": "November 25, 2024 - 还可能引发社会动荡。例如，2019年，一段经过深度伪造处理的视频显示某国领导人发表不当言论，导致国际关系紧张。此外，个人隐私和名誉受损的风险也在增加，许多人因此遭受了严重的心理和经济打击。 ### 1.2 深度伪造检测技术的现状分析 面对深度伪造技术带来的挑战，检测技术的发展显得尤为重要。目前，深度伪造检测技术主要依赖于机器学习和计算机视觉方法。这些方法通过分析图像和视频中的微小异常，如不自然的面部表情、不连贯的动作",
+      "fetched": true,
+      "char_count": 663
+    },
+    {
+      "title": "人脸深度伪造检测方法研究综述",
+      "url": "http://www.cjig.cn/zh/article/doi/10.11834/jig.240586/",
+      "snippet": "July 14, 2025 - “深度伪造技术研究进展，专家系统归纳检测方法，为识别伪造人脸提供解决方案。”",
+      "fetched": true,
+      "char_count": 339
+    },
+    {
+      "title": "基于Transformer的人脸深度伪造检测技术综述",
+      "url": "https://html.rhhz.net/GDGYDXXB/html/1699424549429-1096035086.htm",
+      "snippet": "摘要: 人脸深度伪造检测旨在对人脸图像和视频进行真伪鉴别，能为肖像权保护、虚假消息鉴定、网络诈骗防范等提供理论和技术支撑。早期的检测技术主要基于卷积神经网络(Convolutional Neural Networks，CNNs) 实现，并取得了显著的效果，但普遍存在泛化性能不足的问题。为了进一步提高人脸深度伪造检测技术的泛化性，最新的研究工作开始引入一种基于自我注意力机制的深度神经网络Transformer，其具有长距离依赖建模能力和全局感受野，可用于捕捉到图像",
+      "fetched": true,
+      "char_count": 37514
+    },
+    {
+      "title": "多模态深度伪造及检测技术综述 - 计算机研究与发展",
+      "url": "https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202111119",
+      "snippet": "March 20, 2023 - 首先，针对不同模态类型的深度伪造技术以及相应的检测技术进行了回顾和总结，并根据研究目的和研究方法对现有的研究进行了分析和归类；其次，总结了近年研究中广泛使用的视频和音频数据集；最后，探讨了该领域未来发展面临的机遇和挑战.",
+      "fetched": true,
+      "char_count": 1460
+    },
+    {
+      "title": "实时深度伪造检测：英特尔实验室如何利用AI对抗虚假信息 - 安全内参 | 决策者的网络安全知识库",
+      "url": "https://www.secrss.com/articles/57674",
+      "snippet": "August 11, 2023 - 英特尔实验室开发了世界上首个实时深度伪造检测平台之一。这项技术不是寻找伪造的痕迹，而是专注于检测真实的特征，比如心率。利用一种称为光体积变化描记图法的技术，该检测系统分析由于氧含量引起的静脉血液的颜色变化，这种变化在计算上是可见的，从而可以检测出一个人是真实的还是合成的。",
+      "fetched": true,
+      "char_count": 1923
+    },
+    {
+      "title": "基于多尺度时空信息挖掘的深度伪造人脸视频检测-科研动态-中国石油大学（北京）人工智能学院",
+      "url": "https://www.cup.edu.cn/cupai/kxyj/kydt/b94e1d0b24774e0b8f65db6b9586bbdd.htm",
+      "snippet": "近年来，人脸视频伪造技术的进步带来了新的社会安全隐患。现有检测方法的泛化能力较弱，主要由于时空异常信息提取不足和难以应对不同伪造技术间的分布差异。为解决这些问题，本文提出了一种创新的检测算法，重点在于挖掘多尺度时空信息捕捉全面的异常伪影，并减少特征分布差异，从而提升模型的泛化性能。实验结果表明，本文算法在深度伪造视频检测方面优于现有的最先进方法。",
+      "fetched": true,
+      "char_count": 3230
+    },
+    {
+      "title": "基于篡改伪影的深度伪造检测方法",
+      "url": "https://www.ecice06.com/article/2021/1000-3428/2112156.htm",
+      "snippet": "摘要：随着深度伪造（Deepfake）技术的不断发展，犯罪分子可以利用造假图片伪造不在场证明，从而误导侦查方向以逃避法律责任。现有多数检测方法依赖于数据驱动，在跨压缩率、跨分辨率方面鲁棒性不强。研究Deepfake视频在脸部区域所遗留的伪影，建立一种基于Xception的双流网络检测模型，以实现对Deepfake图片的自动检测。利用Xception网络提取图片的全局域特征，对脸部区域进行有效遮挡，凸显出脸部伪影并提取伪影特征。在此基础上，将空域特征与伪造特征2个支流的预测结果进行融合判别。在Deepfakes数据集上的实验结果表明，该模型的测试精度高达0.986 4。",
+      "fetched": true,
+      "char_count": 11018
+    },
+    {
+      "title": "语音深度伪造及其检测技术研究进展",
+      "url": "http://www.cjig.cn/zh/article/doi/10.11834/jig.230476/",
+      "snippet": "August 13, 2024 - 语音深度伪造技术是利用深度学习方法进行合成或生成语音的技术。人工智能生成内容技术的快速迭代与优化，推动了语音深度伪造技术在伪造语音的自然度、逼真度和多样性等方面取得显著提升，同时也使得语音深度伪造检测技术面临着巨大挑战。本文对语音深度伪造及其检测技术的研究进展进行全面梳理回顾。首先，介绍以语音合成（speech synthesis，SS）和语音转换（voice conversion，VC）为代表的伪造技术。然后，介绍语音深度伪造检测领域的常用数",
+      "fetched": true,
+      "char_count": 266
+    },
+    {
+      "title": "AI视频换脸之deepfake技术综述（深度伪造制作与检测） - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/389197155",
+      "snippet": "对于压缩图像，深度神经网络表现的比传统的图像取证工具更好。各种研究者展示了标准的CNN架构如何有效的检测伪造视频，比如使用真假图片对训练利用CNN构建的孪生网络、使用HMN网络架构同时考虑面部和以前见过的面部内容（出于担忧CNN可能仅能检测训练过的攻击）、使用全家桶方式将7种深度伪造CNN的预测结果输入至元分类器。",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "基于CutMix算法和改进Xception网络的深度伪造检测研究 | 激光与光电子学进展 -- 中国光学期刊网",
+      "url": "https://www.opticsjournal.net/Articles/OJd245ddcd0ed2a469/FullText",
+      "snippet": "August 1, 2022 - 目前，针对DeepFake的检测技术可以分为基于时序信息的检测技术和基于单张图像的检测技术。在时序信息检测方面，Agarwal等［7］发现伪造视频存在面部表情不一致以及位置差异，所以对脸部进行建模，之后通过使用支持向量机（SVM）对面部提取运动特征进行分类。由于伪造视频和自然拍摄的视频在连续帧间的运动存在一定差异，两者的光流信息不同，所以Amerini等［8］使用VGG网络对帧间的光流差异信息进行检测。由于生成算法在不同光源条件下生成的",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "深度伪造内容检测的挑战及可行技术路径",
+      "url": "https://cccf.hrbeu.edu.cn/article/doi/10.11991/cccf.202506003",
+      "snippet": "June 20, 2025 - 用微信扫码二维码 · 分享至好友和朋友圈",
+      "fetched": true,
+      "char_count": 1077
+    },
+    {
+      "title": "深度伪造或成2025全球头号风险，防伪大模型处置新模式源 ...",
+      "url": "https://www.mittrchina.com/news/detail/13378",
+      "snippet": "作为世界上最权威的科技商业媒体之一，MIT Technology Review于1899年在美国麻省理工学院创刊，至今已经走过121年，为全世界超过300万专业人士及商业领袖提供前瞻性的资讯和独到深入的行业趋势分析。",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "从0到1，国内首个金融领域“Deepfake”检测标准来了 - 21经济网",
+      "url": "https://www.21jingji.com/article/20240914/herald/e06d6d861f5e0cecad15fca373e64060.html",
+      "snippet": "该标准的核心特点在于其为金融领域的虚假数字人脸检测提供了系统化的技术框架、功能要求、性能评估方法等，专门针对通过生成式人工智能、深度伪造等技术制作的虚假人脸内容进行检测。",
+      "fetched": true,
+      "char_count": 3370
+    },
+    {
+      "title": "Advanced Deepfake Detection: Essential Guide from Jumio",
+      "url": "https://www.jumio.com/deepfake-detection-guide/",
+      "snippet": "August 27, 2025 - Learn about deepfakes and generative AI and strategies to protect against sophisticated identity fraud that can diminish trust and profits.",
+      "fetched": true,
+      "char_count": 3389
+    }
+  ]
+}

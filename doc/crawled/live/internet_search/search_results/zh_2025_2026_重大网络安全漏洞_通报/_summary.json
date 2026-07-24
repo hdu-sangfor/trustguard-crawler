@@ -1,0 +1,65 @@
+{
+  "keyword": "2025 2026 重大网络安全漏洞 通报",
+  "language": "zh",
+  "searched_at": "2026-07-24 20:31:52",
+  "total_results": 20,
+  "fetched_count": 3,
+  "results": [
+    {
+      "title": "CNVD漏洞周报2025年第28期（2025年07月21日-2025...",
+      "url": "https://www.cnvd.org.cn/webinfo/show/11451",
+      "snippet": "July 28, 2025 - CNVD收录的相关漏洞包括：Siemens SICAM TOOLBOX II信任管理问题漏洞、Siemens Solid Edge SE2025堆栈缓冲区溢出漏洞、Siemens Solid Edge SE2025越界读取漏洞（CNVD-2025-16626、CNVD-2025-16628）、Siemens SINEC NMS路径遍历漏洞（CNVD-2025-16627、CNVD-2025-16629）、Siemens SINEC NMS SQL注入漏洞（CNVD-2025-16630）、Siemens SINEC NMS访问控制错误漏洞。上述漏洞的综合评级为“高危”。目前，厂商已经发布了上述漏洞的修补程序。CNVD提醒用户及时下载补丁更新，避免引发漏洞相关的网络安全事件。",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "nsfocus.com.cn/uploadfile/2026/0112/20260112103625755.pdf",
+      "url": "https://www.nsfocus.com.cn/uploadfile/2026/0112/20260112103625755.pdf",
+      "snippet": "二模型安全防护. 网络安全防护体系构成重大挑战。应用安全项目2023 年报告显示API 安全漏洞已占 Web 应用漏 全威胁可分为以下五类.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "Anthropic 与 Mozilla 合作：Claude 两周内发现 Firefox... | MBLUO Studio",
+      "url": "https://mbluostudio.com/news/anthropic-mozilla-firefox-security",
+      "snippet": "Anthropic 与 Mozilla 合作：Claude 两周内发现 Firefox 22 个漏洞. #Anthropic#Mozilla#安全.2025 年底，Anthropic 注意到 Opus 4.5 即将解决 CyberGym（一个测试 LLM 能否复现已知安全漏洞的基准测试）中的所有任务。",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "FreeBuf早报 | Next.js框架DoS漏洞可致服务器单请求崩溃；20...",
+      "url": "https://www.freebuf.com/news/459367.html",
+      "snippet": "2. 20年老协议仍威胁全球网络安全：黑客利用NTLM认证漏洞攻击Windows系统.8. 高危Ray AI漏洞通过Safari和Firefox威胁开发者（CVE-2025-62593）.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "全年披露40000+漏洞，《2024...",
+      "url": "https://www.anquanke.com/post/id/304112",
+      "snippet": "Lumma Stealer恶意软件借YouTube和恶意广告扩大其传播范围. 2025-02-26 10:59:24.2025全球网络安全政策法律趋势：AI、数据安全等成焦点！",
+      "fetched": true,
+      "char_count": 2626
+    },
+    {
+      "title": "国家互联网应急中心",
+      "url": "https://www.cert.org.cn/",
+      "snippet": "2026-02-10关于RCtea僵尸网络大范围传播的风险提示 · 2025-12-30关于“黑猫”团伙利用搜索引擎传播仿冒Notepad++下载远... 2025-12-30关于NutsBot新型僵尸网络利用React2Shell漏洞...",
+      "fetched": true,
+      "char_count": 2454
+    },
+    {
+      "title": "微步在线X情报社区-威胁情报查询_威胁分析平台_开放社区",
+      "url": "https://x.threatbook.com/v5/article?threatInfoID=161480",
+      "snippet": "May 10, 2026 - JavaScript must be enabled in order to view this page",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "国家网安中心发布OpenClaw风险预警- DoNews快讯",
+      "url": "https://www.donews.com/news/detail/8/6466066.html",
+      "snippet": "March 13, 2026 - 2026年3月13日傍晚，国家网络安全通报中心发布《OpenClaw风险预警》。通报指出，全球活跃OpenClaw互联网资产超20万个，境内约2.3万个，集中于北京、上海、广东等地。该工具因默认绑定公网端口、无认证访问、高危漏洞多（近...",
+      "fetched": true,
+      "char_count": 465
+    }
+  ]
+}

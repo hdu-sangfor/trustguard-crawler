@@ -1,0 +1,20 @@
+# Now, defenders are embracing the prompt injection, too
+
+### 来源信息
+- **URL**: https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/
+- **来源站点**: Ars Technica Security
+- **页面抓取**: 成功
+
+### 页面正文
+Prompt injections, the malicious commands attackers embed into content to entice large language models to follow them, have been attackers’ go-to tool for turning AI platforms against their users. A well-phrased command sneaked into an email or calendar invitation is often all it takes to cause the LLM to exfiltrate sensitive data or follow other harmful actions.
+Now, defenders are embracing the prompt injection, too.
+A strong, sharp effect
+Researchers from Tracebit on Monday said they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon Web Services was often all that was needed to shut down attacks from AI hacking agents. The prompts direct the attacking LLM to perform an action forbidden by its guardrails, the safety barriers AI developers erect to prevent it from taking harmful actions. The LLM responds by shutting down.
+Examples are a prompt that orders the LLM to provide steps for developing inhalable Anthrax spores, or, in the case of LLMs from Chinese developers, make references to the iconic Tank Man from the 1989 Tiananmen Square massacre. Once the LLM encounters these forbidden commands, it no longer follows its existing commands. The researchers have named the technique context bombing.
+“Ultimately we’re triggering a refusal mechanism in the context,” Andy Smith, co-founder and CEO of Tracebit, said when explaining the name choice. “What we’re trying to capture is the fact that this does have a strong, sharp effect and one that can be difficult for the agents to come back from. Once they get that into their context they are going to keep refusing.”
+Tracebit says initial testing suggests context bombing has great potential. They tested Opus 4.8, Gemini 3.1 Pro, GLM 5.2, DeepSeek 4 Pro, and Kimi 2.6 by giving them instructions to perform routine developer tasks that led the models to enumerate resources and stumble onto the planted strings. They ran the models inside a simulated AWS environment.
+“Across five leading models and 152 attack runs, planting one of these strings in a decoy secret cut the rate at which agents seized full account admin from 57% to 5%, and complete compromise (where they also left themselves a persistent foothold) from 36% to 1%,” Monday’s post reported. “The most capable agent in our tests, Opus 4.8, went from achieving admin access in 93% of runs to failing every single time when confronted with a context bomb.”
+
+---
+*爬取时间: 2026-07-24 15:56:51*
+*来源: 直接站点爬取*

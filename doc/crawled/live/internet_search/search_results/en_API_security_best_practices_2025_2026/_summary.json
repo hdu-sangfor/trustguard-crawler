@@ -1,0 +1,37 @@
+{
+  "keyword": "API security best practices 2025 2026",
+  "language": "en",
+  "searched_at": "2026-07-24 21:37:50",
+  "total_results": 20,
+  "fetched_count": 4,
+  "results": [
+    {
+      "title": "API Security Risks: The 10 Most Exploited in 2026",
+      "url": "https://cybelangel.com/blog/api-security-risks/",
+      "snippet": "March 26, 2026 - 3. Rank threats by impact and…— Param Dhagia (@paramdhagia) December 9, 2025 · An X post from a cybersecurity researcher detailing best practices for app development. Shadow APIs are unmanaged APIs left behind unknowingly or downloaded outside of the organization‘s security measures.",
+      "fetched": true,
+      "char_count": 15862
+    },
+    {
+      "title": "8 Essential API Security Best Practices - Zuplo",
+      "url": "https://zuplo.com/learning-center/api-security-best-practices",
+      "snippet": "January 31, 2025 - Explore essential API security practices, focusing on strong authentication, data encryption, and continuous monitoring to combat cyber threats.",
+      "fetched": true,
+      "char_count": 18761
+    },
+    {
+      "title": "API Security Best Practices: 11 Essential Strategies to Protect Your APIs",
+      "url": "https://www.stackhawk.com/blog/api-security-best-practices-ultimate-guide/",
+      "snippet": "Add deprecation warnings to API responses using custom headers (X-API-Deprecation: v1 will be sunset on 2025-12-31). Published February 24, 2026",
+      "fetched": true,
+      "char_count": 30380
+    },
+    {
+      "title": "API Security Best Practices to Follow in 2025 - Practical DevSecOps",
+      "url": "https://www.practical-devsecops.com/api-security-best-practices/",
+      "snippet": "July 6, 2025 - Learn cloud-native security concepts and measures: hacking and defending Kubernetes clusters, authentication and etc. ... The Threat Modeling course covers STRIDE, PASTA, DREAD, MITRE, Agile, and Privacy methods.",
+      "fetched": true,
+      "char_count": 14772
+    }
+  ]
+}

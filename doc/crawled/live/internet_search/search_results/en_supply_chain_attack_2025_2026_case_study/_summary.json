@@ -1,93 +1,58 @@
 {
   "keyword": "supply chain attack 2025 2026 case study",
   "language": "en",
-  "searched_at": "2026-07-24 13:41:54",
-  "total_results": 13,
+  "searched_at": "2026-07-24 21:29:57",
+  "total_results": 20,
   "fetched_count": 6,
   "results": [
     {
-      "title": "Detecting SANDWORM_MODE and AI Toolchain Supply Chain Attacks",
-      "url": "https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/",
-      "snippet": "Learn about the anatomy of the SANDWORM_MODE infection chain mapped against the components of a modern AI CI/CD pipeline.In February 2026, Socket.dev published research on a multi-stage npm supply chain worm operating under the internal flag SANDWORM_MODE .",
+      "title": "Today: Congress Votes To Integrate US Military Tech & Supply...",
+      "url": "https://www.alexjoneslive.com/2026/07/22/today-congress-votes-to-integrate-us-military-tech-supply-chains-with-israel/",
+      "snippet": "The note also supplies the missing context for why this is happening now. Section 219 is one piece of a broader, publicly acknowledged shift from aid to integration. The FY2026 NDAA already ordered a working group to study folding Israel into the National Technology and Industrial Base.",
       "fetched": true,
-      "char_count": 8082
+      "char_count": 12320
     },
     {
-      "title": "Inside the September 2025 npm Supply-Chain Attack",
-      "url": "https://www.akshayjain.blog/post/npm-supply-chain-attack-2025",
-      "snippet": "NPM Supply Chain Attack 2025 - Incident Timeline. Sep 8, 13:16 UTC - First malicious versions detected by security vendors. Sep 8 afternoon - Vendors confirm 18 compromised packages; npm registry begins removal.",
+      "title": "ddos-attacks · GitHub Topics · GitHub",
+      "url": "https://github.com/topics/ddos-attacks",
+      "snippet": "By use case.programming tools packages hacking bruteforce penetration-testing ddos-attacks termux all-in-one xss-detection hacking-tool xss-attacks ctf-tools sms-bomber web-hacking password-attack wireless-attacks cibersecurity termux-tool termux-hacking.",
+      "fetched": true,
+      "char_count": 306
+    },
+    {
+      "title": "Supply Chain Attack Statistics for 2026: Third-Party Breaches, Open Source Malware, and the New Cost of Trust | Swif",
+      "url": "https://www.swif.ai/blog/supply-chain-attack-statistics",
+      "snippet": "June 3, 2026 - And in the U.S. education sector, the PowerSchool breach, classified by Verizon as a third-party software supply chain event, exposed personal data on roughly 62.4 million students and 9.5 million teachers across thousands of school districts, demonstrating how a single SaaS vendor compromise can sweep across an entire industry vertical. Both events are referenced in the supply chain incident lists in the Sonatype 2026 report and the Verizon 2025 DBIR.",
+      "fetched": true,
+      "char_count": 13854
+    },
+    {
+      "title": "12 Months That Changed Supply Chain Security - Silobreaker",
+      "url": "https://www.silobreaker.com/blog/cyber-threats/supply-chain-attacks-in-2025-a-month-by-month-summary/",
+      "snippet": "December 17, 2025 - The most disruptive supply chain event of the month involved the compromise of the popular GitHub Action ‘tj-actions/changed-files.’ The attackers exploited a high-severity vulnerability, tracked as CVE-2025-30066, to modify the action’s code and update multiple version tags to reference a malicious commit.",
+      "fetched": true,
+      "char_count": 17160
+    },
+    {
+      "title": "Supply Chain Attacks in 2025/2026: What Happened and How to Prevent It | softScheck",
+      "url": "https://www.softscheck.com/en/blog/supply-chain-attacks/",
+      "snippet": "May 20, 2026 - That three-hour window is the story of supply chain security in 2025/2026, in miniature. There is no zero-day. There is no buffer overflow. There is a human, a trusted account, and a registry that runs other people’s code at install time. In the past six months alone, attackers compromised axios, @bitwarden/cli, the entire @tanstack/* family, the official mistralai SDK on both npm and PyPI, Aqua Security’s Trivy scanner, the checkmarx/ast-github-action, and hundreds of others swept up by the self-replicating Shai-Hulud worm.",
+      "fetched": true,
+      "char_count": 19342
+    },
+    {
+      "title": "Is Your Supply Chain Exposing Your Organization? 4 Security Case Studies",
+      "url": "https://lumu.io/blog/supply-chain-security-case-studies/",
+      "snippet": "April 23, 2026 - The suspected ZYGHT compromise threatened the Chilean industrial supply chain by targeting the identity infrastructure of regional service providers. On March 27, 2026, security researchers including @1ZRR4H (Germán Fernández) flagged a suspected ...",
       "fetched": false,
       "char_count": 0
     },
     {
-      "title": "Supply Chain Nightmare Nx Npm Plugin Leaks 2349 Secrets – Ivyrem",
-      "url": "https://ivyrem.com/supply-chain-nightmare-nx-npm-plugin-leaks-2349-secrets/",
-      "snippet": "Nx supply chain attack on Aug 26, 2025 leaked 2,349 secrets via npm packages, risking GitHub and cloud accounts.In a shocking supply chain attack, attackers exploited vulnerabilities in the widely used Nx build system, compromising 2,349 GitHub, cloud, and AI credentials.",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "Wildberries: Russia's businesses under strain from Ukraine's attacks.....",
-      "url": "https://www.bbc.com/news/articles/cvg9n2y61w6o",
-      "snippet": "Reuters Smoke rises from a Wildberries warehouse on fire after an attack in Nevinnomyssk, Russia, July 22, 2026 Reuters. Four Wildberries warehouses have been targeted, including this one in Nevinnomyssk early on Wednesday.",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "Shai Hulud Worm Hits npm: 2025 Supply Chain Attack Exposed",
-      "url": "https://onlineshieldhub.com/shai-hulud-worm-npm-supply-chain-attack-2025/",
-      "snippet": "This npm supply chain attack 2025 variant, often referred to as Shai-Hulud 2.0, infected over 1,000 npm packages by November 24, 2025, according to reports from leading security firms like Wiz, Aikido, and Unit 42.",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "What Is a Watering Hole Attack? How It Works, Real Examples...",
-      "url": "https://www.upstandinghackers.com/what-is-a-watering-hole-attack/",
-      "snippet": "Real Watering Hole Attack Cases: 2023 Through 2026. Studying real incidents is the fastest path to genuine understanding. These cases shaped the current threat landscape. APT29 Mongolian Government Websites (2023–2024).",
+      "title": "Cyber Security Supply Chain Attacks: Navigating the 2026 Threat Landscape",
+      "url": "https://panorays.com/blog/cyber-security-supply-chain-attacks/",
+      "snippet": "April 13, 2026 - Wire alerts from vulnerability catalogs and vendor advisories directly into your risk platform. When a new critical issue drops – like the 2026 Cisco UC flaw – you’ll automatically flag which suppliers and contracts are impacted.",
       "fetched": true,
-      "char_count": 26890
-    },
-    {
-      "title": "ABU Zaria Admission List 2025/2026 is Out [UPDATED]",
-      "url": "https://allschool.ng/abu-admission-list/",
-      "snippet": "ABU Admission List: The Ahmadu Bello University Zaria (ABU) Admission List for 2025/2026 Session is out. The list is now available on the school’s portal.Case 2: If you see admission in progress, then be patient, the status will change in few days/weeks. Just check back after some time.",
-      "fetched": true,
-      "char_count": 3776
-    },
-    {
-      "title": "Top 5 Lagi Viral 2026 Trending Indonesia Top 10 Viral... - Wataa Viral",
-      "url": "https://wataaviral.store/top-5-lagi-viral-2026-trending-indonesia-top-10-viral-terbaru-pesona-pelajar-cantik-berhijab-yandex-viral-one-for-all-jengking-ceer-di-duburnew-global-2025-official-sawit-viral-62/",
-      "snippet": "Watch and Download Top 5 Lagi Viral 2026 Trending Indonesia Top 10 Viral Terbaru Pesona Pelajar Cantik Berhijab Yandex Viral One for All Jengking Ceer di Duburnew Global 2025 Official Sawit Viral 62 for free in the highest quality available on the internet.",
-      "fetched": true,
-      "char_count": 5438
-    },
-    {
-      "title": "Moramil - Explore articles about technology, tutorials, and more.",
-      "url": "https://moramil.autos/",
-      "snippet": "2026-05-21 11:38:57 · Cybersecurity. How to Understand the TanStack npm Supply Chain Attack That Breached GitHub. A step-by-step guide explaining how the TanStack npm supply chain attack compromised GitHub repos via a malicious VS Code extension, with prevention tips.",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "url": "https://thehackernews.com/",
-      "snippet": "Jul 17, 2026 Software Supply Chain / Malware. Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack.",
-      "fetched": true,
-      "char_count": 173
-    },
-    {
-      "title": "Visual Capitalist",
-      "url": "https://www.visualcapitalist.com/",
-      "snippet": "The Largest Employee Fraud Cases in 2025–2026.AI GPU supply chain: each layer's top supplier holds 79% to 100%, and no country holds two. Countries with the Lowest Inflation Rates in 2025.",
-      "fetched": true,
-      "char_count": 664
-    },
-    {
-      "title": "vk.com/video-192544707_456269534",
-      "url": "https://vk.com/video-192544707_456269534",
-      "snippet": "",
-      "fetched": false,
-      "char_count": 0
+      "char_count": 15684
     }
   ]
 }

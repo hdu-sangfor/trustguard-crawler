@@ -1,16 +1,56 @@
 {
   "site": "The Hacker News",
-  "crawled_at": "2026-07-24 12:30:07",
-  "total_found": 2,
-  "saved": 2,
+  "crawled_at": "2026-07-24 21:40:12",
+  "total_found": 12,
+  "saved": 12,
   "articles": [
     {
-      "title": "Get the Latest News",
-      "url": "https://thehackernews.com/#email-outer"
+      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing LinkJul 24, 2026Vulnerability / Enterprise ",
+      "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html"
     },
     {
-      "title": "Threat Intelligence",
-      "url": "https://thehackernews.com/search/label/Threat%20Intelligence"
+      "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's ServersJul 24, 2026Vulnerability / Web Securit",
+      "url": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html"
+    },
+    {
+      "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can DoJul 24, 2026Enterprise Security / AI Securi",
+      "url": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html"
+    },
+    {
+      "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance MinistryJul 24, 2026Artificial Intelligenc",
+      "url": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html"
+    },
+    {
+      "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular ImplantsJul 24, 2026Threat Intelligence / Browser",
+      "url": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html"
+    },
+    {
+      "title": "How Synthetic Identity Fraud is Coming for Machine IdentitiesJul 23, 2026Identity Security / Cloud SecurityMost people ",
+      "url": "https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html"
+    },
+    {
+      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
+      "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html"
+    },
+    {
+      "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
+      "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html"
+    },
+    {
+      "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
+      "url": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html"
+    },
+    {
+      "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
+      "url": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html"
+    },
+    {
+      "title": "Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity",
+      "url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html"
+    },
+    {
+      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+      "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html"
     }
   ]
 }

@@ -1,0 +1,68 @@
+{
+  "site": "嘶吼",
+  "crawled_at": "2026-07-24 21:55:23",
+  "total_found": 15,
+  "saved": 15,
+  "articles": [
+    {
+      "title": "◉容易成为勒索软件攻击目标的13个行业",
+      "url": "https://www.4hou.com/posts/m0Vr"
+    },
+    {
+      "title": "◉如何揪出贵企业网络中的Cl0p勒索软件？",
+      "url": "https://www.4hou.com/posts/YYVY"
+    },
+    {
+      "title": "◉企业应重视员工使用 ChatGPT 带来的安全风险",
+      "url": "https://www.4hou.com/posts/9Xlx"
+    },
+    {
+      "title": "◉知道手机投屏可以看剧，不知道还能被用来窃取隐私！",
+      "url": "https://www.4hou.com/posts/XVvo"
+    },
+    {
+      "title": "◉披露！币圈空投黑吃黑“脏”手段，“偷家”这招儿真有你的",
+      "url": "https://www.4hou.com/posts/2JMM"
+    },
+    {
+      "title": "OpenClaw近期生态安全事件解读：从RCE漏洞到Skill供应链投毒分析",
+      "url": "https://www.4hou.com/posts/zAVq"
+    },
+    {
+      "title": "◉爆火背后：OpenClaw 开源AI智能体应用攻击面与安全风险系统剖析",
+      "url": "https://www.4hou.com/posts/yzQ6"
+    },
+    {
+      "title": "◉Kraken勒索软件攻击细节曝光 可根据设备性能动态调整加密模式",
+      "url": "https://www.4hou.com/posts/qozR"
+    },
+    {
+      "title": "◉XWorm 恶意软件携勒索模块重现 插件数量超 35 个",
+      "url": "https://www.4hou.com/posts/W1DW"
+    },
+    {
+      "title": "◉新型钓鱼即服务平台VoidProxy：瞄准微软365与谷歌账户 可绕过第三方SSO防护",
+      "url": "https://www.4hou.com/posts/om1K"
+    },
+    {
+      "title": "◉ArmouryLoader加载器的全面分析——典型加载器家族系列分析五",
+      "url": "https://www.4hou.com/posts/xyE9"
+    },
+    {
+      "title": "PolyShell高危漏洞可致电商Magento系统遭遇未授权远程代码执行",
+      "url": "https://www.4hou.com/posts/jBG4"
+    },
+    {
+      "title": "◉VoidStealer恶意软件利用调试器漏洞窃取Chrome主密钥",
+      "url": "https://www.4hou.com/posts/0MlN"
+    },
+    {
+      "title": "◉蠕虫式XMRig挖矿攻击借BYOVD漏洞规避检测",
+      "url": "https://www.4hou.com/posts/kgyK"
+    },
+    {
+      "title": "◉谷歌API密钥安全漏洞曝光：前端暴露密钥可直接访问Gemini并窃取隐私数据",
+      "url": "https://www.4hou.com/posts/kgyv"
+    }
+  ]
+}

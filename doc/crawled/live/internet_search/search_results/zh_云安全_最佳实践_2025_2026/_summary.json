@@ -1,79 +1,65 @@
 {
   "keyword": "云安全 最佳实践 2025 2026",
   "language": "zh",
-  "searched_at": "2026-07-24 13:04:44",
-  "total_results": 10,
-  "fetched_count": 4,
+  "searched_at": "2026-07-24 20:50:58",
+  "total_results": 19,
+  "fetched_count": 6,
   "results": [
     {
-      "title": "定期评估云服务器资源与安全策略-最佳实践指南-淘客VPS",
-      "url": "https://www.tkvps.com/yun/yun-5512.html",
-      "snippet": "评估云安全策略的最佳实践. 更新和打补丁.阿里云服务器安全攻略：提升安全性的最佳实践.",
+      "title": "The Ultimate Guide to Cloud Security in 2026: Risks, Tools & Best Practices",
+      "url": "https://www.bbntimes.com/technology/the-ultimate-guide-to-cloud-security-in-2026-risks-tools-best-practices",
+      "snippet": "March 26, 2026 - Cloud͏͏ security͏͏ is͏͏ an͏͏ ongoing͏͏ operational͏͏ requirement,͏͏ not͏͏ a͏͏ one-time͏͏ setup.͏͏ As͏͏ the͏͏ digital͏͏ landscape͏͏ continues͏͏ to͏͏ evolve͏͏ toward͏͏ 2026,͏͏ security͏͏ must͏͏ be͏͏ deeply͏͏ integrated͏͏ into͏͏ the͏͏ daily͏͏ workflows͏͏ of͏͏ both͏͏ IT͏͏ and͏͏ DevOps.͏͏ By͏͏ prioritizing͏͏ visibility,͏͏ enforcing͏͏ least-privileged͏͏ access͏͏ and͏͏ leveraging͏͏ automated͏͏ enforcement,͏͏ companies͏͏ can͏͏ build͏͏ a͏͏ resilient͏͏ infrastructure͏͏ that͏͏ drives͏͏ innovation͏͏ without͏͏ creating͏͏ unmanaged͏͏ risk.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "IDC发布《中国公有云服务提供商安全技术能力评估，2025》报告 - 安全内参 | 决策者的网络安全知识库",
+      "url": "https://www.secrss.com/articles/78501",
+      "snippet": "通过IDC对公有云服务提供商的安全能力调研，IDC给出如下建议： · 积极拥抱网络安全智能体。网络安全智能体是2025年的主流，其自动化程度高，可以快速应对网络攻击行为，从而提升与攻击者的网络安全对抗能力。未来，没有网络安全智能体的防御体系或许将是形同虚设。",
       "fetched": true,
-      "char_count": 927
+      "char_count": 1658
     },
     {
-      "title": "[解决方案] 保护虚拟机访问的安全最佳实践",
-      "url": "http://cloudnetworkspy.mindfree.top/analysis/document/azure/tech-blog/2025_04_18_cecc0d7e.md",
-      "snippet": "[解决方案] 保护虚拟机访问的安全最佳实践.对于所有虚拟机部署，使用 Bastion 是确保安全、合规且流畅访问的最佳实践。",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "云存储安全的最佳实践 - 乐趣区",
-      "url": "https://lequ7.com/posts/yun-cun-chu-an-quan-de-zui-jia-shi-jian",
-      "snippet": "云存储安全的最佳实践.建立云存储框架和云存储安全标准至关重要。 以下是五种云存储最佳实践，希望能给从业者一点参考。 评估企业的云计算架构 安全云存储要求组织识别连接到云平台的所有设备和应用程序。",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "24000字企业开源安全治理最佳实践发布 | 长亭百川云",
-      "url": "https://rivers.chaitin.cn/blog/cq953ph0lnechd244mvg",
-      "snippet": "《开源软件供应链安全治理最佳实践》九大环节. 最佳实践中核心解答的问题：1、企业最佳实践的分享.",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "主机安全最佳实践｜青藤万相 × AWS 护航汽车服务平台出海破局",
-      "url": "https://qingteng.cn/news/69aa3d9a867f4e003903e37a.html",
-      "snippet": "《ATT&CK框架实践指南》.主机安全最佳实践｜青藤万相 × AWS 护航汽车服务平台出海破局. 发布日期：2026-03-06.",
+      "title": "与创新共舞，与价值同行：奇安信发布2025年网络安全十大趋势 - 安全内参 | 决策者的网络安全知识库",
+      "url": "https://www.secrss.com/articles/75400",
+      "snippet": "实践表明，AI可以极大提升安全分析及威胁情报运营的效率，降低运营流程开发人员的能力要求，以更小人工投入获得更好结果，在各环节中综合使用AI技术可以提升50%的效率。2025年，AI技术将继续在威胁情报运营领域绽放异彩，为行业进阶注入新的活力。 · 趋势六：“车路云一体化”激发万亿级市场，数据安全合规建设将率先展开",
       "fetched": true,
-      "char_count": 2609
+      "char_count": 12220
     },
     {
-      "title": "数字扁担",
-      "url": "https://www.brandnewdata.com/",
-      "snippet": "数字化场景解决方案. 最佳实践.BranD data-BIZ企业数字化解决方案. 能够解决企业数字化整体的管理运营问题，加速数字资产的生产利用，使得人们可以随时随地使用任何数据，满足企业对营销，供应链、生产等数据多样化、 高精度、安全可靠的需求，快速赋...",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "AWS Risk and Compliance Whitepaper",
-      "url": "https://d0.awsstatic.com/whitepapers/compliance/CN_Whitepapers/AWS_Risk_and_Compliance_Whitepaper_CN.pdf",
-      "snippet": "2011 年云安全联盟 (CSA) 启动了 STAR这是一项鼓励提高云提供商安全实践透明度的活动。AWS 安全框架集成了 ISO 27002 最佳实践和 PCI 数 据安全标准。",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "juejin.cn/post/7413196978601721883",
-      "url": "https://juejin.cn/post/7413196978601721883",
-      "snippet": "前端安全最佳实践指南. 前端小菜鸟吖.内容安全策略（CSP）.",
+      "title": "实时威胁检测薄弱！《2025年全球云安全报告》深度解读|云安全|混合云|Fortinet_新浪科技_新浪网",
+      "url": "https://finance.sina.com.cn/tech/roll/2025-02-27/doc-inemxmaf7893163.shtml",
+      "snippet": "February 27, 2025 - 云计算已成为企业数字化转型的核心引擎，推动着业务敏捷性、灵活性与创新力的全面升级。然而，随着混合云与多云战略的普及，云环境复杂性激增，安全威胁与合规挑战也愈发严峻。 · 近日，全球权威研究机构Cybersecurity Insiders联合Fortinet发布《2025全球云安全报告》。报告基于全球800+网络安全专家的洞察，揭示了云部署趋势、安全痛点及应对策略。现在让我们快速掌握报告核心发现，并探索如何构建弹性云安全体系。",
       "fetched": true,
-      "char_count": 5307
+      "char_count": 3730
     },
     {
-      "title": "活动 | 阿里云峰会Last Call...",
-      "url": "https://www.anquanke.com/post/id/242320",
-      "snippet": "造极致的原生安全。 在分论坛中，你将听到阿里云安全资深专家对于云原生安全的深度技术分享，更将听到深度用户现场分享的最佳应用实践案例。",
+      "title": "深度观察：云安全未来的完整指南 - 安全内参 | 决策者的网络安全知识库",
+      "url": "https://www.secrss.com/articles/71407",
+      "snippet": "CWPP一直是一个奇怪的类别，因为它只是EDR，但它适用于容器。公平地说，它有一些额外的好处，比如漏洞扫描和网络层可见性的实践。这个类别之所以奇怪，是因为从来没有明确的能力集来定义什么算作CWPP。厂商经常自称为CWPP，但只提供漏洞扫描。其他厂商则自称为CWPP，仅提供运行时防御解决方案。什么算作“工作负载保护”一直不清楚。简单来说，CNAPP = Redlock (CSPM) + Twistlock (CWPP)。CSPM提供云可见性，CWPP提供容器可见性。由于缺乏清晰性，这个术语的使用变得不那么常见。我们更喜欢使用云检测响应(CDR)，意味着在云和工作负载层提供检测和响应。",
       "fetched": true,
-      "char_count": 1489
+      "char_count": 28427
     },
     {
-      "title": "RSAC",
-      "url": "https://www.nsfocus.com.cn/uploadfile/2025/0708/20250708112624644.pdf",
-      "snippet": "重点发布包括 AI 大模型安全威胁矩阵 V2.0、AI-Scan 风险评估工具、AI 红队测试、AI 安全赋能平台 NSFGPT、智能安全运营平台 ISOP 以及混合抗 DDoS 解决方案。",
+      "title": "2025年云安全行业发展趋势前景分析预测",
+      "url": "https://m.chinabgao.com/k/yunanquan/",
+      "snippet": "We cannot provide a description for this page right now",
+      "fetched": true,
+      "char_count": 6254
+    },
+    {
+      "title": "2026年云安全将走向何方？ - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/1996987842497369699",
+      "snippet": "在安全层面，这意味着云服务提供商不仅会提供基础平台能力，也将持续强化自身的安全优势，并推出更多直接与第三方安全厂商竞争的安全产品。研究显示，74% 的组织计划使用云服务提供商原生提供的安全产品，与此同时，仍有较高比例（67%）的组织通常也会同时使用第三方安全厂商的解决方案。",
       "fetched": false,
       "char_count": 0
+    },
+    {
+      "title": "Gartner：云、AI驱动信息安全1.7万亿市场，奇安信打造云数智融合防护体系",
+      "url": "https://www.qianxin.com/topics/aiforsecurity/news/details?id=13807",
+      "snippet": "Gartner调研显示，超70%的云上数据泄露源于用户的云配置错误，而云上安全责任边界的模糊进一步加剧了风险。CyberArk调查显示，36%企业认为云安全责任主要在服务商。由此可见，云安全事件频发，背后折射了长期以来云服务商和安全厂商界限不清、分工不明的问题。奇安信安全专家认为，未来云安全必将从“混沌分工”迈向“专业司职”新纪元，即云公司负责云平台自身架构安全，安全公司负责云上系统和应用安全，专业人干专业事，各司其职、泾渭分明。而在这种趋势下，云安全市场也将迈入高速增长的快车道。",
+      "fetched": true,
+      "char_count": 2426
     }
   ]
 }

@@ -1,0 +1,56 @@
+{
+  "site": "安全客",
+  "crawled_at": "2026-07-24 21:54:18",
+  "total_found": 15,
+  "saved": 12,
+  "articles": [
+    {
+      "title": "OpenAI智能体逃逸事件是AI时代的分水岭",
+      "url": "https://www.anquanke.com/post/id/315851"
+    },
+    {
+      "title": "停产六周即破产：德国37年纺织老厂之死，揭示网络攻击最残酷的真相",
+      "url": "https://www.anquanke.com/post/id/315803"
+    },
+    {
+      "title": "智能体面临的十大安全风险问题",
+      "url": "https://www.anquanke.com/post/id/315781"
+    },
+    {
+      "title": "紧急！医疗巨头美敦力遭黑客入侵，患者隐私数据大规模外泄，这些坑普通人千万别踩",
+      "url": "https://www.anquanke.com/post/id/315767"
+    },
+    {
+      "title": "630GB机密挂上暗网：苹果二十年供应链铁幕一夜崩塌",
+      "url": "https://www.anquanke.com/post/id/315760"
+    },
+    {
+      "title": "RedAmon：串联侦察、漏洞利用与后渗透的 AI 安全工具",
+      "url": "https://www.anquanke.com/post/id/315747"
+    },
+    {
+      "title": "SecSuite—— 搭载人工智能的开源情报、Web 与 API 安全综合测试工具",
+      "url": "https://www.anquanke.com/post/id/315743"
+    },
+    {
+      "title": "恶意Skills利用扫描规避技术攻击Claude Code和Codex",
+      "url": "https://www.anquanke.com/post/id/315737"
+    },
+    {
+      "title": "T3MP3ST 安全框架：集成 35 款工具，将 AI 代码智能体转化为零日漏洞挖掘器",
+      "url": "https://www.anquanke.com/post/id/315732"
+    },
+    {
+      "title": "首个AI全流程勒索攻击来了：JADEPUFFER证明，勒索不再需要人类操盘手",
+      "url": "https://www.anquanke.com/post/id/315724"
+    },
+    {
+      "title": "不给钱就社死，勒索软件又有新套路",
+      "url": "https://www.anquanke.com/post/id/315688"
+    },
+    {
+      "title": "国务院令第834号已落地：软件供应链安全，企业欠缺的不是工具，是这三件事",
+      "url": "https://www.anquanke.com/post/id/315352"
+    }
+  ]
+}

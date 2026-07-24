@@ -1,16 +1,60 @@
 {
   "site": "Dark Reading",
-  "crawled_at": "2026-07-24 12:31:10",
-  "total_found": 2,
-  "saved": 2,
+  "crawled_at": "2026-07-24 21:42:39",
+  "total_found": 13,
+  "saved": 13,
   "articles": [
     {
-      "title": "Informa TechTarget|",
-      "url": "https://www.informatechtarget.com/"
+      "title": "Endpoint Security",
+      "url": "https://www.darkreading.com/endpoint-security"
     },
     {
-      "title": "SearchSecurity",
-      "url": "https://www.techtarget.com/searchsecurity/"
+      "title": "ICS/OT Security",
+      "url": "https://www.darkreading.com/ics-ot-security"
+    },
+    {
+      "title": "Identity & Access Mgmt Security",
+      "url": "https://www.darkreading.com/cybersecurity-operations/identity-access-management-security"
+    },
+    {
+      "title": "Insider Threats",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/insider-threats"
+    },
+    {
+      "title": "Mobile Security",
+      "url": "https://www.darkreading.com/endpoint-security/mobile-security"
+    },
+    {
+      "title": "Physical Security",
+      "url": "https://www.darkreading.com/cybersecurity-operations/physical-security"
+    },
+    {
+      "title": "Remote Workforce",
+      "url": "https://www.darkreading.com/endpoint-security/remote-workforce"
+    },
+    {
+      "title": "Threat Intelligence",
+      "url": "https://www.darkreading.com/threat-intelligence"
+    },
+    {
+      "title": "Vulnerabilities & Threats",
+      "url": "https://www.darkreading.com/vulnerabilities-threats"
+    },
+    {
+      "title": "Europe's Multilingual Reality Exposes AI Security Gaps",
+      "url": "https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps"
+    },
+    {
+      "title": "Alexander Culafi",
+      "url": "https://www.darkreading.com/author/alexander-culafi"
+    },
+    {
+      "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets"
+    },
+    {
+      "title": "Asia Pacific",
+      "url": "https://www.darkreading.com/keyword/asia-pacific"
     }
   ]
 }

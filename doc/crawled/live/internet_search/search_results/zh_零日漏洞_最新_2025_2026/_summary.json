@@ -1,79 +1,72 @@
 {
   "keyword": "零日漏洞 最新 2025 2026",
   "language": "zh",
-  "searched_at": "2026-07-24 12:53:15",
-  "total_results": 10,
+  "searched_at": "2026-07-24 20:33:49",
+  "total_results": 20,
   "fetched_count": 6,
   "results": [
     {
-      "title": "Google 发出警告：黑客已经用 AI 开发出了零日漏洞攻击工具 - ChaoBro",
-      "url": "https://chaobro.com/zh/posts/google-ai-zero-day-vulnerability-warning-2026",
-      "snippet": "Google 发出警告：黑客已经用 AI 开发出了零日漏洞攻击工具. 2026年5月12日 by ChaoBro.",
+      "title": "What is a Zero-Day Exploit? | IBM",
+      "url": "https://www.ibm.com/think/topics/zero-day",
+      "snippet": "November 17, 2025 - A zero-day exploit is a cyberattack vector or technique that takes advantage of an unknown or unaddressed security flaw in computer software, hardware or firmware.",
+      "fetched": true,
+      "char_count": 1681
+    },
+    {
+      "title": "HITCON ZeroDay",
+      "url": "https://zeroday.hitcon.org/",
+      "snippet": "值得信賴的漏洞通報平台 · 2026 春節期間暫時停止服務 · HITCON 合作夥伴推廣 - 國家資通安全研究院 · 2025 春節期間暫時停止服務 · 2022 春節期間暫時停止服務 · 2021 春節期間暫時停止服務 · 更多...",
       "fetched": false,
       "char_count": 0
     },
     {
-      "title": "Tag: 零日漏洞 - 月球基地",
-      "url": "https://blog.eimoon.com/tags/零日漏洞/",
-      "snippet": "2026 37. 2025 433. 2024 80.人工智能技术与应用 开源工具 编程技巧 GitHub开源项目与开发者社区 Linux 操作系统与开源技术 人工智能 开源 Docker 容器化技术 网络安全 LLM技术最新发展与应.",
+      "title": "微软安全更新：56 处漏洞修复，7 个零日危机化解-安全KER - 安全资讯平台",
+      "url": "https://www.anquanke.com/post/id/305131",
+      "snippet": "Microsoft最新的安全更新修复了 56 个常见漏洞，其中包括 7 个零日漏洞，而这 7 个中有 6 个已被积极利用。 · 本月修复的漏洞中，远程代码执行（RCE）漏洞占比 41.1%，特权提升（EoP）漏洞占本月补丁的 39.3%。 · Tenable 的高级研究工程师Satnam Narang指出了此次更新的重要性。“2025 年 3 月的‘周二补丁日’发布的零日漏洞数量达到了一个月内所报告的最高数量之一，为 7 个...",
+      "fetched": true,
+      "char_count": 1343
+    },
+    {
+      "title": "WinRAR最新0day漏洞攻击活动分析及总结 - 安全内参 | 决策者的网络安全知识库",
+      "url": "https://www.secrss.com/articles/81926",
+      "snippet": "August 12, 2025 - 俄罗斯黑客组织 RomCom（又称 ... 7 月 18 日被发现后，WinRAR 开发团队迅速响应，于 7 月 30 日发布修复版本 7.13。目前攻击主要针对欧洲和加拿大的金融、制造、国防及物流行业...",
+      "fetched": true,
+      "char_count": 7050
+    },
+    {
+      "title": "Kaspersky discovers sophisticated Chrome zero-day exploit used in active attacks",
+      "url": "https://www.kaspersky.com.cn/about/press-releases/chrome",
+      "snippet": "March 26, 2025 - 卡巴斯基发现并协助修复了一个谷歌Chrome浏览器的高危零日漏洞（CVE-2025-2783），该漏洞允许攻击者绕过浏览器的沙箱保护系统。该漏洞由卡巴斯基全球研究与分析团队（GReAT）发现，除了点击恶意链接外，用户无需进行任何交互操作，展现出极高的技术复杂性。谷歌公司已确认卡巴斯基研究人员发现并报告了此漏洞。",
+      "fetched": true,
+      "char_count": 2053
+    },
+    {
+      "title": "降低零时差漏洞 - Microsoft Defender Vulnerability Management | Microsoft Learn",
+      "url": "https://learn.microsoft.com/zh-cn/defender-vulnerability-management/tvm-zero-day-vulnerabilities",
+      "snippet": "2025-03-29 · 反馈 · 适用于： · Microsoft Defender 漏洞管理 · Microsoft Defender for Endpoint 计划 2 · Microsoft Defender XDR · 服务器计划 1 & 2 的Microsoft Defender · 零日漏洞是尚未提供官方修补程序或安全更新的软件中的缺陷。 软件发布者可能或可能不知道该漏洞，并且没有关于此风险的公开信息。 零日漏洞通常具有较高的严重性级别，并被积极利用。 ·",
+      "fetched": true,
+      "char_count": 2895
+    },
+    {
+      "title": "每日安全漏洞文章聚合(最近7天)",
+      "url": "https://wy876.github.io/SecAlerts/",
+      "snippet": "May 20, 2026 - CVE-2026-42232-n8n原型污染 · 来源: Doonsec · 犯罪黑客已利用AI构建出可运行的零日漏洞利用程序 · 来源: Doonsec · 【安全更新】微软5月安全更新多个产品高危漏洞通告 · 来源: Doonsec · 观点丨从波兰能源袭击到工控漏洞暴增——2025攻防态势如何重塑2026安全逻辑 ·",
       "fetched": false,
       "char_count": 0
     },
     {
-      "title": "Chrome用戶快更新！ 全新零日漏洞曝光 Google... | 自由時報電子報",
-      "url": "https://3c.ltn.com.tw/news/63983",
-      "snippet": "全新零日漏洞曝光 Google急喊：已被利用攻擊. 2025/11/20 09:54 文／記者吳佩樺.這項漏洞源自Chrome的V8 JavaScript引擎中的「型別混淆」錯誤（type confusion）。",
+      "title": "Google Chrome 0-Day漏洞被野外利用以执行任意代码-安全KER - 安全资讯平台",
+      "url": "https://www.anquanke.com/post/id/308045",
+      "snippet": "June 3, 2025 - 在确认攻击者正在积极利用一个关键的零日漏洞后，Google 发布了 Chrome 的紧急安全更新。 · 该漏洞被跟踪为 CVE-2025-5419，允许威胁行为者通过 Chrome V8 JavaScript 引擎中的越界读写作在受害者的系统上执行任意代码。",
+      "fetched": true,
+      "char_count": 1278
+    },
+    {
+      "title": "What is Zero-Day Vulnerability? | Glossary | HPE",
+      "url": "https://www.hpe.com/us/en/what-is/zero-day-vulnerability.html",
+      "snippet": "A zero-day vulnerability is an undiscovered flaw in an application or operating system that exposes a gap in security.",
       "fetched": false,
       "char_count": 0
-    },
-    {
-      "title": "從 Chrome 零日到 LINE...",
-      "url": "https://blog.trendmicro.com.tw/?p=90443",
-      "snippet": "零日/零時差漏洞與重大資安事件 (Zero-Day & Critical Incidents). 本週有多個重大零日漏洞遭到利用，提醒用戶與企業應立即修補。 Google Chrome 零日漏洞：",
-      "fetched": true,
-      "char_count": 14808
-    },
-    {
-      "title": "黑客已在攻击！ Google 紧急修复 Chrome 浏览器严重漏洞Google...",
-      "url": "https://juejin.cn/post/7623978535271989286",
-      "snippet": "Google 发布了 Chrome 紧急更新，修复了 WebGPU (Dawn) 组件中编号为 CVE-2026-5281 的零日漏洞。在 2025 年，Google 共修复了八个被用于真实攻击的零日漏洞。",
-      "fetched": true,
-      "char_count": 1134
-    },
-    {
-      "title": "0day漏洞- 駭客",
-      "url": "https://www.lvbug.com/zh-TW/category/0day漏洞/",
-      "snippet": "微軟Office零日漏洞CVE-2026-21509緊急修補應對被利用的漏洞.0day漏洞. 2025-08-07. SonicWall報告20起攻擊，正在調查SSL VPN零日漏洞.",
-      "fetched": true,
-      "char_count": 694
-    },
-    {
-      "title": "研究者利用OpenAI o3模型发现Linux...",
-      "url": "https://blog.vayki.com/posts/679",
-      "snippet": "研究者利用OpenAI o3模型发现Linux内核远程零日漏洞.在为模型提供约3.3k行相关源代码后，o3成功在8%的运行中准确识别该漏洞，优于Claude Sonnet 3.7的3%命中率。",
-      "fetched": true,
-      "char_count": 1983
-    },
-    {
-      "title": "趕快更新！ 蘋果緊急修復iPhone/iPad高風險漏洞 已被駭客攻擊｜知新聞",
-      "url": "https://www.knews.com.tw/news/42A7C1901F2F31E4969204F7A0CFDCE9",
-      "snippet": "【財經中心／台北報導】科技媒體bleepingcomputer報導，蘋果發布緊急更新，修復編號為CVE-2025-43300 的零日漏洞，該漏洞存在於Image I/O框架中，並已用於「極其複雜」的定向攻擊。",
-      "fetched": true,
-      "char_count": 537
-    },
-    {
-      "title": "post.smzdm.com/p/avg2vg2m",
-      "url": "https://post.smzdm.com/p/avg2vg2m/",
-      "snippet": "3. CVE-2025-48595深度解析：Android Framework零日提权漏洞在野利用与全维度防护方案.10. Android June 2026 Update Fixes Zero-Day and 123 Other Flaws.",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "谷歌紧急修复Chrome CSS...",
-      "url": "https://ti.dbappsecurity.com.cn/info/14239",
-      "snippet": "APT 零日漏洞. 谷歌紧急修复2026年首个在野利用的Chrome零日漏洞. 零日漏洞. 单一威胁行为体主导近期Ivanti EPMM漏洞大规模利用活动. APT 零日漏洞.",
-      "fetched": true,
-      "char_count": 676
     }
   ]
 }

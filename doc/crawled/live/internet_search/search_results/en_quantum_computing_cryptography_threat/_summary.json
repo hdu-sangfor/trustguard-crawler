@@ -1,0 +1,65 @@
+{
+  "keyword": "quantum computing cryptography threat",
+  "language": "en",
+  "searched_at": "2026-07-24 21:36:11",
+  "total_results": 20,
+  "fetched_count": 4,
+  "results": [
+    {
+      "title": "Next-Generation Quantum Security: The Impact of Quantum Computing on Cybersecurity—Threats, Mitigations, and Solutions - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0045790625005920",
+      "snippet": "August 31, 2025 - The rapid advancement of quantum computing poses unprecedented threats to classical cryptographic systems, jeopardizing the security of digital infras…",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "U.S.-Allied Militaries Must Prepare for the Quantum Threat to Cryptography | RAND",
+      "url": "https://www.rand.org/pubs/commentary/2025/06/us-allied-militaries-must-prepare-for-the-quantum-threat.html",
+      "snippet": "June 6, 2025 - Quantum computers pose significant risks to encrypted information, including national security data. The United States plans to pursue post-quantum cryptography, but allied nations should clarify their strategies to ensure secure communication ...",
+      "fetched": true,
+      "char_count": 15159
+    },
+    {
+      "title": "The Next Big Cyber Threat Could Come from Quantum Computers… Is the Government Ready? | U.S. GAO",
+      "url": "https://www.gao.gov/blog/next-big-cyber-threat-could-come-quantum-computers-government-ready",
+      "snippet": "Experts estimate that development of a quantum computer capable of breaking cryptography may be just 10 to 20 years away. That doesn’t leave much time for the U.S. to prepare for this threat.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "Military Response: Quantum Computing Threat to Cryptography",
+      "url": "https://www.justsecurity.org/113733/quantum-computing-crytopography/",
+      "snippet": "May 29, 2025 - Even though quantum computers may still be many years away from being able to implement Shor’s algorithm to attack cryptography, there is a risk that adversaries may already be storing encrypted information that they could decrypt years from now, when quantum computers are sufficiently powerful. And an early and deliberate deployment of countermeasures will be much cheaper than a rushed deployment once the threat draws closer.",
+      "fetched": true,
+      "char_count": 14807
+    },
+    {
+      "title": "Quantum computing security: Key risks and how to prepare | Fortinet",
+      "url": "https://www.fortinet.com/resources/cyberglossary/quantum-computing-security",
+      "snippet": "Quantum computers can break widely used encryption methods like RSA and ECC, making traditional cryptographic defenses obsolete and posing an immediate risk to sensitive data and critical infrastructure.",
+      "fetched": true,
+      "char_count": 5000
+    },
+    {
+      "title": "r/QuantumComputing on Reddit: Quantum computers are really a threat to Cryptography?",
+      "url": "https://www.reddit.com/r/QuantumComputing/comments/174lcgg/quantum_computers_are_really_a_threat_to/",
+      "snippet": "",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "Quantum computing threatens to unleash a cybersecurity crisis | CNN",
+      "url": "https://www.cnn.com/2026/05/17/science/quantum-computing-cybersecurity-q-day",
+      "snippet": "May 17, 2026 - A 2023 report by the Hudson Institute, ... Funds Service — its interbank payment system — could trigger a financial collapse and result in a six-month economic recession....",
+      "fetched": true,
+      "char_count": 12712
+    },
+    {
+      "title": "The Frontier Of Cyber Risk: Quantum Computing Is | S&P Global Ratings",
+      "url": "https://www.spglobal.com/ratings/en/regulatory/article/the-frontier-of-cyber-risk-quantum-computing-is-a-threat-to-cryptography-today-s101672434",
+      "snippet": "Gain access to exclusive research, events and more · Already have an account? Sign in",
+      "fetched": false,
+      "char_count": 0
+    }
+  ]
+}

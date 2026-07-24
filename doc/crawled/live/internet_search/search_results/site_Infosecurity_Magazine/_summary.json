@@ -1,16 +1,68 @@
 {
   "site": "Infosecurity Magazine",
-  "crawled_at": "2026-07-24 12:31:41",
-  "total_found": 2,
-  "saved": 2,
+  "crawled_at": "2026-07-24 21:45:28",
+  "total_found": 15,
+  "saved": 15,
   "articles": [
     {
-      "title": "White Papers",
-      "url": "https://www.infosecurity-magazine.com/white-papers/"
+      "title": "Hotel Wi-Fi Routers Compromised to Steal Corporate Login Credentials From Visitors",
+      "url": "https://www.infosecurity-magazine.com/news/hotel-wifi-dns-poisoning/"
     },
     {
-      "title": "Open AI Claims Its AI Models Went Rogue and Hacked Another Company",
-      "url": "https://www.infosecurity-magazine.com/news/open-ai-hacked-another-company/"
+      "title": "ChatGPT Among Top 10 Most Impersonated Brands in Phishing Attacks, Says Check Point",
+      "url": "https://www.infosecurity-magazine.com/news/chatgpt-most-impersonated-brands/"
+    },
+    {
+      "title": "Ransomware Attacks Targeting Universities on the Rise",
+      "url": "https://www.infosecurity-magazine.com/news/university-ransomware-attacks-rise/"
+    },
+    {
+      "title": "Agentic AI’s Next Breach Won’t Start in the Model. It Will Start in the API Path",
+      "url": "https://www.infosecurity-magazine.com/opinions/ais-next-breach-api-path/"
+    },
+    {
+      "title": "Russian Hacker Turns Jailbroken Claude Into Pentest Platform",
+      "url": "https://www.infosecurity-magazine.com/news/trim-jailbroken-claude-ai-pentest/"
+    },
+    {
+      "title": "Cybersecurity’s Economics Are Broken. Automation Alone Won’t Fix It",
+      "url": "https://www.infosecurity-magazine.com/opinions/cybersecurity-economics-broken-ai/"
+    },
+    {
+      "title": "Same Front Door, New Visitors: Securing Humans and AI Agents at the Browser",
+      "url": "https://www.infosecurity-magazine.com/webinars/prm/securing-humans-ai-agents-browser/"
+    },
+    {
+      "title": "Single Prompt Enables ChatGPT to Execute Full Cyber-Attack Chain, Researchers Claim",
+      "url": "https://www.infosecurity-magazine.com/news/chatgpt55-to-execute-full/"
+    },
+    {
+      "title": "Novel OAuth Client ID Spoofing Technique Targets Cloud Environments",
+      "url": "https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/"
+    },
+    {
+      "title": "FBI Warns of Deepfake Videos Impersonating IC3 Leadership",
+      "url": "https://www.infosecurity-magazine.com/news/fbi-deepfake-videos-ic3/"
+    },
+    {
+      "title": "68% of Businesses Say Employees Are Their Biggest Cyber Threat. Now What?",
+      "url": "https://www.infosecurity-magazine.com/webinars/prm/employee-paradox-cybersecurity/"
+    },
+    {
+      "title": "How to Manage Enterprise Cyber Resilience in the Age of AI",
+      "url": "https://www.infosecurity-magazine.com/webinars/prm/cyber-resilience-under-pressure/"
+    },
+    {
+      "title": "Financial Services Cyber Resilience: Stress Testing Third Parties Before Attackers Do",
+      "url": "https://www.infosecurity-magazine.com/webinars/prm/financial-services-under-pressure/"
+    },
+    {
+      "title": "Securing M365 Data and Identity Systems Against Modern Adversaries",
+      "url": "https://www.infosecurity-magazine.com/webinars/prm/securing-m365-data-and-identity/"
+    },
+    {
+      "title": "Why Resilience‑Focused Cloud Design Is Your Best Defense Against Modern Attacks",
+      "url": "https://www.infosecurity-magazine.com/webinars/prm/resilience-focused-cloud-booz-allen/"
     }
   ]
 }

@@ -1,16 +1,60 @@
 {
   "site": "CSO Online",
-  "crawled_at": "2026-07-24 12:31:52",
-  "total_found": 2,
-  "saved": 2,
+  "crawled_at": "2026-07-24 21:46:15",
+  "total_found": 13,
+  "saved": 13,
   "articles": [
     {
-      "title": "Newsletters",
-      "url": "https://www.csoonline.com/newsletters/signup/"
+      "title": "Vulnerabilities",
+      "url": "https://www.csoonline.com/vulnerabilities/"
     },
     {
-      "title": "Buyer’s Guides",
-      "url": "https://www.csoonline.com/enterprise-buyers-guide/"
+      "title": "United Kingdom",
+      "url": "https://www.csoonline.com/uk/"
+    },
+    {
+      "title": "News AnalysisRansomware groups are hammering your vulnerable VPNsCampaigns against flaws in security systems from Palo A",
+      "url": "https://www.csoonline.com/article/4201019/ransomware-groups-are-hammering-your-vulnerable-vpns.html"
+    },
+    {
+      "title": "FeatureMicrosoft’s 3-day patching directive comes with added operational riskBy John LeydenJul 23, 20267 minsEndpoint Pr",
+      "url": "https://www.csoonline.com/article/4200366/microsofts-3-day-patching-directive-comes-with-added-operational-risk.html"
+    },
+    {
+      "title": "Feature10 survival tips for CSOs who report to the CEOBy David WeldonJul 22, 20266 minsC-SuiteCSO and CISOCareers",
+      "url": "https://www.csoonline.com/article/4188581/10-survival-tips-for-csos-who-report-to-the-ceo.html"
+    },
+    {
+      "title": "NewsCisco’s new AI model tells code reviewers where to look for vulnerabilitiesBy Shweta SharmaJul 22, 20264 minsCode Se",
+      "url": "https://www.csoonline.com/article/4200151/ciscos-new-ai-model-tells-code-reviewers-where-to-look-for-vulnerabilities-2.html"
+    },
+    {
+      "title": "NewsOpenAI model escape puts enterprise AI defenses on noticeBy Prasanth Aby ThomasJul 22, 20265 minsArtificial Intellig",
+      "url": "https://www.csoonline.com/article/4200043/openai-model-escape-puts-enterprise-ai-defenses-on-notice.html"
+    },
+    {
+      "title": "NewsNew CISO appointments 2026By CSO staffJul 22, 202613 minsC-SuiteCSO and CISOIT Governance",
+      "url": "https://www.csoonline.com/article/4186743/new-ciso-appointments-2026.html"
+    },
+    {
+      "title": "AnalysisContext bombing heralds a new AI era of deceptive defenseBy Lucian ConstantinJul 21, 20266 minsApplication Secur",
+      "url": "https://www.csoonline.com/article/4198524/context-bombing-heralds-a-new-ai-era-of-deceptive-defense.html"
+    },
+    {
+      "title": "FeatureSOCs face a human challenge as AI speeds alerts and threatsBy Cynthia BrumfieldJul 20, 202611 minsIncident Respon",
+      "url": "https://www.csoonline.com/article/4198016/socs-face-a-human-challenge-as-ai-speeds-alerts-and-threats.html"
+    },
+    {
+      "title": "FeatureClaude Mythos FAQ: Capabilities, access, competitors, implicationsBy John LeydenJul 20, 20268 minsArtificial Inte",
+      "url": "https://www.csoonline.com/article/4198019/claude-mythos-faq-capabilities-access-competitors-implications.html"
+    },
+    {
+      "title": "newsTop AIs invent same fake PyPl and npm package namesResearch reveals that slopsquatting remains a threat to developer",
+      "url": "https://www.csoonline.com/article/4201164/top-ais-invent-same-fake-pypl-and-npm-package-names-2.html"
+    },
+    {
+      "title": "newsTycoon2FA takedown reshapes the phishing landscapeSome of the most common phishing techniques are declining, but not",
+      "url": "https://www.csoonline.com/article/4201146/tycoon2fa-takedown-reshapes-the-phishing-landscape.html"
     }
   ]
 }

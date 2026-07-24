@@ -1,0 +1,68 @@
+{
+  "site": "Help Net Security",
+  "crawled_at": "2026-07-24 21:48:32",
+  "total_found": 15,
+  "saved": 15,
+  "articles": [
+    {
+      "title": "Meta tackles AI-generated accounts with a free Facebook verification badge",
+      "url": "https://www.helpnetsecurity.com/2026/07/24/meta-facebook-verified-badge-selfie-verification/"
+    },
+    {
+      "title": "Russian hackers exploit unpatched Zimbra servers to steal emails",
+      "url": "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/"
+    },
+    {
+      "title": "Microsoft tightens Windows enterprise activation security",
+      "url": "https://www.helpnetsecurity.com/2026/07/24/microsoft-kms-tpm-security-update/"
+    },
+    {
+      "title": "Google gives developers an AI bug hunter that also writes patches",
+      "url": "https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/"
+    },
+    {
+      "title": "Google’s newest sign-in method asks you to look at the camera",
+      "url": "https://www.helpnetsecurity.com/2026/07/24/google-selfie-video-sign-in-verification/"
+    },
+    {
+      "title": "AI models cheat on cybersecurity evaluations, then fail to admit it",
+      "url": "https://www.helpnetsecurity.com/2026/07/22/ai-models-cheating-behaviour-cybersecurity-evaluations/"
+    },
+    {
+      "title": "Product Showcase: AppViewX Agent Identity Security",
+      "url": "https://www.helpnetsecurity.com/2026/07/23/product-showcase-appviewx-agent-identity-security/"
+    },
+    {
+      "title": "Shadow AI is becoming enterprise security’s biggest blind spot",
+      "url": "https://www.helpnetsecurity.com/2026/07/23/shadow-ai-security-risks/"
+    },
+    {
+      "title": "Snowpick: Open-source ServiceNow exposure scanner",
+      "url": "https://www.helpnetsecurity.com/2026/07/22/servicenow-data-exposure-snowpick-open-source-scanner/"
+    },
+    {
+      "title": "The air gap is a myth and other OT security truths",
+      "url": "https://www.helpnetsecurity.com/2026/07/21/benjamin-bachmann-bilfinger-ot-security/"
+    },
+    {
+      "title": "Nobody was checking the drives that encrypt your laptop",
+      "url": "https://www.helpnetsecurity.com/2026/07/21/hdd-self-encrypting-drive-security/"
+    },
+    {
+      "title": "Reading between the lines of a cyber insurance policy",
+      "url": "https://www.helpnetsecurity.com/2026/07/16/cyber-insurance-coverage-gap/"
+    },
+    {
+      "title": "Download: The ultimate guide to network operations management",
+      "url": "https://helpnet.short.gy/7EcjJ3"
+    },
+    {
+      "title": "Report: How to implement a continuous offensive security testing program",
+      "url": "https://helpnet.short.gy/m45v0q"
+    },
+    {
+      "title": "Expertcorner",
+      "url": "https://www.helpnetsecurity.com/view/articles/"
+    }
+  ]
+}

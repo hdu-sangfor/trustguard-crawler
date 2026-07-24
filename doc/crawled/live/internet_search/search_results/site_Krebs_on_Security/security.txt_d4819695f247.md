@@ -1,0 +1,33 @@
+# security.txt
+
+### 来源信息
+- **URL**: https://krebsonsecurity.com/2021/09/does-your-organization-have-a-security-txt-file/
+- **来源站点**: Krebs on Security
+- **页面抓取**: 成功
+
+### 页面正文
+It happens all the time: Organizations get hacked because there isn’t an obvious way for security researchers to let them know about security vulnerabilities or data leaks. Or maybe it isn’t entirely clear who should get the report when remote access to an organization’s internal network is being sold in the cybercrime underground.
+In a bid to minimize these scenarios, a growing number of major companies are adopting “Security.txt,” a proposed new Internet standard that helps organizations describe their vulnerability disclosure practices and preferences.
+The idea behind Security.txt is straightforward: The organization places a file called security.txt in a predictable place — such as example.com/security.txt, or example.com/.well-known/security.txt. What’s in the security.txt file varies somewhat, but most include links to information about the entity’s vulnerability disclosure policies and a contact email address.
+The security.txt file made available by USAA, for example, includes links to its bug bounty program; an email address for disclosing security related matters; its public encryption key and vulnerability disclosure policy; and even a link to a page where USAA thanks researchers who have reported important cybersecurity issues.
+Other security.txt disclosures are less verbose, as in the case of HCA Healthcare, which lists a contact email address, and a link to HCA’s “responsible disclosure” policies. Like USAA and many other organizations that have published security.txt files, HCA Healthcare also includes a link to information about IT security job openings at the company.
+Having a security.txt file can make it easier for organizations to respond to active security threats. For example, just this morning a trusted source forwarded me the VPN credentials for a major clothing retailer that were stolen by malware and made available to cybercriminals. Finding no security.txt file at the retailer’s site using gotsecuritytxt.com (which checks a domain for the presence of this contact file), KrebsonSecurity sent an alert to its “security@” email address for the retailer’s domain.
+Many organizations have long unofficially used (if not advertised) the email address security@[companydomain] to accept reports about security incidents or vulnerabilities. Perhaps this particular retailer also did so at one point, however my message was returned with a note saying the email had been blocked. KrebsOnSecurity also sent a message to the retailer’s chief information officer (CIO) — the only person in a C-level position at the retailer who was in my immediate LinkedIn network. I still have no idea if anyone has read it.
+Although security.txt is not yet an official Internet standard as approved by the Internet Engineering Task Force (IETF), its basic principles have so far been adopted by at least eight percent of the Fortune 100 companies. According to a review of the domain names for the latest Fortune 100 firms via gotsecuritytxt.com, those include Alphabet, Amazon, Facebook, HCA Healthcare, Kroger, Procter & Gamble, USAA and Walmart.
+There may be another good reason for consolidating security contact and vulnerability reporting information in one, predictable place. Alex Holden, founder of the Milwaukee-based consulting firm Hold Security, said it’s not uncommon for malicious hackers to experience problems getting the attention of the proper people within the very same organization they have just hacked.
+“In cases of ransom, the bad guys try to contact the company with their demands,” Holden said. “You have no idea how often their messages get caught in filters, get deleted, blocked or ignored.”
+GET READY TO BE DELUGED
+So if security.txt is so great, why haven’t more organizations adopted it yet? It seems that setting up a security.txt file tends to invite a rather high volume of spam. Most of these junk emails come from self-appointed penetration testers who — without any invitation to do so — run automated vulnerability discovery tools and then submit the resulting reports in hopes of securing a consulting engagement or a bug bounty fee.
+This dynamic was a major topic of discussion in these Hacker News threads on security.txt, wherein a number of readers related their experience of being so flooded with low-quality vulnerability scan reports that it became difficult to spot the reports truly worth pursuing further.
+Edwin “EdOverflow” Foudil, the co-author of the proposed notification standard, acknowledged that junk reports are a major downside for organizations that offer up a security.txt file.
+“This is actually stated in the specification itself, and it’s incredibly important to highlight that organizations that implement this are going to get flooded,” Foudil told KrebsOnSecurity. “One reason bug bounty programs succeed is that they are basically a glorified spam filter. But regardless of what approach you use, you’re going to get inundated with these crappy, sub-par reports.”
+Often these sub-par vulnerability reports come from individuals who have scanned the entire Internet for one or two security vulnerabilities, and then attempted to contact all vulnerable organizations at once in some semi-automated fashion. Happily, Foudil said, many of these nuisance reports can be ignored or grouped by creating filters that look for messages containing keywords commonly found in automated vulnerability scans.
+Foudil said despite the spam challenges, he’s heard tremendous feedback from a number of universities that have implemented security.txt.
+“It’s been an incredible success with universities, which tend to have lots of older, legacy systems,” he said. “In that context, we’ve seen a ton of valuable reports.”
+Foudil says he’s delighted that eight of the Fortune 100 firms have already implemented security.txt, even though it has not yet been approved as an IETF standard. When and if security.txt is approved, he hopes to spend more time promoting its benefits.
+“I’m not trying to make money off this thing, which came about after chatting with quite a few people at DEFCON [the annual security conference in Las Vegas] who were struggling to report security issues to vendors,” Foudil said. “The main reason I don’t go out of my way to promote it now is because it’s not yet an official standard.”
+Has your organization considered or implemented security.txt? Why or why not? Sound off in the comments below.
+
+---
+*爬取时间: 2026-07-24 15:43:30*
+*来源: 直接站点爬取*

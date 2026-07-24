@@ -1,16 +1,60 @@
 {
   "site": "SecurityWeek",
-  "crawled_at": "2026-07-24 12:31:32",
-  "total_found": 2,
-  "saved": 2,
+  "crawled_at": "2026-07-24 21:44:31",
+  "total_found": 13,
+  "saved": 13,
   "articles": [
     {
-      "title": "Cybersecurity News",
-      "url": "https://www.securityweek.com"
+      "title": "IoT Security",
+      "url": "https://www.securityweek.com/category/iot-security/"
     },
     {
-      "title": "Virtual Events",
-      "url": "https://www.securitysummits.com/"
+      "title": "Mobile & Wireless",
+      "url": "https://www.securityweek.com/category/mobile-wireless/"
+    },
+    {
+      "title": "Network Security",
+      "url": "https://www.securityweek.com/category/network-security/"
+    },
+    {
+      "title": "Risk Management",
+      "url": "https://www.securityweek.com/category/risk-management/"
+    },
+    {
+      "title": "Cyber Insurance",
+      "url": "https://www.securityweek.com/category/cyber-insurance/"
+    },
+    {
+      "title": "Data Protection",
+      "url": "https://www.securityweek.com/category/data-protection/"
+    },
+    {
+      "title": "Privacy & Compliance",
+      "url": "https://www.securityweek.com/category/privacy-compliance/"
+    },
+    {
+      "title": "Supply Chain Security",
+      "url": "https://www.securityweek.com/category/supply-chain-security/"
+    },
+    {
+      "title": "CISO Strategy",
+      "url": "https://www.securityweek.com/category/ciso-strategy/"
+    },
+    {
+      "title": "CISO Conversations",
+      "url": "https://www.securityweek.com/category/ciso-conversations/"
+    },
+    {
+      "title": "Industrial Cybersecurity",
+      "url": "https://www.securityweek.com/category/ics-ot/"
+    },
+    {
+      "title": "Funding/M&A",
+      "url": "https://www.securityweek.com/category/cybersecurity-funding-news/"
+    },
+    {
+      "title": "Cybersecurity Funding",
+      "url": "https://www.securityweek.com/category/cybersecurity-funding-news/cybersecurity-funding-reports/"
     }
   ]
 }

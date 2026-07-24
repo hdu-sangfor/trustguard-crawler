@@ -1,107 +1,100 @@
 {
   "keyword": "软件供应链安全 SBOM 2025 2026",
   "language": "zh",
-  "searched_at": "2026-07-24 13:12:54",
-  "total_results": 14,
-  "fetched_count": 9,
+  "searched_at": "2026-07-24 20:52:35",
+  "total_results": 19,
+  "fetched_count": 8,
   "results": [
     {
-      "title": "CISA SBOM 2025年：更新， Standard和合规性 | Xygeni",
-      "url": "https://xygeni.io/zh-CN/blog/cisa-sbom-updates-standards-and-compliance/",
-      "snippet": "LiteLLM供应链攻击.引言. 22 年 2025 月 XNUMX 日，网络安全和基础设施安全局（CISA）发布了《2025 年软件物料清单最低要素》草案（SBOM）。",
+      "title": "OpenSSF安全计划：SBOM将驱动软件供应链安全 - Seal软件 - 博客园",
+      "url": "https://www.cnblogs.com/sealio/p/16415780.html",
+      "snippet": "开源软件安全基金会（OpenSSF）发布了一项动员计划，以提高开源软件（OSS）的适应性和安全性。 现代软件供应链之所以广泛使用 OSS，是因为它提供了更快的创新和更高质量的产品，但由于 OSS 组件固有的漏洞，其广泛采用会伴随一定风险。 · 该计划的一个重要部分是使用软件物料清单（SBOM）作为基础构建块，改善整个开源生态系统的全状况。 这个计划概述了 OSS 项目应如何向下游用户提供 SBOM，从而将 OSS 组件的可见性提升到一个新的高度。 因此，使用 OSS 的企业和组织将需要一套用于 SBOM 管理的流程，使他们能够生成、获取、分析、存储、监控和共享 SBOM，以提高其自身软件供应链的安全性。",
       "fetched": true,
-      "char_count": 2290
+      "char_count": 2610
     },
     {
-      "title": "SBOM实战指南：7步搞定供应链安全-腾讯云开发者社区-腾讯云",
-      "url": "https://cloud.tencent.com/developer/article/2690423",
-      "snippet": "发布于 2026-06-16 16:07:04.与安全工具联动将 SBOM 与漏洞管理平台（如 Qualys、Tenable）、CI/CD 工具（如 GitHub Actions）集成，形成自动化安全闭环。",
+      "title": "Why Software Supply Chain Security Cannot Stop at SBOMs – Netizen Blog and News",
+      "url": "https://blog.netizen.net/2026/07/17/why-software-supply-chain-security-cannot-stop-at-sboms/",
+      "snippet": "1 week ago - CISA describes an SBOM as a formal record of software components and their supply chain relationships, and its 2025 draft minimum elements proposed added data such as component hashes, licensing information, generation tools, and generation context.",
+      "fetched": true,
+      "char_count": 31736
+    },
+    {
+      "title": "SBOMs in 2026: Some Love, Some Hate, Much Ambivalence",
+      "url": "https://www.darkreading.com/application-security/sboms-in-2026-some-love-some-hate-much-ambivalence",
+      "snippet": "December 31, 2025 - In 2021, the outgoing Biden administration issued Executive Order 14028, which required that SBOMs be provided to purchasers of critical software. Two years later, SBOMs remained more of a mandate than a prescription for better software supply chain security. Related:Supply Chain Attacks Targeting GitHub Actions Increased in 2025",
+      "fetched": true,
+      "char_count": 8461
+    },
+    {
+      "title": "Top 5 SBOM Tools 2025: Secure Your Software Supply Chain",
+      "url": "https://www.ox.security/blog/sbom-tools/",
+      "snippet": "December 17, 2025 - TLDR; SBOMs (Software Bill of Materials) give security teams an exact inventory of every dependency in their software, making it possible to respond quickly when new vulnerabilities appear.",
+      "fetched": true,
+      "char_count": 30441
+    },
+    {
+      "title": "A Shared Vision of Software Bill of Materials (SBOM) for Cybersecurity | CISA",
+      "url": "https://www.cisa.gov/resources-tools/resources/shared-vision-software-bill-materials-sbom-cybersecurity",
+      "snippet": "For leadership statements from co-authoring organizations, visit: Statements of Support on A Shared Vision of SBOM for Cybersecurity. Audience: Industry · Language: English · Topics: Cyber Threats and Response, Cybersecurity Best Practices · Jun 24, 2026 · Publication · Oct 30, 2025 ·",
+      "fetched": true,
+      "char_count": 1232
+    },
+    {
+      "title": "AI安全悬镜：2025年软件供应链安全风险检测与治理实践分享-CSDN博客",
+      "url": "https://blog.csdn.net/lanoukejijiaoyu/article/details/145487506",
+      "snippet": "March 19, 2026 - 这里列举了这三种常见的SBOM国际标准。当前国内因为软件供应链安全相关的行标和国标出台，大家都在积极参国内SBOM清单标准的推进和落地。国内也在积极尝试标准化SBOM格式，比如由OpenSCA社区发起，开源中国、电信研究院、中兴通讯等机构共同参与，更面向实战化场景的DSDX（Digital Supply-chain Data Exchange）格式。",
       "fetched": false,
       "char_count": 0
     },
     {
-      "title": "软件供应链安全：SBOM vs VEX？ - 安全内参 | 决策者的网络安全知识库",
-      "url": "https://www.secrss.com/articles/38485",
-      "snippet": "尽管SBOM无法解决所有的软件安全问题，但将形成基础的数据，奠定后续安全工具、实践和保证的构建基础。CSAF是由OASIS Open CSAF技术委员会开发的机器可读安全建议标准。",
-      "fetched": true,
-      "char_count": 3288
-    },
-    {
-      "title": "Gartner发布SBOM软件物料清单创新洞察：SBOM...",
-      "url": "https://blog.csdn.net/galaxylove/article/details/141671132",
-      "snippet": "软件供应链安全：深度解析软件物料清单（SBOM）生成与管理.spdx-sbom-generator使用记录.",
+      "title": "SBOM 软件供应链安全(转)",
+      "url": "https://blog.csdn.net/xdpcxq/article/details/149582831",
+      "snippet": "July 23, 2025 - 美国CISA发布《软件物料清单(SBOM)最基础要素》2025版更新草案，这是自2021年NTIA标准以来的重大升级。新规强化了组件哈希值、许可证信息等关键字段，要求SBOM覆盖所有依赖项并区分\"已知未知\"信息。随着欧盟CRA法案、FDA新规等全球监管要求落地，SBOM正从可选实践转变为软件市场准入的强制要求。新标准特别关注SaaS和AI系统的特殊需求，同时强调SBOM与VEX等安全公告的联动，实现精准漏洞管理。中国企业需把握标准升级机遇，将SBOM纳入CI/CD流程，构建可信的软件供应",
       "fetched": false,
       "char_count": 0
     },
     {
-      "title": "透视软件供应链安全：SBOM标准解读与Go项目生成指南 - Tony Bai",
-      "url": "https://tonybai.com/2025/05/22/go-sbom-practice/",
-      "snippet": "近年来，软件供应链安全事件频发，从 SolarWinds 到 Log4Shell，每一次都给业界敲响了警钟。透视软件供应链安全：SBOM标准解读与Go项目生成指南. 五月 22, 2025.",
+      "title": "软件供应链安全应用实践︱中国首个软件供应链SBOM格式，填补了哪些空白？",
+      "url": "https://segmentfault.com/a/1190000046123381",
+      "snippet": "February 18, 2025 - 我们需要保护供应链，统一标准，并使SBOM成为构建过程的重要组成部分。以DSDX为代表的SBOM格式必将在整个供应链引入、生产、交付等关键环节的开源治理实践中发挥重要作用，悬镜安全全栈产品覆盖DSDX，针对性适配中国企业实战化应用实践场景，为供应链上下游企业用户提供安全新方案与整体建设新思路。 ... 下一篇 »2025权威工具推荐 ｜悬镜SCA、SAST、IAST首批通过中国信通院软件供应链安全能力评估",
       "fetched": false,
       "char_count": 0
     },
     {
-      "title": "Docker 供应链安全：SBOM 与镜像签名落地 | BvBeJ的小站",
-      "url": "https://www.bvbej.com/posts/docker-sbom-signing-pipeline/",
-      "snippet": "Docker 供应链安全：SBOM 与镜像签名落地. 2026年5月2日 · 1 分钟 · BvBeJ. 背景. 镜像漏洞扫描只是起点。 上线前还需要回答：这个镜像是谁构建的，包含了什么依赖，是否被篡改。",
+      "title": "Software Supply Chain Security & SBOM Under DORA (2026) | DORA Blog",
+      "url": "https://www.regulation-dora.eu/blog/software-supply-chain-security-sbom-dora",
+      "snippet": "June 8, 2026 - Your fourth parties are now in scope. DORA pushes ICT risk down the subcontracting chain, and a Software Bill of Materials (SBOM) is how engineering teams make that chain visible. Here is how supply-chain security maps to DORA third-party obligations.",
       "fetched": true,
-      "char_count": 264
+      "char_count": 1991
     },
     {
-      "title": "蚂蚁安全开放基于“函数级”SBOM的新一代软件供应链安全技术【源蜥】",
-      "url": "http://anzerclub.com/yuedu/tuijian/2565.html",
-      "snippet": "内容投稿和市场合作 大福晋 微信号：Madeline_Sue. 我知道了. 蚂蚁安全开放基于“函数级”SBOM的新一代软件供应链安全技术【源蜥】.",
+      "title": "Software Bill of Materials (SBOM) | CISA",
+      "url": "https://www.cisa.gov/topics/information-communications-technology-supply-chain-security/sbom",
+      "snippet": "May 6, 2026 - Updated draft SBOM guidance outlines current best practices for software transparency and supply chain security. Open for public comment until October 3, 2025.",
+      "fetched": true,
+      "char_count": 3569
+    },
+    {
+      "title": "构筑数字防线：从供应链攻击剖析到SBOM实践，强化信息安全与数据保护",
+      "url": "https://ccsiia.com/p/640848.html",
+      "snippet": "April 10, 2026 - 📅 2026年04月10日 🏷️ 供应链安全, SBOM, 漏洞管理 📖 约 1 分钟阅读 · 📌 文章摘要 本文深度剖析现代供应链攻击如何通过第三方库漏洞渗透企业核心，揭示其隐蔽性与破坏力。文章重点探讨软件物料清单（SBOM）作为关键防御工具的价值，阐述其实践方法如何助力企业实现透明的组件管理、快速漏洞响应与合规认证，为构建主动、可验证的信息安全与数据保护体系提供实用路径。 ·",
       "fetched": false,
       "char_count": 0
     },
     {
-      "title": "BlackDuck-开源治理工具-SBOM-漏洞扫描-安般科技",
-      "url": "https://www.anban.tech/details/BlackDuck",
-      "snippet": "易识固件供应链安全管理系统(BSCA). 易识软件成分分析系统(SCA).软件物料清单（SBOM）.",
+      "title": "SBOM：缓解软件供应链风险的关键 - Seal软件 - 博客园",
+      "url": "https://www.cnblogs.com/sealio/p/16744154.html",
+      "snippet": "通过 SBOM，无论是企业自主开发的代码还是组织外部引入的软件组件，企业将拥有统一的数据来识别风险。同时企业将获得必要的信息来帮助及时解决问题，而主动识别软件许可证和安全风险有助于确保一种受损成分不会破坏企业软件，或危及企业在软件供应链中的角色。",
       "fetched": true,
-      "char_count": 207
+      "char_count": 2684
     },
     {
-      "title": "DeepSeek 时代渗透测试工程师会被 Agent 替代吗",
-      "url": "https://www.nsfocus.com.cn/uploadfile/2025/0422/20250422065131784.pdf",
-      "snippet": "1.DeepSeek 恶意软件包事件中的软件供应链攻击手段.4. 软件供应链安全治理整体应对策略. 持久化. 篡改容器镜像层、注入 Ku-bernetes Helm Chart 配置.",
+      "title": "关于开展软件供应链安全能力评估工作的通知",
+      "url": "https://www.isccc.gov.cn/wlaqjc/jyjcnlyz/tzgg_13/202512/t20251226_11128.htm",
+      "snippet": "软件供应链安全管理能力评估费用为每人3000元，软件产品开源代码安全评价能力评估费用为每机构10000元。 · 请各参加机构于2026年2月28日前将费用汇至以下账户，并备注“软件供应链安全能力评估费”。如无特殊说明，费...",
       "fetched": false,
       "char_count": 0
-    },
-    {
-      "title": "valor-software/ngx-bootstrap...",
-      "url": "https://www.murphysec.com/valor-software/ngx-bootstrap",
-      "snippet": "SBOM清单.OSCS. 开源软件供应链安全社区. 开源安全知识库. 提供超100W+开源项目检测报告.",
-      "fetched": true,
-      "char_count": 430
-    },
-    {
-      "title": "供应链安全面试5连问:国安部刚预警就考 | CN-SEC 中文网",
-      "url": "https://cn-sec.com/archives/5296918.html",
-      "snippet": "A: SBOM（Software Bill of Materials，软件物料清单）是软件产品中所有组件的完整列表，包含组件名称、版本、供应商、依赖关系等信息。fake-useragent pypi包供应链投毒事件 567 views 0. 供应链安全.",
-      "fetched": true,
-      "char_count": 2416
-    },
-    {
-      "title": "AI安全 – Page 22 – 安全意识博客",
-      "url": "https://blog.securemymind.com/tag/ai安全/page/22",
-      "snippet": "快捷安全培训. 安全培训课件. 定制安全课程. 信息安全意识DEMO.第 2 周. 开源生态与供应链安全. SBOM、SCA、签名验证、快速响应流程. 第 3 周. AI Agent 与生成式 AI 的安全使用.",
-      "fetched": true,
-      "char_count": 4088
-    },
-    {
-      "title": "持续引领 | AI...",
-      "url": "https://f5.pm/go-271710.html",
-      "snippet": "对应由 ASOC、SBOM、TMA、SAST、SCA、IAST、DRA、RASP、PTE 等技术手段予以支撑。中国首个数字供应链 SBOM 格式--DSDX(DigitalSupply-chain Data Exchange)。",
-      "fetched": true,
-      "char_count": 4162
-    },
-    {
-      "title": "Trivy",
-      "url": "https://trivy.dev/",
-      "snippet": "Trivy is the most popular open source security scanner for Vulnerability &, IaC, SBOM discovery, cloud scanning and Kubernetes security.",
-      "fetched": true,
-      "char_count": 914
     }
   ]
 }

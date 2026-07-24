@@ -1,0 +1,26 @@
+# For National / EU authorities
+
+### 来源信息
+- **URL**: https://www.enisa.europa.eu/audience/national-eu-authorities
+- **来源站点**: ENISA
+- **页面抓取**: 成功
+
+### 页面正文
+The revised Blueprint for cybersecurity crisis management was adopted today by the Council of the EU.
+Featured for National / EU Authorities
+In accordance with Article 18 of the NIS 2 Directive, ENISA was tasked to prepare a biennial report on the state of…
+This document marks the first report on the state of cybersecurity in the Union, adopted by ENISA in cooperation…
+The European Union Agency for Cybersecurity’s first NIS360 report identifies areas for improvement and tracking of…
+Latest Publications
+The SME Cyber Resilience Maturity Assessment Model provides a structured approach for micro, small and medium-sized enterprises (SMEs) to evaluate and strengthen their overall cyber resilience, while taking into account the requirements of the…
+This publication provides national competent authorities in Member States and EU policymakers, defenders, and service providers with an initial set of recommendations to support them in their respective roles towards developing the necessary…
+ENISA is is working on practical guidance, tools and support activities tailored to the realities and needs of smaller organisations, to help small and medium-sized enterprises (SMEs) understand and implement the Cyber Resilience Act (CRA). This…
+ENISA launched a survey at the end of 2025 to gather factual data on how organisations across industries and of varying sizes are approaching Software Bill of Materials (SBOM) adoption in response to the EU Cyber Resilience Act (CRA). This report…
+Latest News
+ENISA launches a podcast series to decrypt the latest cybersecurity developments and discuss issues that shape…
+Public Documents
+Citizens of the European Union and natural or legal persons residing or having their registered office in a Member State have the right of access to ENISA documents.
+
+---
+*爬取时间: 2026-07-24 16:17:05*
+*来源: 直接站点爬取*

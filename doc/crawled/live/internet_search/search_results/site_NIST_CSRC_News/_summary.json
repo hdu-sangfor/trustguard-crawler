@@ -1,0 +1,68 @@
+{
+  "site": "NIST CSRC News",
+  "crawled_at": "2026-07-24 22:03:34",
+  "total_found": 15,
+  "saved": 15,
+  "articles": [
+    {
+      "title": "Technologies",
+      "url": "https://csrc.nist.gov/Topics/Technologies"
+    },
+    {
+      "title": "Laws & Regulations",
+      "url": "https://csrc.nist.gov/Topics/Laws-and-Regulations"
+    },
+    {
+      "title": "Activities & Products",
+      "url": "https://csrc.nist.gov/Topics/Activities-and-Products"
+    },
+    {
+      "title": "News & Updates",
+      "url": "https://csrc.nist.gov/news"
+    },
+    {
+      "title": "About CSRCExpand or Collapse",
+      "url": "https://csrc.nist.gov/about"
+    },
+    {
+      "title": "Computer Security Division",
+      "url": "https://csrc.nist.gov/Groups/Computer-Security-Division"
+    },
+    {
+      "title": "Cryptographic Technology",
+      "url": "https://csrc.nist.gov/Groups/Computer-Security-Division/Cryptographic-Technology"
+    },
+    {
+      "title": "Software Security Group",
+      "url": "https://csrc.nist.gov/Groups/Computer-Security-Division/software-security-group"
+    },
+    {
+      "title": "Hardware Security Group",
+      "url": "https://csrc.nist.gov/Groups/Computer-Security-Division/hardware-security-group"
+    },
+    {
+      "title": "Security Engineering and Risk Management",
+      "url": "https://csrc.nist.gov/Groups/Computer-Security-Division/Security-Engineering-and-Risk-Management"
+    },
+    {
+      "title": "Applied Cybersecurity Division",
+      "url": "https://csrc.nist.gov/Groups/Applied-Cybersecurity-Division"
+    },
+    {
+      "title": "Cybersecurity and Privacy Applications",
+      "url": "https://csrc.nist.gov/Groups/Applied-Cybersecurity-Division/Cybersecurity-and-Privacy-Applications"
+    },
+    {
+      "title": "National Cybersecurity Center of Excellence (NCCoE)",
+      "url": "https://csrc.nist.gov/Groups/Applied-Cybersecurity-Division/National-Cybersecurity-Center-of-Excellence"
+    },
+    {
+      "title": "National Initiative for Cybersecurity Education (NICE)",
+      "url": "https://www.nist.gov/nice/"
+    },
+    {
+      "title": "Information Technology Laboratory",
+      "url": "https://www.nist.gov/itl"
+    }
+  ]
+}

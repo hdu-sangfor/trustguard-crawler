@@ -1,0 +1,79 @@
+{
+  "keyword": "NIST CSF 2.0 implementation guide",
+  "language": "en",
+  "searched_at": "2026-07-24 21:34:20",
+  "total_results": 20,
+  "fetched_count": 7,
+  "results": [
+    {
+      "title": "NIST Cybersecurity Framework 2.0: Complete Implementation Guide",
+      "url": "https://www.securityscientist.net/blog/nist-cybersecurity-framework-2-0-complete-implementation-guide/",
+      "snippet": "Learn how to implement NIST CSF 2.0 with our complete guide. Covers the new GOVERN function, migration from 1.1, and step-by-step implementation roadmap.",
+      "fetched": true,
+      "char_count": 10823
+    },
+    {
+      "title": "The NIST Cybersecurity Framework (CSF) 2.0",
+      "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+      "snippet": "• Implementation Examples that illustrate potential ways to achieve each outcome · • Quick-Start Guides that give actionable guidance on using the CSF and its online · resources, including transitioning from previous CSF versions to version 2.0",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "NIST CSF 2.0: Complete Framework Guide",
+      "url": "https://cynomi.com/nist/nist-csf-2-0-complete-framework-guide/",
+      "snippet": "August 26, 2025 - Explore NIST CSF 2.0, the latest version of the Cybersecurity Framework. Learn about its enhanced focus on risk assessment, updated core functions, and implementation strategies.",
+      "fetched": true,
+      "char_count": 6819
+    },
+    {
+      "title": "NIST CSF 2.0: What Changed and How to Implement It",
+      "url": "https://cybelangel.com/blog/guide_nist_2/",
+      "snippet": "April 7, 2026 - Use the guidelines to create TTPs (Tactics, Techniques, and Protocols) that align with the company‘s goals. Adaptive and flexible for all organizations: The adaptable structure of NIST CSF 2.0 means that any organization can implement the advice—from small businesses to enterprise scale.",
+      "fetched": true,
+      "char_count": 14350
+    },
+    {
+      "title": "NIST Releases Two New CSF 2.0 Quick-Start Guides | CSRC",
+      "url": "https://csrc.nist.gov/News/2026/two-new-csf-2-0-quick-start-guides",
+      "snippet": "March 23, 2026 - The Initial Public Draft of SP 1347, NIST Cybersecurity Framework 2.0: Informative References Quick‑Start Guide, explains what informative references are and how they support achieving the outcomes of the CSF 2.0.",
+      "fetched": true,
+      "char_count": 1512
+    },
+    {
+      "title": "NIST CSF 2.0 for SMBs: A Practical Implementation Guide",
+      "url": "https://blog.sourcepass.com/sourcepass-blog/nist-csf-2.0-for-smbs-a-practical-implementation-guide",
+      "snippet": "December 1, 2025 - A practical guide for SMBs to implement NIST CSF 2.0 with priorities, governance, and measurable cybersecurity improvements.",
+      "fetched": true,
+      "char_count": 7795
+    },
+    {
+      "title": "What NIST is Changing with Cybersecurity Framework 2.0",
+      "url": "https://anchore.com/compliance/nist/nist-csf-2/",
+      "snippet": "In this post, we’ll delve into the key changes of CSF 2.0, including the integration of the ‘Govern’ function, revised implementation guidance, and its synergy with other NIST frameworks. We’ll explore how these changes benefit organizations and provide a roadmap for implementing the ...",
+      "fetched": true,
+      "char_count": 5805
+    },
+    {
+      "title": "Cybersecurity Framework v2.0 - CSF Tools",
+      "url": "https://csf.tools/reference/nist-cybersecurity-framework/v2-0/",
+      "snippet": "May 31, 2025 - Building on previous versions, CSF 2.0 contains new features that highlight the importance of governance and supply chains. Special attention is paid to the QSGs to ensure that the CSF is relevant and readily accessible by smaller organizations as well as their larger counterparts. NIST now provides Implementation Examples and Informative References, which are available online and updated regularly.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "NIST CSF 2.0 Implementation Guide for Security Teams 2026",
+      "url": "https://www.decryptiondigest.com/blog/nist-csf-2-implementation-guide",
+      "snippet": "June 18, 2026 - Complete NIST Cybersecurity Framework 2.0 implementation guide covering the new Govern function, CSF Profiles, Tiers",
+      "fetched": true,
+      "char_count": 19122
+    },
+    {
+      "title": "NIST Special Publication NIST SP 1299 https://doi.org/10.6028/NIST.SP.1299",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1299.pdf",
+      "snippet": "The CSF 2.0 is organized by six Functions — Govern, Identify, Protect, Detect, Respond, and Recover. Together, these Functions provide a comprehensive view for managing cybersecurity risk. This Resource & Overview Guide offers details about each Function to serve as potential starting points.",
+      "fetched": false,
+      "char_count": 0
+    }
+  ]
+}

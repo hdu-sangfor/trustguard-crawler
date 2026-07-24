@@ -1,16 +1,60 @@
 {
   "site": "ZDNet Security",
-  "crawled_at": "2026-07-24 12:32:03",
-  "total_found": 2,
-  "saved": 2,
+  "crawled_at": "2026-07-24 21:47:27",
+  "total_found": 13,
+  "saved": 13,
   "articles": [
     {
-      "title": "I wore the world's first HDR10 smart glasses",
-      "url": "https://www.zdnet.com/article/rayneo-air-4-pro-hdr10-smart-glasses-ces/"
+      "title": "Smart Watches",
+      "url": "https://www.zdnet.com/topic/smart-watches/"
     },
     {
-      "title": "TCL's new E Ink tablet beats the Remarkable and Kindle",
-      "url": "https://www.zdnet.com/article/tcl-note-a1-nxtpaper-ces/"
+      "title": "Streaming Devices",
+      "url": "https://www.zdnet.com/topic/streaming-devices/"
+    },
+    {
+      "title": "Streaming Services",
+      "url": "https://www.zdnet.com/topic/video-streaming-services/"
+    },
+    {
+      "title": "Kitchen & Household",
+      "url": "https://www.zdnet.com/topic/kitchen-household/"
+    },
+    {
+      "title": "Office Furniture",
+      "url": "https://www.zdnet.com/topic/office-furniture/"
+    },
+    {
+      "title": "Office Hardware & Appliances",
+      "url": "https://www.zdnet.com/topic/office-hardware-appliances/"
+    },
+    {
+      "title": "Smart Lighting",
+      "url": "https://www.zdnet.com/topic/smart-lighting/"
+    },
+    {
+      "title": "Yard & Outdoors",
+      "url": "https://www.zdnet.com/topic/yard-outdoors/"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "url": "https://www.zdnet.com/topic/artificial-intelligence/"
+    },
+    {
+      "title": "Digital Transformation",
+      "url": "https://www.zdnet.com/topic/digital-transformation/"
+    },
+    {
+      "title": "Sustainability",
+      "url": "https://www.zdnet.com/topic/sustainability/"
+    },
+    {
+      "title": "Transportation",
+      "url": "https://www.zdnet.com/topic/transportation/"
+    },
+    {
+      "title": "Accelerate your tech gamePaid Content",
+      "url": "https://www.zdnet.com/accelerate-your-tech-game/"
     }
   ]
 }

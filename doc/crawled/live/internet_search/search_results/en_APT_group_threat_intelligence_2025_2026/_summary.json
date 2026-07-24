@@ -1,93 +1,72 @@
 {
   "keyword": "APT group threat intelligence 2025 2026",
   "language": "en",
-  "searched_at": "2026-07-24 13:46:49",
-  "total_results": 13,
-  "fetched_count": 6,
+  "searched_at": "2026-07-24 21:30:51",
+  "total_results": 20,
+  "fetched_count": 9,
   "results": [
     {
-      "title": "Iran’s APTs Just Woke Up – Prepare Now",
-      "url": "https://www.linkedin.com/pulse/irans-apts-just-woke-up-prepare-now-nermin-smajić-dx4bf",
-      "snippet": "Dec 15, 2025. AI Threat Landscape Report: Threat Actors Developing AI Capabilities. The cybersecurity landscape in 2025 has changed a lot, with artificial intelligence being used in offensive cyber…",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "Cisco Talos Intelligence Group - Comprehensive Threat Intelligence",
-      "url": "https://www.talosintelligence.com/",
-      "snippet": "Powered by Talos. Discover how Talos Intelligence Integrations automatically block advanced threats across Cisco security and enterprise products. Plus, meet the Talosians working behind the scenes to keep you safe.",
+      "title": "Advanced persistent threat - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Advanced_persistent_threat",
+      "snippet": "2 weeks ago - Retrieved 30 September 2025. ... Vicens, A.J. (25 February 2026). \"Google disrupts Chinese-linked hackers that attacked 53 groups globally\". Reuters. Retrieved 26 February 2026. ... News, The Hacker. \"APT36 Targets Indian Government with Golang-Based DeskRAT Malware Campaign\".",
       "fetched": true,
-      "char_count": 1456
+      "char_count": 29737
     },
     {
-      "title": "TeamViewer's corporate network was breached in alleged APT hack",
-      "url": "https://www.bleepingcomputer.com/news/security/teamviewers-corporate-network-was-breached-in-alleged-apt-hack/",
-      "snippet": "\"The NCC Group Global Threat Intelligence team has been made aware of significant compromise of the TeamViewer remote access and support platform by an APT group,\" warns an alert from the IT security firm NCC Group.",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "Online Virus Scanner — Kaspersky Threat Intelligence Portal",
-      "url": "https://opentip.kaspersky.com/",
-      "snippet": "Kaspersky Threat Intelligence Portal allows you to scan files, domains, IP addresses, and URLs for threats, malware, viruses.",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "codeby.net/threads/threat-intelligence-platformy-2025-2026-polnyi...",
-      "url": "https://codeby.net/threads/threat-intelligence-platformy-2025-2026-polnyi-obzor-tip-ioc-menedzhmenta-i-instrumentov-kiberrazvedki-dlya-security-inzhenera.94792/",
-      "snippet": "",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "ptsecurity.com/research/pt-esc-threat-intelligence/analysis-of-hacker...",
-      "url": "https://ptsecurity.com/research/pt-esc-threat-intelligence/analysis-of-hacker-group-activity-2nd-quarter-of-2026/",
-      "snippet": "",
+      "title": "Киберугрозы 2026: почему компаниям пора готовиться к новому...",
+      "url": "https://regulhub.kaspersky.ru/news/kiberugrozy-2026-pochemu-kompaniyam-pora-gotovitsya-k-novomu-etapu-atak",
+      "snippet": "• Разработка плана реагирования на компрометацию ИИ-агента как отдельный сценарий. 4. Вести проактивный мониторинг уязвимостей: • Подписка на фиды актуальных уязвимостей и продвинутые данные Threat Intelligence.",
       "fetched": true,
-      "char_count": 2269
+      "char_count": 9705
     },
     {
-      "title": "wyffest.com/events/mfm2026",
-      "url": "https://wyffest.com/events/mfm2026",
-      "snippet": "",
+      "title": "Джили Монжаро 2025 - 2026 отзывы владельцев: все минусы...",
+      "url": "https://www.drom.ru/reviews/geely/monjaro/5kopeek/?year1=2025&year2=2026",
+      "snippet": "Отзывы владельцев Джили Монжаро 2025 - 2026: все минусы и плюсы, недостатки, поломки.",
       "fetched": true,
-      "char_count": 14695
+      "char_count": 2467
     },
     {
-      "title": "dzen.ru/video/watch/690afe38270b284bfed2bce6 | Дзен",
-      "url": "https://dzen.ru/video/watch/690afe38270b284bfed2bce6",
-      "snippet": "",
-      "fetched": false,
-      "char_count": 0
-    },
-    {
-      "title": "vcp.com.ru/news/tpost/5vb6gdyek1-kitaiskie-turisti-massovo-edut...",
-      "url": "https://vcp.com.ru/news/tpost/5vb6gdyek1-kitaiskie-turisti-massovo-edut-v-rossiyu",
-      "snippet": "",
+      "title": "2025 APT Report: Staying Ahead of the Modern Threat Landscape | Trend Micro (US)",
+      "url": "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/2025-apt-report-staying-ahead-of-the-modern-threat-landscape",
+      "snippet": "April 16, 2026 - Detailed profiles of major APT campaigns, tools, and tactics observed in 2025, mapped to aligned threat actors and real incidents · A forward‑looking strategic outlook (2026–2027) examining autonomous attacks, AI agents, and evolving ...",
       "fetched": true,
-      "char_count": 8244
+      "char_count": 7428
     },
     {
-      "title": "tourvisor.ru/blog/hotel-selection/20-novykh-otelej-turtsii-otkrytykh...",
-      "url": "https://tourvisor.ru/blog/hotel-selection/20-novykh-otelej-turtsii-otkrytykh-v-2025-2026-godakh",
-      "snippet": "",
+      "title": "NSFOCUS Monthly APT Insights – March 2026 - NSFOCUS",
+      "url": "https://nsfocusglobal.com/nsfocus-monthly-apt-insights-march-2026/",
+      "snippet": "May 28, 2026 - As the APT group with the highest attack frequency and the broadest impact, Lazarus has evolved into a massive criminal conglomerate comprising multiple sub-groups. The timeline of known Lazarus supply chain operations is provided in the table below: Subscribe NSFOCUS Threat Intelligence for full details of APT incident insights. A vulnerability in F5 BIG-IP products, CVE-2025-53521, has been escalated to a Remote Code Execution (RCE) severity and is currently being exploited in the wild",
       "fetched": true,
-      "char_count": 31786
+      "char_count": 9438
     },
     {
-      "title": "drom.ru/catalog/byd/yuan_up/537854 | Каталог",
-      "url": "https://www.drom.ru/catalog/byd/yuan_up/537854/",
-      "snippet": "",
+      "title": "APT Threat Landscape in APAC 2025: Industrialization of Intrusions - TeamT5",
+      "url": "https://teamt5.org/en/posts/apt-threat-landscape-in-apac-2025-industrialization-of-intrusions/",
+      "snippet": "April 14, 2026 - 2026.02.08Cyber Threat Intelligence ... intensifying in both volume and sophistication. In 2025, TeamT5 tracked more than 510 APT operations affecting 67 countries globally, up steadily from 2024....",
       "fetched": true,
-      "char_count": 5927
+      "char_count": 10010
     },
     {
-      "title": "vatesmert.livejournal.com/206515.html",
-      "url": "https://vatesmert.livejournal.com/206515.html",
-      "snippet": "",
-      "fetched": false,
-      "char_count": 0
+      "title": "Advanced persistent threat (APT) detection and defense guide",
+      "url": "https://www.vectra.ai/topics/advanced-persistent-threat",
+      "snippet": "March 20, 2026 - In the fastest observed cases, ... to Unit 42's 2026 Global Incident Response Report. Identity has become the dominant APT attack vector in 2025 and 2026....",
+      "fetched": true,
+      "char_count": 22472
+    },
+    {
+      "title": "May 2026 Threat Trend Report on APT Groups - ASEC",
+      "url": "https://asec.ahnlab.com/en/94145/",
+      "snippet": "4 weeks ago - The May 2026 APT Trends report identified supply chain attacks, developer environment attacks, automated Initial Breach, and exploitation of runtime environments as key developments.",
+      "fetched": true,
+      "char_count": 5481
+    },
+    {
+      "title": "Top 10 APT Groups in 2025",
+      "url": "https://socradar.io/blog/top-10-apt-groups-in-2025/",
+      "snippet": "January 21, 2026 - According to ESET, throughout the second and third quarters of 2025, Sandworm used data wiper software against Ukrainian organizations. The attacks targeted government agencies and businesses in the energy, logistics, and grain industries using ...",
+      "fetched": true,
+      "char_count": 16416
     }
   ]
 }

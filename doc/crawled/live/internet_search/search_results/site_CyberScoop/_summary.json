@@ -1,0 +1,64 @@
+{
+  "site": "CyberScoop",
+  "crawled_at": "2026-07-24 21:49:31",
+  "total_found": 15,
+  "saved": 14,
+  "articles": [
+    {
+      "title": "Inside the race to adapt to an AI-powered security world",
+      "url": "https://cyberscoop.com/ai-powered-cybersecurity-mythos-xbow-agentic-pen-testing/"
+    },
+    {
+      "title": "Security leaders say the next two years are going to be ‘insane’",
+      "url": "https://cyberscoop.com/ai-cyberattacks-two-years-insane-vulnerabilities-kevin-mandia-alex-stamos-morgan-adamski-rsac-2026/"
+    },
+    {
+      "title": "Across party lines and industry, the verdict is the same: CISA is in trouble",
+      "url": "https://cyberscoop.com/cisa-personnel-cuts-trump-second-term-analysis/"
+    },
+    {
+      "title": "Your AI doctor doesn’t have to follow the same privacy rules as your real one",
+      "url": "https://cyberscoop.com/ai-healthcare-apps-hipaa-privacy-risks-openai-anthropic/"
+    },
+    {
+      "title": "Cyber scholarship-for-service students say government has pulled rug on them, potentially burdening them with debt",
+      "url": "https://cyberscoop.com/cyber-scholarship-for-service-students-say-government-has-pulled-rug-on-them-potentially-burdening-them-with-debt/"
+    },
+    {
+      "title": "A house full of open windows: Why telecoms may never purge their networks of Salt Typhoon",
+      "url": "https://cyberscoop.com/salt-typhoon-chinese-hackers-us-telecom-breach/"
+    },
+    {
+      "title": "‘Whatever we did was not enough’: How Salt Typhoon slipped through the government’s blind spots",
+      "url": "https://cyberscoop.com/salt-typhoon-us-government-response/"
+    },
+    {
+      "title": "Prolific Russian ransomware operator living in California enjoys rare leniency awaiting trial",
+      "url": "https://cyberscoop.com/ianis-antropenko-zeppelin-ransomware-russian-cybercrime/"
+    },
+    {
+      "title": "Weaponized AI: The new frontier of fraud and identity spoofing",
+      "url": "https://cyberscoop.com/ai-generated-fraud-identity-spoofing-defense-strategy/"
+    },
+    {
+      "title": "Fernanda Sottil",
+      "url": "https://cyberscoop.com/author/fernanda-sottil/"
+    },
+    {
+      "title": "Why cyber modernization requires partners with technical plus acquisition expertise",
+      "url": "https://cyberscoop.com/why-cyber-modernization-requires-partners-with-technical-plus-acquisition-expertise/"
+    },
+    {
+      "title": "Why identity is the definitive cyber defense for federal agencies",
+      "url": "https://cyberscoop.com/why-identity-is-the-definitive-cyber-defense-for-federal-agencies/"
+    },
+    {
+      "title": "Daniel Wilbricht",
+      "url": "https://cyberscoop.com/author/daniel-wilbricht/"
+    },
+    {
+      "title": "Agencies push for digital transformation amid security challenges",
+      "url": "https://fedscoop.com/agencies-push-for-digital-transformation-amid-security-challenges/"
+    }
+  ]
+}
