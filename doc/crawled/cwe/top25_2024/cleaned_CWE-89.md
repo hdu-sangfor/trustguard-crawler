@@ -89,4 +89,4 @@ The product constructs all or part of an SQL command using externally-influenced
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:41:22*
+*采集时间: 2026-07-24 12:06:17*

@@ -70,4 +70,4 @@ The product allows the upload or transfer of dangerous file types that are autom
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:42:16*
+*采集时间: 2026-07-24 12:07:15*

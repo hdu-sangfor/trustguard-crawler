@@ -1,22 +1,22 @@
 # 网络安全 RAG 语料采集 — 最终汇总报告
 
-## 采集时间: 2026-07-17 13:46:40
+## 采集时间: 2026-07-24 12:09:37
 
 ## 采集统计
 
 | 类别 | 文件数 | 格式 |
 |------|-------|------|
 | CISA KEV | 1 | Markdown |
-| NVD Recent CVEs | 50 | Markdown |
+| NVD Recent CVEs | 100 | Markdown |
 | OWASP Top 10 | 1 | Markdown |
 
-| **总计** | **52** | |
+| **总计** | **102** | |
 
 ## 数据目录结构
 ```
 crawled_data/
 ├── live/
-│   ├── markdown/          # 52 个 Markdown 文件
+│   ├── markdown/          # 102 个 Markdown 文件
 │   │   ├── cleaned_CWE-*.md
 │   │   ├── cleaned_CVE-*.md
 │   │   ├── cleaned_CAPEC-*.md
@@ -72,4 +72,4 @@ crawled_data/
 5. 导入向量数据库进行 RAG 检索
 
 ---
-*自动生成于: 2026-07-17 13:46:40*
+*自动生成于: 2026-07-24 12:09:37*

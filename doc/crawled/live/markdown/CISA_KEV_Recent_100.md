@@ -1,22 +1,82 @@
 # CISA Known Exploited Vulnerabilities (KEV)
 ## 最近100个已知被利用漏洞
 
-*更新时间: 2026-07-17 13:46:40*
+*更新时间: 2026-07-24 12:09:37*
 
 ## Top 10 受影响厂商
 
-- **Microsoft**: 19 个漏洞
+- **Microsoft**: 20 个漏洞
 - **Cisco**: 8 个漏洞
 - **Fortinet**: 4 个漏洞
 - **Adobe**: 4 个漏洞
-- **Oracle**: 3 个漏洞
 - **Langflow**: 3 个漏洞
+- **Oracle**: 3 个漏洞
 - **SimpleHelp **: 3 个漏洞
 - **Ubiquiti**: 3 个漏洞
 - **Ivanti**: 3 个漏洞
-- **SonicWall**: 2 个漏洞
+- **Check Point**: 2 个漏洞
 
 ## 全部 100 条记录
+
+### CVE-2026-16232
+- **名称**: Check Point SmartConsole Improper Authentication Vulnerability
+- **厂商**: Check Point
+- **产品**: SmartConsole
+- **添加日期**: 2026-07-22
+- **修复截止**: 2026-07-25
+- **备注**: https://support.checkpoint.com/results/sk/sk185169/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-16232
+
+---
+
+### CVE-2026-50522
+- **名称**: Microsoft SharePoint Deserialization of Untrusted Data Vulnerability 
+- **厂商**: Microsoft
+- **产品**: SharePoint
+- **添加日期**: 2026-07-22
+- **修复截止**: 2026-07-25
+- **备注**: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50522 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-50522
+
+---
+
+### CVE-2026-60137
+- **名称**: WordPress Core SQL Injection Vulnerability
+- **厂商**: WordPress
+- **产品**: Core
+- **添加日期**: 2026-07-21
+- **修复截止**: 2026-08-04
+- **备注**: https://wordpress.org/news/2026/07/wordpress-7-0-2-release/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-60137
+
+---
+
+### CVE-2026-63030
+- **名称**: WordPress Core Interpretation Conflict Vulnerability
+- **厂商**: WordPress
+- **产品**: Core
+- **添加日期**: 2026-07-21
+- **修复截止**: 2026-07-24
+- **备注**: https://wordpress.org/news/2026/07/wordpress-7-0-2-release/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-63030
+
+---
+
+### CVE-2026-0770
+- **名称**: Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability
+- **厂商**: Langflow
+- **产品**: Langflow
+- **添加日期**: 2026-07-21
+- **修复截止**: 2026-07-24
+- **备注**: https://github.com/langflow-ai/langflow/releases/tag/v1.9.0 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-0770 
+
+---
+
+### CVE-2021-27137
+- **名称**: DD-WRT Stack-Based Buffer Overflow Vulnerability
+- **厂商**: DD-WRT
+- **产品**: DD-WRT
+- **添加日期**: 2026-07-21
+- **修复截止**: 2026-07-24
+- **备注**: This vulnerability affects a common open-source component, third-party library, proprietary implementation, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://svn.dd-wrt.com/changeset/45724 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2021-27137
+
+---
 
 ### CVE-2026-58644
 - **名称**: Microsoft SharePoint Deserialization of Untrusted Data Vulnerability
@@ -955,66 +1015,6 @@
 - **添加日期**: 2026-03-27
 - **修复截止**: 2026-03-30
 - **备注**: Please adhere to F5’s guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible F5 products affected by this vulnerability. For more information please see: https://my.f5.com/manage/s/article/K000156741 ; https://my.f5.com/manage/s/article/K000160486 ; https://my.f5.com/manage/s/article/K11438344 ; https://nvd.nist.gov/vuln/detail/CVE-2025-53521
-
----
-
-### CVE-2026-33634
-- **名称**: Aquasecurity Trivy Embedded Malicious Code Vulnerability
-- **厂商**: Aquasecurity
-- **产品**: Trivy
-- **添加日期**: 2026-03-26
-- **修复截止**: 2026-04-09
-- **备注**: This vulnerability involves a supply‑chain compromise in a product that may be used across multiple products and environments. Additional vendor‑provided guidance must be followed to ensure full remediation. For more information, please see: https://github.com/advisories/GHSA-69fq-xp46-6x23 ; https://nvd.nist.gov/vuln/detail/CVE-2026-33634
-
----
-
-### CVE-2026-33017
-- **名称**: Langflow Code Injection Vulnerability
-- **厂商**: Langflow
-- **产品**: Langflow
-- **添加日期**: 2026-03-25
-- **修复截止**: 2026-04-08
-- **备注**: https://github.com/langflow-ai/langflow/security/advisories/GHSA-vwmf-pq79-vjvx ; https://nvd.nist.gov/vuln/detail/CVE-2026-33017
-
----
-
-### CVE-2025-32432
-- **名称**: Craft CMS Code Injection Vulnerability
-- **厂商**: Craft CMS
-- **产品**: Craft CMS
-- **添加日期**: 2026-03-20
-- **修复截止**: 2026-04-03
-- **备注**: https://craftcms.com/knowledge-base/craft-cms-cve-2025-32432 ; https://github.com/craftcms/cms/security/advisories/GHSA-f3gw-9ww9-jmc3 ; https://nvd.nist.gov/vuln/detail/CVE-2025-32432
-
----
-
-### CVE-2025-54068
-- **名称**: Laravel Livewire Code Injection Vulnerability
-- **厂商**: Laravel
-- **产品**: Livewire
-- **添加日期**: 2026-03-20
-- **修复截止**: 2026-04-03
-- **备注**: https://github.com/livewire/livewire/security/advisories/GHSA-29cq-5w36-x7w3 ; https://github.com/livewire/livewire/commit/ef04be759da41b14d2d129e670533180a44987dc ; https://nvd.nist.gov/vuln/detail/CVE-2025-54068
-
----
-
-### CVE-2025-43510
-- **名称**: Apple Multiple Products Improper Locking Vulnerability
-- **厂商**: Apple
-- **产品**: Multiple Products
-- **添加日期**: 2026-03-20
-- **修复截止**: 2026-04-03
-- **备注**: https://support.apple.com/en-us/125632 ; https://support.apple.com/en-us/125633 ; https://support.apple.com/en-us/125634 ; https://support.apple.com/en-us/125635 ; https://support.apple.com/en-us/125636 ; https://support.apple.com/en-us/125637 ; https://support.apple.com/en-us/125638 ; https://support.apple.com/en-us/125639 ; https://nvd.nist.gov/vuln/detail/CVE-2025-43510
-
----
-
-### CVE-2025-43520
-- **名称**: Apple Multiple Products Classic Buffer Overflow Vulnerability
-- **厂商**: Apple
-- **产品**: Multiple Products
-- **添加日期**: 2026-03-20
-- **修复截止**: 2026-04-03
-- **备注**: https://support.apple.com/en-us/125632 ; https://support.apple.com/en-us/125633 ; https://support.apple.com/en-us/125634 ; https://support.apple.com/en-us/125635 ; https://support.apple.com/en-us/125636 ; https://support.apple.com/en-us/125637 ; https://support.apple.com/en-us/125638 ; https://support.apple.com/en-us/125639 ; https://nvd.nist.gov/vuln/detail/CVE-2025-43520
 
 ---
 

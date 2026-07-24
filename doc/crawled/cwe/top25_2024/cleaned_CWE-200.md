@@ -109,4 +109,4 @@ There are many different kinds of mistakes that introduce information exposures.
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:43:12*
+*采集时间: 2026-07-24 12:08:12*

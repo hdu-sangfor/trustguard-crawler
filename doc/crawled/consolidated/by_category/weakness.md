@@ -92,7 +92,7 @@ The product performs operations on a memory buffer, but it reads from or writes 
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:43:01*
+*采集时间: 2026-07-24 12:08:09*
 
 ---
 
@@ -152,7 +152,7 @@ The product reads data past the end, or before the beginning, of the intended bu
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:41:47*
+*采集时间: 2026-07-24 12:06:47*
 
 ---
 
@@ -207,7 +207,7 @@ The product receives input from an upstream component that specifies attributes 
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:43:38*
+*采集时间: 2026-07-24 12:08:39*
 
 ---
 
@@ -348,7 +348,7 @@ Input validation is a frequently-used technique for checking potentially dangero
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:42:19*
+*采集时间: 2026-07-24 12:07:26*
 
 ---
 
@@ -466,7 +466,7 @@ There are many different kinds of mistakes that introduce information exposures.
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:43:12*
+*采集时间: 2026-07-24 12:08:12*
 
 ---
 
@@ -564,7 +564,7 @@ Many file operations are intended to take place within a restricted directory. B
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:41:37*
+*采集时间: 2026-07-24 12:06:33*
 
 ---
 
@@ -638,7 +638,7 @@ When an actor claims to have a given identity, the product does not prove or ins
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:42:33*
+*采集时间: 2026-07-24 12:07:40*
 
 ---
 
@@ -698,7 +698,7 @@ The product does not validate, or incorrectly validates, a certificate.
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:43:56*
+*采集时间: 2026-07-24 12:09:03*
 
 ---
 
@@ -776,7 +776,7 @@ The web application does not, or cannot, sufficiently verify whether a request w
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:41:33*
+*采集时间: 2026-07-24 12:06:28*
 
 ---
 
@@ -830,7 +830,7 @@ The product does not sufficiently track and release allocated memory after it ha
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:43:28*
+*采集时间: 2026-07-24 12:08:36*
 
 ---
 
@@ -889,7 +889,7 @@ The product reuses or references memory after it has been freed. At some point a
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:42:02*
+*采集时间: 2026-07-24 12:07:02*
 
 ---
 
@@ -968,7 +968,7 @@ The product allows the upload or transfer of dangerous file types that are autom
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:42:16*
+*采集时间: 2026-07-24 12:07:15*
 
 ---
 
@@ -1031,7 +1031,7 @@ The product dereferences a pointer that it expects to be valid but is NULL.
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:42:44*
+*采集时间: 2026-07-24 12:07:43*
 
 ---
 
@@ -1101,7 +1101,7 @@ The product deserializes untrusted data without sufficiently ensuring that the r
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:42:47*
+*采集时间: 2026-07-24 12:07:54*
 
 ---
 
@@ -1152,7 +1152,7 @@ The product processes an XML document that can contain XML entities with URIs th
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:43:41*
+*采集时间: 2026-07-24 12:08:49*
 
 ---
 
@@ -1216,7 +1216,7 @@ Many protocols and products have their own custom command language. While OS or 
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:42:58*
+*采集时间: 2026-07-24 12:07:58*
 
 ---
 
@@ -1319,7 +1319,7 @@ This weakness can lead to a vulnerability in environments in which the attacker 
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:41:51*
+*采集时间: 2026-07-24 12:06:58*
 
 ---
 
@@ -1387,7 +1387,7 @@ The product writes data past the end, or before the beginning, of the intended b
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:41:19*
+*采集时间: 2026-07-24 12:06:05*
 
 ---
 
@@ -1473,7 +1473,7 @@ There are many variants of cross-site scripting, characterized by a variety of t
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:41:15*
+*采集时间: 2026-07-24 12:05:54*
 
 ---
 
@@ -1555,7 +1555,7 @@ There are two main variations: - Inbound: the product contains an authentication
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:43:52*
+*采集时间: 2026-07-24 12:08:52*
 
 ---
 
@@ -1637,7 +1637,7 @@ The product does not perform an authorization check when an actor attempts to ac
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:42:05*
+*采集时间: 2026-07-24 12:07:12*
 
 ---
 
@@ -1718,7 +1718,7 @@ The product performs an authorization check when an actor attempts to access a r
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:43:25*
+*采集时间: 2026-07-24 12:08:25*
 
 ---
 
@@ -1816,7 +1816,7 @@ The product constructs all or part of an SQL command using externally-influenced
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:41:22*
+*采集时间: 2026-07-24 12:06:17*
 
 ---
 
@@ -1861,7 +1861,7 @@ The web server receives a URL or similar request from an upstream component and 
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:43:15*
+*采集时间: 2026-07-24 12:08:22*
 
 ---
 
@@ -1930,7 +1930,7 @@ The product constructs all or part of a code segment using externally-influenced
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:42:30*
+*采集时间: 2026-07-24 12:07:30*
 
 ---
 

@@ -65,4 +65,4 @@ When an actor claims to have a given identity, the product does not prove or ins
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:42:33*
+*采集时间: 2026-07-24 12:07:40*

@@ -17,7 +17,7 @@ This view is intended to facilitate research into weaknesses, including their in
 
 ---
 *数据来源: MITRE CWE Views*
-*采集时间: 2026-07-17 13:44:06*
+*采集时间: 2026-07-24 12:09:06*
 
 ---
 
@@ -38,7 +38,7 @@ CWE entries in this view (graph) may be used to categorize potential weaknesses 
 
 ---
 *数据来源: MITRE CWE Views*
-*采集时间: 2026-07-17 13:44:09*
+*采集时间: 2026-07-24 12:09:16*
 
 ---
 
@@ -59,7 +59,7 @@ This view organizes weaknesses around concepts that are frequently used or encou
 
 ---
 *数据来源: MITRE CWE Views*
-*采集时间: 2026-07-17 13:44:19*
+*采集时间: 2026-07-24 12:09:19*
 
 ---
 

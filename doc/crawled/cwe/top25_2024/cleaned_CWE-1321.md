@@ -46,4 +46,4 @@ The product receives input from an upstream component that specifies attributes 
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:43:38*
+*采集时间: 2026-07-24 12:08:39*

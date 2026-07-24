@@ -174,4 +174,4 @@ CWE-918
 ---
 
 ---
-*Source: OWASP Top 10:2021 | Generated: 2026-07-17 13:46:40*
+*Source: OWASP Top 10:2021 | Generated: 2026-07-24 12:09:37*

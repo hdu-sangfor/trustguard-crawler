@@ -1,14 +1,14 @@
 # 网络安全 RAG 语料库 — 数据整合报告
 
-## 生成时间: 2026-07-17 13:46:50
+## 生成时间: 2026-07-24 12:10:10
 
 ## 数据统计
 
 | 指标 | 数值 |
 |------|------|
-| 总条目数 | 114 |
-| 总字符数 | 303,479 |
-| 平均每条目字符数 | 2,662 |
+| 总条目数 | 184 |
+| 总字符数 | 362,380 |
+| 平均每条目字符数 | 1,969 |
 | 数据来源数 | 7 |
 | 分类数 | 8 |
 
@@ -16,21 +16,21 @@
 
 | 分类 | 条目数 | 占比 |
 |------|-------|------|
-| vulnerability | 70 | 61.4% |
-| weakness | 25 | 21.9% |
-| regulation_and_standard | 6 | 5.3% |
-| security_framework | 4 | 3.5% |
-| weakness_view | 3 | 2.6% |
-| security_standard | 3 | 2.6% |
-| attack_pattern | 2 | 1.8% |
-| known_exploited_vulnerability | 1 | 0.9% |
+| vulnerability | 140 | 76.1% |
+| weakness | 25 | 13.6% |
+| regulation_and_standard | 6 | 3.3% |
+| security_framework | 4 | 2.2% |
+| weakness_view | 3 | 1.6% |
+| security_standard | 3 | 1.6% |
+| attack_pattern | 2 | 1.1% |
+| known_exploited_vulnerability | 1 | 0.5% |
 
 
 ## 来源分布
 
 | 来源 | 条目数 |
 |------|-------|
-| NVD | 70 |
+| NVD | 140 |
 | MITRE CWE | 28 |
 | China Standards | 6 |
 | NIST | 4 |

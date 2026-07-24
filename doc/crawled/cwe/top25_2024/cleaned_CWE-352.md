@@ -69,4 +69,4 @@ The web application does not, or cannot, sufficiently verify whether a request w
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:41:33*
+*采集时间: 2026-07-24 12:06:28*

@@ -94,4 +94,4 @@ This weakness can lead to a vulnerability in environments in which the attacker 
 
 ---
 *数据来源: MITRE CWE (Common Weakness Enumeration)*
-*采集时间: 2026-07-17 13:41:51*
+*采集时间: 2026-07-24 12:06:58*
