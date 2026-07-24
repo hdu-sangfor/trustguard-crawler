@@ -1,0 +1,37 @@
+# 白名单 — 优先放行的域名或完整 URL（每行一条）
+# 白名单优先级最高，即使命中黑名单也放行
+# 支持 # 开头的注释行
+# 示例:
+#   krebsonsecurity.com
+#   portswigger.net/research
+
+# === 核心安全研究站点 ===
+thehackernews.com
+bleepingcomputer.com
+krebsonsecurity.com
+schneier.com
+darkreading.com
+threatpost.com
+securityweek.com
+portswigger.net
+googleprojectzero.blogspot.com
+cisa.gov
+nist.gov
+ncsc.gov.uk
+enisa.europa.eu
+
+# === 漏洞数据库 ===
+exploit-db.com
+cve.mitre.org
+nvd.nist.gov
+vuldb.com
+opencve.io
+packetstormsecurity.com
+
+# === 中国安全社区 ===
+freebuf.com
+anquanke.com
+4hou.com
+sec-wiki.com
+52pojie.cn
+security.tencent.com

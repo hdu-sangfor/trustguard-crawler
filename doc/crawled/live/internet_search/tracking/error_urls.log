@@ -1,0 +1,34 @@
+# 爬取失败 URL 日志 | 创建于 2026-07-24 12:29:32
+# 格式: [时间] URL | 错误原因
+
+[2026-07-24 12:30:10] https://www.bleepingcomputer.com/ | HTTP 403
+[2026-07-24 12:30:10] https://www.bleepingcomputer.com/ | 站点首页无法访问: Bleeping Computer
+[2026-07-24 12:39:59] http://pub1-bjyt.s3.360.cn/bcms/2025年2月勒索软件流行态势分析.pdf | 非文本类型: application/pdf
+[2026-07-24 12:42:21] https://hackernews.cc/post/60105 | 连接失败
+[2026-07-24 12:46:02] https://chaobro.com/zh/posts/google-ai-zero-day-vulnerability-warning-2026 | 连接失败
+[2026-07-24 12:48:23] https://3c.ltn.com.tw/news/63983 | 超时
+[2026-07-24 12:57:27] http://cloudnetworkspy.mindfree.top/analysis/document/azure/tech-blog/2025_04_18_cecc0d7e.md | HTTP 404
+[2026-07-24 12:58:59] https://lequ7.com/posts/yun-cun-chu-an-quan-de-zui-jia-shi-jian | 连接失败
+[2026-07-24 13:03:03] https://d0.awsstatic.com/whitepapers/compliance/CN_Whitepapers/AWS_Risk_and_Compliance_Whitepaper_CN.pdf | 非文本类型: application/pdf
+[2026-07-24 13:04:44] https://www.nsfocus.com.cn/uploadfile/2025/0708/20250708112624644.pdf | 非文本类型: application/pdf
+[2026-07-24 13:06:28] https://blog.csdn.net/galaxylove/article/details/141671132 | HTTP 521
+[2026-07-24 13:08:14] https://tonybai.com/2025/05/22/go-sbom-practice/ | 超时
+[2026-07-24 13:08:47] http://anzerclub.com/yuedu/tuijian/2565.html | HTTP 404
+[2026-07-24 13:09:11] https://www.nsfocus.com.cn/uploadfile/2025/0422/20250422065131784.pdf | 非文本类型: application/pdf
+[2026-07-24 13:16:24] https://www.itsolotime.com/archives/20442 | 连接失败
+[2026-07-24 13:16:31] https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2025/05/cybersecurity-considerations-2025.pdf | 非文本类型: application/pdf
+[2026-07-24 13:21:44] https://www.euronews.com/2026/07/21/irans-irgc-claims-attack-on-amazons-main-data-hub-in-bahrain | 超时
+[2026-07-24 13:24:32] https://www.bbc.com/news/articles/c3ek3gvdnj3o | 超时
+[2026-07-24 13:25:19] https://www.bleepingcomputer.com/ | HTTP 403
+[2026-07-24 13:27:40] https://proton.me/blog/deepseek | 超时
+[2026-07-24 13:30:33] https://www.google.com/ | 超时
+[2026-07-24 13:32:01] https://www.akshayjain.blog/post/npm-supply-chain-attack-2025 | 连接失败
+[2026-07-24 13:34:20] https://www.bbc.com/news/articles/cvg9n2y61w6o | 超时
+[2026-07-24 13:35:09] https://onlineshieldhub.com/shai-hulud-worm-npm-supply-chain-attack-2025/ | HTTP 403
+[2026-07-24 13:37:46] https://moramil.autos/ | 连接失败
+[2026-07-24 13:41:54] https://vk.com/video-192544707_456269534 | 超时
+[2026-07-24 13:42:25] https://www.linkedin.com/pulse/irans-apts-just-woke-up-prepare-now-nermin-smajić-dx4bf | HTTP 451
+[2026-07-24 13:44:02] https://www.bleepingcomputer.com/news/security/teamviewers-corporate-network-was-breached-in-alleged-apt-hack/ | HTTP 403
+[2026-07-24 13:44:21] https://codeby.net/threads/threat-intelligence-platformy-2025-2026-polnyi-obzor-tip-ioc-menedzhmenta-i-instrumentov-kiberrazvedki-dlya-security-inzhenera.94792/ | HTTP 403
+[2026-07-24 13:46:49] https://vatesmert.livejournal.com/206515.html | 连接失败
+[2026-07-24 13:48:29] https://www.libertify.com/interactive-library/zero-trust-architecture-implementation-guide/ | 超时

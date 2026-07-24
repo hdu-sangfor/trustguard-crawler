@@ -1,0 +1,93 @@
+{
+  "keyword": "APT group threat intelligence 2025 2026",
+  "language": "en",
+  "searched_at": "2026-07-24 13:46:49",
+  "total_results": 13,
+  "fetched_count": 6,
+  "results": [
+    {
+      "title": "Iran’s APTs Just Woke Up – Prepare Now",
+      "url": "https://www.linkedin.com/pulse/irans-apts-just-woke-up-prepare-now-nermin-smajić-dx4bf",
+      "snippet": "Dec 15, 2025. AI Threat Landscape Report: Threat Actors Developing AI Capabilities. The cybersecurity landscape in 2025 has changed a lot, with artificial intelligence being used in offensive cyber…",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "Cisco Talos Intelligence Group - Comprehensive Threat Intelligence",
+      "url": "https://www.talosintelligence.com/",
+      "snippet": "Powered by Talos. Discover how Talos Intelligence Integrations automatically block advanced threats across Cisco security and enterprise products. Plus, meet the Talosians working behind the scenes to keep you safe.",
+      "fetched": true,
+      "char_count": 1456
+    },
+    {
+      "title": "TeamViewer's corporate network was breached in alleged APT hack",
+      "url": "https://www.bleepingcomputer.com/news/security/teamviewers-corporate-network-was-breached-in-alleged-apt-hack/",
+      "snippet": "\"The NCC Group Global Threat Intelligence team has been made aware of significant compromise of the TeamViewer remote access and support platform by an APT group,\" warns an alert from the IT security firm NCC Group.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "Online Virus Scanner — Kaspersky Threat Intelligence Portal",
+      "url": "https://opentip.kaspersky.com/",
+      "snippet": "Kaspersky Threat Intelligence Portal allows you to scan files, domains, IP addresses, and URLs for threats, malware, viruses.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "codeby.net/threads/threat-intelligence-platformy-2025-2026-polnyi...",
+      "url": "https://codeby.net/threads/threat-intelligence-platformy-2025-2026-polnyi-obzor-tip-ioc-menedzhmenta-i-instrumentov-kiberrazvedki-dlya-security-inzhenera.94792/",
+      "snippet": "",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "ptsecurity.com/research/pt-esc-threat-intelligence/analysis-of-hacker...",
+      "url": "https://ptsecurity.com/research/pt-esc-threat-intelligence/analysis-of-hacker-group-activity-2nd-quarter-of-2026/",
+      "snippet": "",
+      "fetched": true,
+      "char_count": 2269
+    },
+    {
+      "title": "wyffest.com/events/mfm2026",
+      "url": "https://wyffest.com/events/mfm2026",
+      "snippet": "",
+      "fetched": true,
+      "char_count": 14695
+    },
+    {
+      "title": "dzen.ru/video/watch/690afe38270b284bfed2bce6 | Дзен",
+      "url": "https://dzen.ru/video/watch/690afe38270b284bfed2bce6",
+      "snippet": "",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "vcp.com.ru/news/tpost/5vb6gdyek1-kitaiskie-turisti-massovo-edut...",
+      "url": "https://vcp.com.ru/news/tpost/5vb6gdyek1-kitaiskie-turisti-massovo-edut-v-rossiyu",
+      "snippet": "",
+      "fetched": true,
+      "char_count": 8244
+    },
+    {
+      "title": "tourvisor.ru/blog/hotel-selection/20-novykh-otelej-turtsii-otkrytykh...",
+      "url": "https://tourvisor.ru/blog/hotel-selection/20-novykh-otelej-turtsii-otkrytykh-v-2025-2026-godakh",
+      "snippet": "",
+      "fetched": true,
+      "char_count": 31786
+    },
+    {
+      "title": "drom.ru/catalog/byd/yuan_up/537854 | Каталог",
+      "url": "https://www.drom.ru/catalog/byd/yuan_up/537854/",
+      "snippet": "",
+      "fetched": true,
+      "char_count": 5927
+    },
+    {
+      "title": "vatesmert.livejournal.com/206515.html",
+      "url": "https://vatesmert.livejournal.com/206515.html",
+      "snippet": "",
+      "fetched": false,
+      "char_count": 0
+    }
+  ]
+}

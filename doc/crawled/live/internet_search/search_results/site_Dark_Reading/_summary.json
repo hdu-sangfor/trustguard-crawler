@@ -1,0 +1,16 @@
+{
+  "site": "Dark Reading",
+  "crawled_at": "2026-07-24 12:31:10",
+  "total_found": 2,
+  "saved": 2,
+  "articles": [
+    {
+      "title": "Informa TechTarget|",
+      "url": "https://www.informatechtarget.com/"
+    },
+    {
+      "title": "SearchSecurity",
+      "url": "https://www.techtarget.com/searchsecurity/"
+    }
+  ]
+}

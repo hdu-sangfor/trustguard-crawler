@@ -1,0 +1,16 @@
+{
+  "site": "The Hacker News",
+  "crawled_at": "2026-07-24 12:30:07",
+  "total_found": 2,
+  "saved": 2,
+  "articles": [
+    {
+      "title": "Get the Latest News",
+      "url": "https://thehackernews.com/#email-outer"
+    },
+    {
+      "title": "Threat Intelligence",
+      "url": "https://thehackernews.com/search/label/Threat%20Intelligence"
+    }
+  ]
+}

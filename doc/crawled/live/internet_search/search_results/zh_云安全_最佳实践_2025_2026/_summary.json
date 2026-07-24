@@ -1,0 +1,79 @@
+{
+  "keyword": "云安全 最佳实践 2025 2026",
+  "language": "zh",
+  "searched_at": "2026-07-24 13:04:44",
+  "total_results": 10,
+  "fetched_count": 4,
+  "results": [
+    {
+      "title": "定期评估云服务器资源与安全策略-最佳实践指南-淘客VPS",
+      "url": "https://www.tkvps.com/yun/yun-5512.html",
+      "snippet": "评估云安全策略的最佳实践. 更新和打补丁.阿里云服务器安全攻略：提升安全性的最佳实践.",
+      "fetched": true,
+      "char_count": 927
+    },
+    {
+      "title": "[解决方案] 保护虚拟机访问的安全最佳实践",
+      "url": "http://cloudnetworkspy.mindfree.top/analysis/document/azure/tech-blog/2025_04_18_cecc0d7e.md",
+      "snippet": "[解决方案] 保护虚拟机访问的安全最佳实践.对于所有虚拟机部署，使用 Bastion 是确保安全、合规且流畅访问的最佳实践。",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "云存储安全的最佳实践 - 乐趣区",
+      "url": "https://lequ7.com/posts/yun-cun-chu-an-quan-de-zui-jia-shi-jian",
+      "snippet": "云存储安全的最佳实践.建立云存储框架和云存储安全标准至关重要。 以下是五种云存储最佳实践，希望能给从业者一点参考。 评估企业的云计算架构 安全云存储要求组织识别连接到云平台的所有设备和应用程序。",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "24000字企业开源安全治理最佳实践发布 | 长亭百川云",
+      "url": "https://rivers.chaitin.cn/blog/cq953ph0lnechd244mvg",
+      "snippet": "《开源软件供应链安全治理最佳实践》九大环节. 最佳实践中核心解答的问题：1、企业最佳实践的分享.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "主机安全最佳实践｜青藤万相 × AWS 护航汽车服务平台出海破局",
+      "url": "https://qingteng.cn/news/69aa3d9a867f4e003903e37a.html",
+      "snippet": "《ATT&CK框架实践指南》.主机安全最佳实践｜青藤万相 × AWS 护航汽车服务平台出海破局. 发布日期：2026-03-06.",
+      "fetched": true,
+      "char_count": 2609
+    },
+    {
+      "title": "数字扁担",
+      "url": "https://www.brandnewdata.com/",
+      "snippet": "数字化场景解决方案. 最佳实践.BranD data-BIZ企业数字化解决方案. 能够解决企业数字化整体的管理运营问题，加速数字资产的生产利用，使得人们可以随时随地使用任何数据，满足企业对营销，供应链、生产等数据多样化、 高精度、安全可靠的需求，快速赋...",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "AWS Risk and Compliance Whitepaper",
+      "url": "https://d0.awsstatic.com/whitepapers/compliance/CN_Whitepapers/AWS_Risk_and_Compliance_Whitepaper_CN.pdf",
+      "snippet": "2011 年云安全联盟 (CSA) 启动了 STAR这是一项鼓励提高云提供商安全实践透明度的活动。AWS 安全框架集成了 ISO 27002 最佳实践和 PCI 数 据安全标准。",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "juejin.cn/post/7413196978601721883",
+      "url": "https://juejin.cn/post/7413196978601721883",
+      "snippet": "前端安全最佳实践指南. 前端小菜鸟吖.内容安全策略（CSP）.",
+      "fetched": true,
+      "char_count": 5307
+    },
+    {
+      "title": "活动 | 阿里云峰会Last Call...",
+      "url": "https://www.anquanke.com/post/id/242320",
+      "snippet": "造极致的原生安全。 在分论坛中，你将听到阿里云安全资深专家对于云原生安全的深度技术分享，更将听到深度用户现场分享的最佳应用实践案例。",
+      "fetched": true,
+      "char_count": 1489
+    },
+    {
+      "title": "RSAC",
+      "url": "https://www.nsfocus.com.cn/uploadfile/2025/0708/20250708112624644.pdf",
+      "snippet": "重点发布包括 AI 大模型安全威胁矩阵 V2.0、AI-Scan 风险评估工具、AI 红队测试、AI 安全赋能平台 NSFGPT、智能安全运营平台 ISOP 以及混合抗 DDoS 解决方案。",
+      "fetched": false,
+      "char_count": 0
+    }
+  ]
+}

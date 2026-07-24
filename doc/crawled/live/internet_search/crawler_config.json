@@ -1,0 +1,203 @@
+{
+  "_comment": "互联网爬虫配置 — 可直接编辑此文件，或通过 Web UI 修改",
+  "crawl": {
+    "years": [
+      2025,
+      2026
+    ],
+    "max_results_per_keyword": 20,
+    "max_pages_per_site": 15,
+    "enable_keyword_search": true,
+    "enable_site_crawl": true
+  },
+  "content": {
+    "max_chars": 0,
+    "max_file_bytes": 100000
+  },
+  "request": {
+    "delay_seconds": 3.0,
+    "fetch_delay_seconds": 2.0,
+    "timeout_seconds": 25,
+    "max_retries": 2
+  },
+  "duckduckgo": {
+    "region": "wt-wt"
+  },
+  "sources": {
+    "security_sites": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/"
+      },
+      {
+        "name": "Bleeping Computer",
+        "url": "https://www.bleepingcomputer.com/"
+      },
+      {
+        "name": "Krebs on Security",
+        "url": "https://krebsonsecurity.com/"
+      },
+      {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/"
+      },
+      {
+        "name": "Threatpost",
+        "url": "https://threatpost.com/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/"
+      },
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/"
+      },
+      {
+        "name": "CSO Online",
+        "url": "https://www.csoonline.com/"
+      },
+      {
+        "name": "ZDNet Security",
+        "url": "https://www.zdnet.com/topic/security/"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/"
+      },
+      {
+        "name": "CyberScoop",
+        "url": "https://cyberscoop.com/"
+      },
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/"
+      },
+      {
+        "name": "Ars Technica Security",
+        "url": "https://arstechnica.com/security/"
+      },
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/"
+      },
+      {
+        "name": "FreeBuf",
+        "url": "https://www.freebuf.com/"
+      },
+      {
+        "name": "安全客",
+        "url": "https://www.anquanke.com/"
+      },
+      {
+        "name": "嘶吼",
+        "url": "https://www.4hou.com/"
+      },
+      {
+        "name": "SecWiki",
+        "url": "https://www.sec-wiki.com/"
+      },
+      {
+        "name": "吾爱破解",
+        "url": "https://www.52pojie.cn/"
+      },
+      {
+        "name": "腾讯安全应急响应中心",
+        "url": "https://security.tencent.com/"
+      },
+      {
+        "name": "阿里云安全公告",
+        "url": "https://www.alibabacloud.com/help/zh/security-notices/"
+      },
+      {
+        "name": "奇安信威胁情报中心",
+        "url": "https://ti.qianxin.com/"
+      },
+      {
+        "name": "Exploit-DB",
+        "url": "https://www.exploit-db.com/"
+      },
+      {
+        "name": "Packet Storm Security",
+        "url": "https://packetstormsecurity.com/"
+      },
+      {
+        "name": "OpenCVE",
+        "url": "https://www.opencve.io/cve"
+      },
+      {
+        "name": "CISA News",
+        "url": "https://www.cisa.gov/news-events/news"
+      },
+      {
+        "name": "NIST CSRC News",
+        "url": "https://csrc.nist.gov/news"
+      },
+      {
+        "name": "NCSC UK",
+        "url": "https://www.ncsc.gov.uk/news"
+      },
+      {
+        "name": "ACSC AU",
+        "url": "https://www.cyber.gov.au/about-us/advisories"
+      },
+      {
+        "name": "ENISA",
+        "url": "https://www.enisa.europa.eu/news"
+      }
+    ],
+    "cn_keywords": [
+      "2025 2026 重大网络安全漏洞 通报",
+      "零日漏洞 最新 2025 2026",
+      "勒索软件 攻击事件 2025 2026",
+      "供应链攻击 案例 分析 2025 2026",
+      "APT 高级持续性威胁 最新动态 2025 2026",
+      "数据泄露 事件 2025 2026 处罚",
+      "个人信息保护 合规 案例 2025 2026",
+      "数据跨境传输 安全评估 最新规定",
+      "数据分类分级 实施指南",
+      "大模型安全 攻击 防御 2025 2026",
+      "AI 生成内容 安全风险 2025 2026",
+      "提示词注入 防护 方案",
+      "深度伪造 检测 技术",
+      "云安全 最佳实践 2025 2026",
+      "零信任 架构 实施 方案",
+      "软件供应链安全 SBOM 2025 2026",
+      "开源软件 安全治理",
+      "网络安全等级保护 2.0 测评 要求",
+      "关基 保护 条例 实施 细则",
+      "数据安全法 执法案例",
+      "个人信息出境 标准合同 备案",
+      "量子计算 对密码学 威胁",
+      "物联网安全 漏洞 2025 2026",
+      "车联网 数据安全 规定",
+      "工业控制系统 安全 事件 2025 2026"
+    ],
+    "en_keywords": [
+      "critical CVE vulnerability 2025 2026 exploitation",
+      "ransomware attack 2025 2026 analysis",
+      "zero-day vulnerability 2025 2026 disclosure",
+      "data breach incident 2025 2026 report",
+      "supply chain attack 2025 2026 case study",
+      "APT group threat intelligence 2025 2026",
+      "cloud security best practices 2025 2026",
+      "zero trust architecture implementation guide",
+      "LLM AI security vulnerability OWASP 2025 2026",
+      "prompt injection defense techniques",
+      "software supply chain security SBOM 2025 2026",
+      "NIST CSF 2.0 implementation guide",
+      "cybersecurity regulation compliance 2025 2026",
+      "IoT security vulnerability 2025 2026",
+      "quantum computing cryptography threat",
+      "CISA known exploited vulnerability 2025 2026",
+      "cyber insurance requirements 2025 2026",
+      "API security best practices 2025 2026",
+      "container kubernetes security 2025 2026",
+      "identity access management trends 2025 2026"
+    ]
+  }
+}

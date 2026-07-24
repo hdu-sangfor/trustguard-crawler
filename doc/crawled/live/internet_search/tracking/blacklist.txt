@@ -1,0 +1,25 @@
+# 黑名单 — 永不爬取的域名或完整 URL（每行一条）
+# 支持 # 开头的注释行
+# 示例:
+#   spam-tracker.com
+#   https://bad-site.com/scam-page
+
+# === 广告 / 追踪 ===
+doubleclick.net
+googleadservices.com
+googlesyndication.com
+facebook.com/plugins
+
+# === 非安全相关大型平台 ===
+amazon.com
+ebay.com
+etsy.com
+walmart.com
+shopify.com
+alibaba.com
+aliexpress.com
+pinterest.com
+instagram.com
+tiktok.com
+twitter.com
+youtube.com

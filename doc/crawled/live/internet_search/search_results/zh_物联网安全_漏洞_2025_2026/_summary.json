@@ -1,0 +1,79 @@
+{
+  "keyword": "物联网安全 漏洞 2025 2026",
+  "language": "zh",
+  "searched_at": "2026-07-24 13:17:43",
+  "total_results": 10,
+  "fetched_count": 5,
+  "results": [
+    {
+      "title": "2026年1月网络安全威胁情报与漏洞分析-腾讯云开发者社区-腾讯云",
+      "url": "https://cloud.tencent.cn/developer/article/2619709",
+      "snippet": "2026年1月网络安全威胁情报与漏洞分析.React2Shell：React.js中正在被积极利用的关键RCE漏洞.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "2026年1月网络安全威胁情报与漏洞分析本文详细分析了2026...",
+      "url": "https://juejin.cn/post/7596478936386699306",
+      "snippet": "2026-01-19. 7. 阅读3分钟.React2Shell：React.js中正在被积极利用的关键RCE漏洞 2025年12月3日，React服务器组件中一个关键的无身份验证远程代码执行漏洞被披露。",
+      "fetched": true,
+      "char_count": 1124
+    },
+    {
+      "title": "AI攻防风暴：2025网络安全漏洞深度解析与自主防御新纪元 - 鲸林向海",
+      "url": "https://www.itsolotime.com/archives/20442",
+      "snippet": "2025年全网通用型漏洞行业分布的分析来看，漏洞主要集中在“通用行业”，其记录占比高达87.5%（44,951个），表明绝大多数漏洞为跨行业通用的软件或组件漏洞，SonicWall SMA1000零日漏洞利用事件.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "物联网安全,老生常谈还是创新前沿?DePIN提供新思路 - OFweek物联网",
+      "url": "https://iot.ofweek.com/2024-09/ART-132200-8500-30644980.html",
+      "snippet": "物联网安全 DePIN. 价值正从比特回流到原子:被低估的从来不是DePIN,而是物联网本身 2026-04-23.",
+      "fetched": true,
+      "char_count": 3480
+    },
+    {
+      "title": "2025网络安全重要趋势",
+      "url": "https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2025/05/cybersecurity-considerations-2025.pdf",
+      "snippet": "1 毕马威《2024年全球首席执行官展望》KPMG 2024 Global CEO Outlook2024年8月。 2 世界经济论坛《战略性网络安全人才框架》Strategic Cybersecurity Talent Framework2024年4月。Lou Fiorello 副总裁 — 安全产品 ServiceNow.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "NGINX惊爆18年老洞，野外攻击已开始-安全KER - 安全资讯平台",
+      "url": "https://www.anquanke.com/post/id/315546",
+      "snippet": "CVE-2026-42945隐藏在NGINX Plus和NGINX开源版本的ngx_http_rewrite_module模块中。浅谈SQL注入手工测试思路. 2025-12-11 15:14:59. 微软 Office 漏洞允许攻击者执行远程代码.",
+      "fetched": true,
+      "char_count": 1231
+    },
+    {
+      "title": "kanxue.com/book-79-1429.htm",
+      "url": "https://www.kanxue.com/book-79-1429.htm",
+      "snippet": "课时五:实际漏洞分析 - 物联网安全入门 - 看雪学苑｜专业信息安全学习平台.课时一:物联网硬件层安全讲解-1. 课时一:物联网硬件层安全讲解-2. 课时一:物联网硬件层安全讲解-3.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "FreeBuf早报 | Claude新模型发布即挖500个0day漏洞；NGINX...",
+      "url": "https://f5.pm/go-393905.html",
+      "snippet": "2. Ingress NGINX 控制器曝出四个新漏洞，两个高危漏洞CVSS评分达8.8.4. unstructured库高危漏洞（CVSS 9.8）可导致远程代码执行.",
+      "fetched": true,
+      "char_count": 1510
+    },
+    {
+      "title": "post.smzdm.com/p/a0vlm728",
+      "url": "https://post.smzdm.com/p/a0vlm728/",
+      "snippet": "许多设备因设计缺陷和安全防护不足，容易被黑客入侵，导致家庭生活被实时监控。 这篇内容深入剖析了物联网摄像头的安全漏洞，并提供了从物理设置到网络隔离的三重防护策略，帮助用户有效应对数字偷窥风险，让智能设备真正服. 务于安全。",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "畅捷通系统特征及漏洞探测利用 - shinianyunyan - 博客园",
+      "url": "https://www.cnblogs.com/priv/p/19296977",
+      "snippet": "合集: Web安全 , 常见CMS&OA-无漏洞复现.3. 泛微OA系统特征及漏洞探测利用(934). 4. kkFileView文件预览特征及漏洞复现(834).",
+      "fetched": true,
+      "char_count": 558
+    }
+  ]
+}

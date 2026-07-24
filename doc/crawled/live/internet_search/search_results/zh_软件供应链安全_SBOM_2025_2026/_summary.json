@@ -1,0 +1,107 @@
+{
+  "keyword": "软件供应链安全 SBOM 2025 2026",
+  "language": "zh",
+  "searched_at": "2026-07-24 13:12:54",
+  "total_results": 14,
+  "fetched_count": 9,
+  "results": [
+    {
+      "title": "CISA SBOM 2025年：更新， Standard和合规性 | Xygeni",
+      "url": "https://xygeni.io/zh-CN/blog/cisa-sbom-updates-standards-and-compliance/",
+      "snippet": "LiteLLM供应链攻击.引言. 22 年 2025 月 XNUMX 日，网络安全和基础设施安全局（CISA）发布了《2025 年软件物料清单最低要素》草案（SBOM）。",
+      "fetched": true,
+      "char_count": 2290
+    },
+    {
+      "title": "SBOM实战指南：7步搞定供应链安全-腾讯云开发者社区-腾讯云",
+      "url": "https://cloud.tencent.com/developer/article/2690423",
+      "snippet": "发布于 2026-06-16 16:07:04.与安全工具联动将 SBOM 与漏洞管理平台（如 Qualys、Tenable）、CI/CD 工具（如 GitHub Actions）集成，形成自动化安全闭环。",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "软件供应链安全：SBOM vs VEX？ - 安全内参 | 决策者的网络安全知识库",
+      "url": "https://www.secrss.com/articles/38485",
+      "snippet": "尽管SBOM无法解决所有的软件安全问题，但将形成基础的数据，奠定后续安全工具、实践和保证的构建基础。CSAF是由OASIS Open CSAF技术委员会开发的机器可读安全建议标准。",
+      "fetched": true,
+      "char_count": 3288
+    },
+    {
+      "title": "Gartner发布SBOM软件物料清单创新洞察：SBOM...",
+      "url": "https://blog.csdn.net/galaxylove/article/details/141671132",
+      "snippet": "软件供应链安全：深度解析软件物料清单（SBOM）生成与管理.spdx-sbom-generator使用记录.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "透视软件供应链安全：SBOM标准解读与Go项目生成指南 - Tony Bai",
+      "url": "https://tonybai.com/2025/05/22/go-sbom-practice/",
+      "snippet": "近年来，软件供应链安全事件频发，从 SolarWinds 到 Log4Shell，每一次都给业界敲响了警钟。透视软件供应链安全：SBOM标准解读与Go项目生成指南. 五月 22, 2025.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "Docker 供应链安全：SBOM 与镜像签名落地 | BvBeJ的小站",
+      "url": "https://www.bvbej.com/posts/docker-sbom-signing-pipeline/",
+      "snippet": "Docker 供应链安全：SBOM 与镜像签名落地. 2026年5月2日 · 1 分钟 · BvBeJ. 背景. 镜像漏洞扫描只是起点。 上线前还需要回答：这个镜像是谁构建的，包含了什么依赖，是否被篡改。",
+      "fetched": true,
+      "char_count": 264
+    },
+    {
+      "title": "蚂蚁安全开放基于“函数级”SBOM的新一代软件供应链安全技术【源蜥】",
+      "url": "http://anzerclub.com/yuedu/tuijian/2565.html",
+      "snippet": "内容投稿和市场合作 大福晋 微信号：Madeline_Sue. 我知道了. 蚂蚁安全开放基于“函数级”SBOM的新一代软件供应链安全技术【源蜥】.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "BlackDuck-开源治理工具-SBOM-漏洞扫描-安般科技",
+      "url": "https://www.anban.tech/details/BlackDuck",
+      "snippet": "易识固件供应链安全管理系统(BSCA). 易识软件成分分析系统(SCA).软件物料清单（SBOM）.",
+      "fetched": true,
+      "char_count": 207
+    },
+    {
+      "title": "DeepSeek 时代渗透测试工程师会被 Agent 替代吗",
+      "url": "https://www.nsfocus.com.cn/uploadfile/2025/0422/20250422065131784.pdf",
+      "snippet": "1.DeepSeek 恶意软件包事件中的软件供应链攻击手段.4. 软件供应链安全治理整体应对策略. 持久化. 篡改容器镜像层、注入 Ku-bernetes Helm Chart 配置.",
+      "fetched": false,
+      "char_count": 0
+    },
+    {
+      "title": "valor-software/ngx-bootstrap...",
+      "url": "https://www.murphysec.com/valor-software/ngx-bootstrap",
+      "snippet": "SBOM清单.OSCS. 开源软件供应链安全社区. 开源安全知识库. 提供超100W+开源项目检测报告.",
+      "fetched": true,
+      "char_count": 430
+    },
+    {
+      "title": "供应链安全面试5连问:国安部刚预警就考 | CN-SEC 中文网",
+      "url": "https://cn-sec.com/archives/5296918.html",
+      "snippet": "A: SBOM（Software Bill of Materials，软件物料清单）是软件产品中所有组件的完整列表，包含组件名称、版本、供应商、依赖关系等信息。fake-useragent pypi包供应链投毒事件 567 views 0. 供应链安全.",
+      "fetched": true,
+      "char_count": 2416
+    },
+    {
+      "title": "AI安全 – Page 22 – 安全意识博客",
+      "url": "https://blog.securemymind.com/tag/ai安全/page/22",
+      "snippet": "快捷安全培训. 安全培训课件. 定制安全课程. 信息安全意识DEMO.第 2 周. 开源生态与供应链安全. SBOM、SCA、签名验证、快速响应流程. 第 3 周. AI Agent 与生成式 AI 的安全使用.",
+      "fetched": true,
+      "char_count": 4088
+    },
+    {
+      "title": "持续引领 | AI...",
+      "url": "https://f5.pm/go-271710.html",
+      "snippet": "对应由 ASOC、SBOM、TMA、SAST、SCA、IAST、DRA、RASP、PTE 等技术手段予以支撑。中国首个数字供应链 SBOM 格式--DSDX(DigitalSupply-chain Data Exchange)。",
+      "fetched": true,
+      "char_count": 4162
+    },
+    {
+      "title": "Trivy",
+      "url": "https://trivy.dev/",
+      "snippet": "Trivy is the most popular open source security scanner for Vulnerability &, IaC, SBOM discovery, cloud scanning and Kubernetes security.",
+      "fetched": true,
+      "char_count": 914
+    }
+  ]
+}

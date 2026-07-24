@@ -1,0 +1,16 @@
+{
+  "site": "SecurityWeek",
+  "crawled_at": "2026-07-24 12:31:32",
+  "total_found": 2,
+  "saved": 2,
+  "articles": [
+    {
+      "title": "Cybersecurity News",
+      "url": "https://www.securityweek.com"
+    },
+    {
+      "title": "Virtual Events",
+      "url": "https://www.securitysummits.com/"
+    }
+  ]
+}

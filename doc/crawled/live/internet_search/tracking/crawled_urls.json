@@ -1,0 +1,722 @@
+{
+  "https://thehackernews.com/#email-outer": {
+    "title": "Get the Latest News",
+    "timestamp": "2026-07-24 12:30:04",
+    "success": true,
+    "source": "site:The Hacker News"
+  },
+  "https://thehackernews.com/search/label/Threat%20Intelligence": {
+    "title": "Threat Intelligence",
+    "timestamp": "2026-07-24 12:30:07",
+    "success": true,
+    "source": "site:The Hacker News"
+  },
+  "https://krebsonsecurity.com/#content": {
+    "title": "Skip to content",
+    "timestamp": "2026-07-24 12:30:16",
+    "success": true,
+    "source": "site:Krebs on Security"
+  },
+  "https://krebsonsecurity.com/about/": {
+    "title": "About the Author",
+    "timestamp": "2026-07-24 12:30:19",
+    "success": true,
+    "source": "site:Krebs on Security"
+  },
+  "https://www.schneier.com/": {
+    "title": "Schneier on Security",
+    "timestamp": "2026-07-24 12:30:25",
+    "success": true,
+    "source": "site:Schneier on Security"
+  },
+  "https://www.schneier.com/blog/archives/2026/07/end-to-end-encryption-and-going-dark.html": {
+    "title": "End-to-End Encryption and “Going Dark”",
+    "timestamp": "2026-07-24 12:31:00",
+    "success": false,
+    "source": "site:Schneier on Security"
+  },
+  "https://www.informatechtarget.com/": {
+    "title": "Informa TechTarget|",
+    "timestamp": "2026-07-24 12:31:07",
+    "success": true,
+    "source": "site:Dark Reading"
+  },
+  "https://www.techtarget.com/searchsecurity/": {
+    "title": "SearchSecurity",
+    "timestamp": "2026-07-24 12:31:10",
+    "success": true,
+    "source": "site:Dark Reading"
+  },
+  "https://threatpost.com/category/vulnerabilities/": {
+    "title": "Vulnerabilities",
+    "timestamp": "2026-07-24 12:31:18",
+    "success": true,
+    "source": "site:Threatpost"
+  },
+  "https://threatpost.com/microsite/infosec-insiders-community/": {
+    "title": "InfoSec Insiders",
+    "timestamp": "2026-07-24 12:31:21",
+    "success": true,
+    "source": "site:Threatpost"
+  },
+  "https://www.securityweek.com": {
+    "title": "Cybersecurity News",
+    "timestamp": "2026-07-24 12:31:28",
+    "success": true,
+    "source": "site:SecurityWeek"
+  },
+  "https://www.securitysummits.com/": {
+    "title": "Virtual Events",
+    "timestamp": "2026-07-24 12:31:32",
+    "success": true,
+    "source": "site:SecurityWeek"
+  },
+  "https://www.infosecurity-magazine.com/white-papers/": {
+    "title": "White Papers",
+    "timestamp": "2026-07-24 12:31:38",
+    "success": true,
+    "source": "site:Infosecurity Magazine"
+  },
+  "https://www.infosecurity-magazine.com/news/open-ai-hacked-another-company/": {
+    "title": "Open AI Claims Its AI Models Went Rogue and Hacked Another Company",
+    "timestamp": "2026-07-24 12:31:41",
+    "success": true,
+    "source": "site:Infosecurity Magazine"
+  },
+  "https://www.csoonline.com/newsletters/signup/": {
+    "title": "Newsletters",
+    "timestamp": "2026-07-24 12:31:49",
+    "success": true,
+    "source": "site:CSO Online"
+  },
+  "https://www.csoonline.com/enterprise-buyers-guide/": {
+    "title": "Buyer’s Guides",
+    "timestamp": "2026-07-24 12:31:52",
+    "success": true,
+    "source": "site:CSO Online"
+  },
+  "https://www.zdnet.com/article/rayneo-air-4-pro-hdr10-smart-glasses-ces/": {
+    "title": "I wore the world's first HDR10 smart glasses",
+    "timestamp": "2026-07-24 12:32:00",
+    "success": true,
+    "source": "site:ZDNet Security"
+  },
+  "https://www.zdnet.com/article/tcl-note-a1-nxtpaper-ces/": {
+    "title": "TCL's new E Ink tablet beats the Remarkable and Kindle",
+    "timestamp": "2026-07-24 12:32:03",
+    "success": true,
+    "source": "site:ZDNet Security"
+  },
+  "https://defense.yunaq.com/news/609c96e5d132c824c96ef9df/": {
+    "title": "Colonial Pipeline攻击事件初步调查结果：未及时修复Exchange...",
+    "timestamp": "2026-07-24 12:39:45",
+    "success": true,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://shuyeidc.com/wp/144170.html": {
+    "title": "Vans 和 North Face 的母公司遭勒索软件攻击 - 树叶云",
+    "timestamp": "2026-07-24 12:39:49",
+    "success": true,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "http://pub1-bjyt.s3.360.cn/bcms/2025年2月勒索软件流行态势分析.pdf": {
+    "title": "Server 2008 以及 Windows Server 2016",
+    "timestamp": "2026-07-24 12:39:59",
+    "success": false,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://www.mchz.com.cn/news/details3916": {
+    "title": "每周安全速递³¹⁶｜朝鲜黑客组织与Play勒索病毒联手展开重大网络攻击",
+    "timestamp": "2026-07-24 12:40:03",
+    "success": true,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://www.anquanke.com/post/id/297605": {
+    "title": "意大利惨遭密集勒索攻击：RansomHub、RansomHouse 在 24...",
+    "timestamp": "2026-07-24 12:40:06",
+    "success": true,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://www.antiy.cn/research/notice&report/research_report/20210510.html": {
+    "title": "关于美燃油管道商遭勒索攻击关停事件的初步研判和建议",
+    "timestamp": "2026-07-24 12:40:16",
+    "success": true,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://bbs.kanxue.com/thread-287929.htm": {
+    "title": "bbs.kanxue.com/thread-287929.htm",
+    "timestamp": "2026-07-24 12:40:26",
+    "success": true,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://starmap.dbappsecurity.com.cn/info/12709": {
+    "title": "美国SimonMed医疗影像公司遭勒索攻击，120...",
+    "timestamp": "2026-07-24 12:40:29",
+    "success": true,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://rivers.chaitin.cn/blog/cq9k4g90lnechd245jkg": {
+    "title": "rivers.chaitin.cn/blog/cq9k4g90lnechd245jkg",
+    "timestamp": "2026-07-24 12:40:39",
+    "success": false,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://www.890mn.com/news/ming-ni-su-da-springlakepark-xue-qu-zao-le-suo-ruan-jian-gong-ji-xue-xiao-ting-ke-liang-ri-an-quan-xi-tong-shou-ying-xiang-mnschoolsransomwareattack": {
+    "title": "新闻：明尼苏达Spring Lake Park... - 890mn",
+    "timestamp": "2026-07-24 12:41:24",
+    "success": true,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://www.jiamisoft.com/blog/21501-wanna.html": {
+    "title": "面对“想哭”勒索蠕虫病毒，我们如何能不哭 - 夏冰加密软件技术博客",
+    "timestamp": "2026-07-24 12:41:34",
+    "success": true,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://jandan.net/p/109124": {
+    "title": "不讲武德：研究发现支付赎金后，勒索黑客下次还会黑你 - 煎蛋",
+    "timestamp": "2026-07-24 12:41:59",
+    "success": true,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://hackernews.cc/post/60105": {
+    "title": "医疗保健巨头 DaVita 透露，网络攻击单州影响超 1.3 万人 - HackerNews",
+    "timestamp": "2026-07-24 12:42:21",
+    "success": false,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://cn-sec.com/archives/4599654.html": {
+    "title": "无印良品因物流合作伙伴遭勒索攻击关停线上销售 | CN-SEC 中文网",
+    "timestamp": "2026-07-24 12:43:10",
+    "success": true,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://chaobro.com/zh/posts/google-ai-zero-day-vulnerability-warning-2026": {
+    "title": "Google 发出警告：黑客已经用 AI 开发出了零日漏洞攻击工具 - ChaoBro",
+    "timestamp": "2026-07-24 12:46:02",
+    "success": false,
+    "source": "search:零日漏洞 最新 2025 2026"
+  },
+  "https://blog.eimoon.com/tags/零日漏洞/": {
+    "title": "Tag: 零日漏洞 - 月球基地",
+    "timestamp": "2026-07-24 12:46:48",
+    "success": false,
+    "source": "search:零日漏洞 最新 2025 2026"
+  },
+  "https://3c.ltn.com.tw/news/63983": {
+    "title": "Chrome用戶快更新！ 全新零日漏洞曝光 Google... | 自由時報電子報",
+    "timestamp": "2026-07-24 12:48:23",
+    "success": false,
+    "source": "search:零日漏洞 最新 2025 2026"
+  },
+  "https://blog.trendmicro.com.tw/?p=90443": {
+    "title": "從 Chrome 零日到 LINE...",
+    "timestamp": "2026-07-24 12:48:28",
+    "success": true,
+    "source": "search:零日漏洞 最新 2025 2026"
+  },
+  "https://juejin.cn/post/7623978535271989286": {
+    "title": "黑客已在攻击！ Google 紧急修复 Chrome 浏览器严重漏洞Google...",
+    "timestamp": "2026-07-24 12:48:31",
+    "success": true,
+    "source": "search:零日漏洞 最新 2025 2026"
+  },
+  "https://www.lvbug.com/zh-TW/category/0day漏洞/": {
+    "title": "0day漏洞- 駭客",
+    "timestamp": "2026-07-24 12:49:18",
+    "success": true,
+    "source": "search:零日漏洞 最新 2025 2026"
+  },
+  "https://blog.vayki.com/posts/679": {
+    "title": "研究者利用OpenAI o3模型发现Linux...",
+    "timestamp": "2026-07-24 12:50:06",
+    "success": true,
+    "source": "search:零日漏洞 最新 2025 2026"
+  },
+  "https://www.knews.com.tw/news/42A7C1901F2F31E4969204F7A0CFDCE9": {
+    "title": "趕快更新！ 蘋果緊急修復iPhone/iPad高風險漏洞 已被駭客攻擊｜知新聞",
+    "timestamp": "2026-07-24 12:52:59",
+    "success": true,
+    "source": "search:零日漏洞 最新 2025 2026"
+  },
+  "https://post.smzdm.com/p/avg2vg2m/": {
+    "title": "post.smzdm.com/p/avg2vg2m",
+    "timestamp": "2026-07-24 12:53:03",
+    "success": false,
+    "source": "search:零日漏洞 最新 2025 2026"
+  },
+  "https://ti.dbappsecurity.com.cn/info/14239": {
+    "title": "谷歌紧急修复Chrome CSS...",
+    "timestamp": "2026-07-24 12:53:15",
+    "success": true,
+    "source": "search:零日漏洞 最新 2025 2026"
+  },
+  "https://www.anquanke.com/post/id/314205": {
+    "title": "麒麟勒索软件攻击圣约医疗波及47.8万名患者-安全KER - 安全资讯平台",
+    "timestamp": "2026-07-24 12:53:39",
+    "success": true,
+    "source": "search:勒索软件 攻击事件 2025 2026"
+  },
+  "https://www.tkvps.com/yun/yun-5512.html": {
+    "title": "定期评估云服务器资源与安全策略-最佳实践指南-淘客VPS",
+    "timestamp": "2026-07-24 12:57:25",
+    "success": true,
+    "source": "search:云安全 最佳实践 2025 2026"
+  },
+  "http://cloudnetworkspy.mindfree.top/analysis/document/azure/tech-blog/2025_04_18_cecc0d7e.md": {
+    "title": "[解决方案] 保护虚拟机访问的安全最佳实践",
+    "timestamp": "2026-07-24 12:57:27",
+    "success": false,
+    "source": "search:云安全 最佳实践 2025 2026"
+  },
+  "https://lequ7.com/posts/yun-cun-chu-an-quan-de-zui-jia-shi-jian": {
+    "title": "云存储安全的最佳实践 - 乐趣区",
+    "timestamp": "2026-07-24 12:58:59",
+    "success": false,
+    "source": "search:云安全 最佳实践 2025 2026"
+  },
+  "https://rivers.chaitin.cn/blog/cq953ph0lnechd244mvg": {
+    "title": "24000字企业开源安全治理最佳实践发布 | 长亭百川云",
+    "timestamp": "2026-07-24 12:59:09",
+    "success": false,
+    "source": "search:云安全 最佳实践 2025 2026"
+  },
+  "https://qingteng.cn/news/69aa3d9a867f4e003903e37a.html": {
+    "title": "主机安全最佳实践｜青藤万相 × AWS 护航汽车服务平台出海破局",
+    "timestamp": "2026-07-24 12:59:19",
+    "success": true,
+    "source": "search:云安全 最佳实践 2025 2026"
+  },
+  "https://www.brandnewdata.com/": {
+    "title": "数字扁担",
+    "timestamp": "2026-07-24 13:00:05",
+    "success": false,
+    "source": "search:云安全 最佳实践 2025 2026"
+  },
+  "https://d0.awsstatic.com/whitepapers/compliance/CN_Whitepapers/AWS_Risk_and_Compliance_Whitepaper_CN.pdf": {
+    "title": "AWS Risk and Compliance Whitepaper",
+    "timestamp": "2026-07-24 13:03:03",
+    "success": false,
+    "source": "search:云安全 最佳实践 2025 2026"
+  },
+  "https://juejin.cn/post/7413196978601721883": {
+    "title": "juejin.cn/post/7413196978601721883",
+    "timestamp": "2026-07-24 13:03:06",
+    "success": true,
+    "source": "search:云安全 最佳实践 2025 2026"
+  },
+  "https://www.anquanke.com/post/id/242320": {
+    "title": "活动 | 阿里云峰会Last Call...",
+    "timestamp": "2026-07-24 13:03:09",
+    "success": true,
+    "source": "search:云安全 最佳实践 2025 2026"
+  },
+  "https://www.nsfocus.com.cn/uploadfile/2025/0708/20250708112624644.pdf": {
+    "title": "RSAC",
+    "timestamp": "2026-07-24 13:04:44",
+    "success": false,
+    "source": "search:云安全 最佳实践 2025 2026"
+  },
+  "https://xygeni.io/zh-CN/blog/cisa-sbom-updates-standards-and-compliance/": {
+    "title": "CISA SBOM 2025年：更新， Standard和合规性 | Xygeni",
+    "timestamp": "2026-07-24 13:05:29",
+    "success": true,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "https://cloud.tencent.com/developer/article/2690423": {
+    "title": "SBOM实战指南：7步搞定供应链安全-腾讯云开发者社区-腾讯云",
+    "timestamp": "2026-07-24 13:06:15",
+    "success": false,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "https://www.secrss.com/articles/38485": {
+    "title": "软件供应链安全：SBOM vs VEX？ - 安全内参 | 决策者的网络安全知识库",
+    "timestamp": "2026-07-24 13:06:25",
+    "success": true,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "https://blog.csdn.net/galaxylove/article/details/141671132": {
+    "title": "Gartner发布SBOM软件物料清单创新洞察：SBOM...",
+    "timestamp": "2026-07-24 13:06:28",
+    "success": false,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "https://tonybai.com/2025/05/22/go-sbom-practice/": {
+    "title": "透视软件供应链安全：SBOM标准解读与Go项目生成指南 - Tony Bai",
+    "timestamp": "2026-07-24 13:08:14",
+    "success": false,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "https://www.bvbej.com/posts/docker-sbom-signing-pipeline/": {
+    "title": "Docker 供应链安全：SBOM 与镜像签名落地 | BvBeJ的小站",
+    "timestamp": "2026-07-24 13:08:38",
+    "success": true,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "http://anzerclub.com/yuedu/tuijian/2565.html": {
+    "title": "蚂蚁安全开放基于“函数级”SBOM的新一代软件供应链安全技术【源蜥】",
+    "timestamp": "2026-07-24 13:08:48",
+    "success": false,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "https://www.anban.tech/details/BlackDuck": {
+    "title": "BlackDuck-开源治理工具-SBOM-漏洞扫描-安般科技",
+    "timestamp": "2026-07-24 13:08:57",
+    "success": true,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "https://www.nsfocus.com.cn/uploadfile/2025/0422/20250422065131784.pdf": {
+    "title": "DeepSeek 时代渗透测试工程师会被 Agent 替代吗",
+    "timestamp": "2026-07-24 13:09:11",
+    "success": false,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "https://www.murphysec.com/valor-software/ngx-bootstrap": {
+    "title": "valor-software/ngx-bootstrap...",
+    "timestamp": "2026-07-24 13:09:21",
+    "success": true,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "https://cn-sec.com/archives/5296918.html": {
+    "title": "供应链安全面试5连问:国安部刚预警就考 | CN-SEC 中文网",
+    "timestamp": "2026-07-24 13:10:07",
+    "success": true,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "https://blog.securemymind.com/tag/ai安全/page/22": {
+    "title": "AI安全 – Page 22 – 安全意识博客",
+    "timestamp": "2026-07-24 13:10:57",
+    "success": true,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "https://f5.pm/go-271710.html": {
+    "title": "持续引领 | AI...",
+    "timestamp": "2026-07-24 13:11:44",
+    "success": true,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "https://trivy.dev/": {
+    "title": "Trivy",
+    "timestamp": "2026-07-24 13:12:54",
+    "success": true,
+    "source": "search:软件供应链安全 SBOM 2025 2026"
+  },
+  "https://cloud.tencent.cn/developer/article/2619709": {
+    "title": "2026年1月网络安全威胁情报与漏洞分析-腾讯云开发者社区-腾讯云",
+    "timestamp": "2026-07-24 13:15:58",
+    "success": false,
+    "source": "search:物联网安全 漏洞 2025 2026"
+  },
+  "https://juejin.cn/post/7596478936386699306": {
+    "title": "2026年1月网络安全威胁情报与漏洞分析本文详细分析了2026...",
+    "timestamp": "2026-07-24 13:16:02",
+    "success": true,
+    "source": "search:物联网安全 漏洞 2025 2026"
+  },
+  "https://www.itsolotime.com/archives/20442": {
+    "title": "AI攻防风暴：2025网络安全漏洞深度解析与自主防御新纪元 - 鲸林向海",
+    "timestamp": "2026-07-24 13:16:24",
+    "success": false,
+    "source": "search:物联网安全 漏洞 2025 2026"
+  },
+  "https://iot.ofweek.com/2024-09/ART-132200-8500-30644980.html": {
+    "title": "物联网安全,老生常谈还是创新前沿?DePIN提供新思路 - OFweek物联网",
+    "timestamp": "2026-07-24 13:16:26",
+    "success": true,
+    "source": "search:物联网安全 漏洞 2025 2026"
+  },
+  "https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2025/05/cybersecurity-considerations-2025.pdf": {
+    "title": "2025网络安全重要趋势",
+    "timestamp": "2026-07-24 13:16:31",
+    "success": false,
+    "source": "search:物联网安全 漏洞 2025 2026"
+  },
+  "https://www.anquanke.com/post/id/315546": {
+    "title": "NGINX惊爆18年老洞，野外攻击已开始-安全KER - 安全资讯平台",
+    "timestamp": "2026-07-24 13:16:35",
+    "success": true,
+    "source": "search:物联网安全 漏洞 2025 2026"
+  },
+  "https://www.kanxue.com/book-79-1429.htm": {
+    "title": "kanxue.com/book-79-1429.htm",
+    "timestamp": "2026-07-24 13:16:45",
+    "success": false,
+    "source": "search:物联网安全 漏洞 2025 2026"
+  },
+  "https://f5.pm/go-393905.html": {
+    "title": "FreeBuf早报 | Claude新模型发布即挖500个0day漏洞；NGINX...",
+    "timestamp": "2026-07-24 13:17:30",
+    "success": true,
+    "source": "search:物联网安全 漏洞 2025 2026"
+  },
+  "https://post.smzdm.com/p/a0vlm728/": {
+    "title": "post.smzdm.com/p/a0vlm728",
+    "timestamp": "2026-07-24 13:17:33",
+    "success": false,
+    "source": "search:物联网安全 漏洞 2025 2026"
+  },
+  "https://www.cnblogs.com/priv/p/19296977": {
+    "title": "畅捷通系统特征及漏洞探测利用 - shinianyunyan - 博客园",
+    "timestamp": "2026-07-24 13:17:43",
+    "success": true,
+    "source": "search:物联网安全 漏洞 2025 2026"
+  },
+  "https://techcrunch.com/2026/07/21/ai-music-generator-suno-breach-affects-55m-users-per-have-i-been-pwned/": {
+    "title": "AI music generator Suno breach affects 55M users, per... | TechCrunch",
+    "timestamp": "2026-07-24 13:20:10",
+    "success": true,
+    "source": "search:data breach incident 2025 2026 report"
+  },
+  "https://www.euronews.com/2026/07/21/irans-irgc-claims-attack-on-amazons-main-data-hub-in-bahrain": {
+    "title": "Iran's IRGC claims attack on Amazon's main data hub in... | Euronews",
+    "timestamp": "2026-07-24 13:21:44",
+    "success": false,
+    "source": "search:data breach incident 2025 2026 report"
+  },
+  "https://www.cybersecurity-insiders.com/shinyhunters-targets-dating-apps-bumble-and-match-in-data-breach-incident/": {
+    "title": "ShinyHunters targets Bumble and Match in Data Breach",
+    "timestamp": "2026-07-24 13:21:56",
+    "success": true,
+    "source": "search:data breach incident 2025 2026 report"
+  },
+  "https://indoviral2026.online/yang-viral-2026-on-social-media-top-10-most-smp-viral-fyp-tiktok-the-last-tale-videos-for-2025/": {
+    "title": "Yang Viral 2026 on Social Media Top 10 Most Smp... - indo Viral 2026",
+    "timestamp": "2026-07-24 13:22:44",
+    "success": true,
+    "source": "search:data breach incident 2025 2026 report"
+  },
+  "https://technologytimes.ng/how-mtn-nigeria-navigated-72-hour-data-breach/": {
+    "title": "'On the preponderance of caution' — How MTN Nigeria navigated...",
+    "timestamp": "2026-07-24 13:22:58",
+    "success": true,
+    "source": "search:data breach incident 2025 2026 report"
+  },
+  "https://www.bbc.com/news/articles/c3ek3gvdnj3o": {
+    "title": "OpenAI says its AI went rogue and launched 'unprecedented...",
+    "timestamp": "2026-07-24 13:24:32",
+    "success": false,
+    "source": "search:data breach incident 2025 2026 report"
+  },
+  "https://www.bleepingcomputer.com/": {
+    "title": "BleepingComputer | Cybersecurity, Technology News and Support",
+    "timestamp": "2026-07-24 13:25:19",
+    "success": false,
+    "source": "search:data breach incident 2025 2026 report"
+  },
+  "https://www.paloaltonetworks.com/": {
+    "title": "Leader in Cybersecurity Protection & Software for... - Palo Alto Networks",
+    "timestamp": "2026-07-24 13:26:05",
+    "success": true,
+    "source": "search:data breach incident 2025 2026 report"
+  },
+  "https://proton.me/blog/deepseek": {
+    "title": "Using DeepSeek? Here's why your privacy is at stake | Proton | Proton",
+    "timestamp": "2026-07-24 13:27:40",
+    "success": false,
+    "source": "search:data breach incident 2025 2026 report"
+  },
+  "https://yandex.ru/": {
+    "title": "yandex.ru",
+    "timestamp": "2026-07-24 13:28:39",
+    "success": false,
+    "source": "search:data breach incident 2025 2026 report"
+  },
+  "https://ishodnyi-kod.com/sovmestimost": {
+    "title": "ishodnyi-kod.com/sovmestimost",
+    "timestamp": "2026-07-24 13:28:58",
+    "success": true,
+    "source": "search:data breach incident 2025 2026 report"
+  },
+  "https://www.google.com/": {
+    "title": "Google",
+    "timestamp": "2026-07-24 13:30:33",
+    "success": false,
+    "source": "search:data breach incident 2025 2026 report"
+  },
+  "https://vietnamspot.ru/blog/da-nang-reviews": {
+    "title": "vietnamspot.ru/blog/da-nang-reviews",
+    "timestamp": "2026-07-24 13:30:43",
+    "success": true,
+    "source": "search:data breach incident 2025 2026 report"
+  },
+  "https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/": {
+    "title": "Detecting SANDWORM_MODE and AI Toolchain Supply Chain Attacks",
+    "timestamp": "2026-07-24 13:31:50",
+    "success": true,
+    "source": "search:supply chain attack 2025 2026 case study"
+  },
+  "https://www.akshayjain.blog/post/npm-supply-chain-attack-2025": {
+    "title": "Inside the September 2025 npm Supply-Chain Attack",
+    "timestamp": "2026-07-24 13:32:01",
+    "success": false,
+    "source": "search:supply chain attack 2025 2026 case study"
+  },
+  "https://ivyrem.com/supply-chain-nightmare-nx-npm-plugin-leaks-2349-secrets/": {
+    "title": "Supply Chain Nightmare Nx Npm Plugin Leaks 2349 Secrets – Ivyrem",
+    "timestamp": "2026-07-24 13:32:47",
+    "success": false,
+    "source": "search:supply chain attack 2025 2026 case study"
+  },
+  "https://www.bbc.com/news/articles/cvg9n2y61w6o": {
+    "title": "Wildberries: Russia's businesses under strain from Ukraine's attacks.....",
+    "timestamp": "2026-07-24 13:34:20",
+    "success": false,
+    "source": "search:supply chain attack 2025 2026 case study"
+  },
+  "https://onlineshieldhub.com/shai-hulud-worm-npm-supply-chain-attack-2025/": {
+    "title": "Shai Hulud Worm Hits npm: 2025 Supply Chain Attack Exposed",
+    "timestamp": "2026-07-24 13:35:09",
+    "success": false,
+    "source": "search:supply chain attack 2025 2026 case study"
+  },
+  "https://www.upstandinghackers.com/what-is-a-watering-hole-attack/": {
+    "title": "What Is a Watering Hole Attack? How It Works, Real Examples...",
+    "timestamp": "2026-07-24 13:35:40",
+    "success": true,
+    "source": "search:supply chain attack 2025 2026 case study"
+  },
+  "https://allschool.ng/abu-admission-list/": {
+    "title": "ABU Zaria Admission List 2025/2026 is Out [UPDATED]",
+    "timestamp": "2026-07-24 13:36:29",
+    "success": true,
+    "source": "search:supply chain attack 2025 2026 case study"
+  },
+  "https://wataaviral.store/top-5-lagi-viral-2026-trending-indonesia-top-10-viral-terbaru-pesona-pelajar-cantik-berhijab-yandex-viral-one-for-all-jengking-ceer-di-duburnew-global-2025-official-sawit-viral-62/": {
+    "title": "Top 5 Lagi Viral 2026 Trending Indonesia Top 10 Viral... - Wataa Viral",
+    "timestamp": "2026-07-24 13:37:17",
+    "success": true,
+    "source": "search:supply chain attack 2025 2026 case study"
+  },
+  "https://moramil.autos/": {
+    "title": "Moramil - Explore articles about technology, tutorials, and more.",
+    "timestamp": "2026-07-24 13:37:46",
+    "success": false,
+    "source": "search:supply chain attack 2025 2026 case study"
+  },
+  "https://thehackernews.com/": {
+    "title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
+    "timestamp": "2026-07-24 13:38:55",
+    "success": true,
+    "source": "search:supply chain attack 2025 2026 case study"
+  },
+  "https://www.visualcapitalist.com/": {
+    "title": "Visual Capitalist",
+    "timestamp": "2026-07-24 13:40:05",
+    "success": true,
+    "source": "search:supply chain attack 2025 2026 case study"
+  },
+  "https://vk.com/video-192544707_456269534": {
+    "title": "vk.com/video-192544707_456269534",
+    "timestamp": "2026-07-24 13:41:54",
+    "success": false,
+    "source": "search:supply chain attack 2025 2026 case study"
+  },
+  "https://www.linkedin.com/pulse/irans-apts-just-woke-up-prepare-now-nermin-smajić-dx4bf": {
+    "title": "Iran’s APTs Just Woke Up – Prepare Now",
+    "timestamp": "2026-07-24 13:42:25",
+    "success": false,
+    "source": "search:APT group threat intelligence 2025 2026"
+  },
+  "https://www.talosintelligence.com/": {
+    "title": "Cisco Talos Intelligence Group - Comprehensive Threat Intelligence",
+    "timestamp": "2026-07-24 13:43:14",
+    "success": true,
+    "source": "search:APT group threat intelligence 2025 2026"
+  },
+  "https://www.bleepingcomputer.com/news/security/teamviewers-corporate-network-was-breached-in-alleged-apt-hack/": {
+    "title": "TeamViewer's corporate network was breached in alleged APT hack",
+    "timestamp": "2026-07-24 13:44:02",
+    "success": false,
+    "source": "search:APT group threat intelligence 2025 2026"
+  },
+  "https://opentip.kaspersky.com/": {
+    "title": "Online Virus Scanner — Kaspersky Threat Intelligence Portal",
+    "timestamp": "2026-07-24 13:44:07",
+    "success": false,
+    "source": "search:APT group threat intelligence 2025 2026"
+  },
+  "https://codeby.net/threads/threat-intelligence-platformy-2025-2026-polnyi-obzor-tip-ioc-menedzhmenta-i-instrumentov-kiberrazvedki-dlya-security-inzhenera.94792/": {
+    "title": "codeby.net/threads/threat-intelligence-platformy-2025-2026-polnyi...",
+    "timestamp": "2026-07-24 13:44:21",
+    "success": false,
+    "source": "search:APT group threat intelligence 2025 2026"
+  },
+  "https://ptsecurity.com/research/pt-esc-threat-intelligence/analysis-of-hacker-group-activity-2nd-quarter-of-2026/": {
+    "title": "ptsecurity.com/research/pt-esc-threat-intelligence/analysis-of-hacker...",
+    "timestamp": "2026-07-24 13:45:01",
+    "success": true,
+    "source": "search:APT group threat intelligence 2025 2026"
+  },
+  "https://wyffest.com/events/mfm2026": {
+    "title": "wyffest.com/events/mfm2026",
+    "timestamp": "2026-07-24 13:45:12",
+    "success": true,
+    "source": "search:APT group threat intelligence 2025 2026"
+  },
+  "https://dzen.ru/video/watch/690afe38270b284bfed2bce6": {
+    "title": "dzen.ru/video/watch/690afe38270b284bfed2bce6 | Дзен",
+    "timestamp": "2026-07-24 13:45:45",
+    "success": false,
+    "source": "search:APT group threat intelligence 2025 2026"
+  },
+  "https://vcp.com.ru/news/tpost/5vb6gdyek1-kitaiskie-turisti-massovo-edut-v-rossiyu": {
+    "title": "vcp.com.ru/news/tpost/5vb6gdyek1-kitaiskie-turisti-massovo-edut...",
+    "timestamp": "2026-07-24 13:46:15",
+    "success": true,
+    "source": "search:APT group threat intelligence 2025 2026"
+  },
+  "https://tourvisor.ru/blog/hotel-selection/20-novykh-otelej-turtsii-otkrytykh-v-2025-2026-godakh": {
+    "title": "tourvisor.ru/blog/hotel-selection/20-novykh-otelej-turtsii-otkrytykh...",
+    "timestamp": "2026-07-24 13:46:33",
+    "success": true,
+    "source": "search:APT group threat intelligence 2025 2026"
+  },
+  "https://www.drom.ru/catalog/byd/yuan_up/537854/": {
+    "title": "drom.ru/catalog/byd/yuan_up/537854 | Каталог",
+    "timestamp": "2026-07-24 13:46:39",
+    "success": true,
+    "source": "search:APT group threat intelligence 2025 2026"
+  },
+  "https://vatesmert.livejournal.com/206515.html": {
+    "title": "vatesmert.livejournal.com/206515.html",
+    "timestamp": "2026-07-24 13:46:49",
+    "success": false,
+    "source": "search:APT group threat intelligence 2025 2026"
+  },
+  "https://www.libertify.com/interactive-library/zero-trust-architecture-implementation-guide/": {
+    "title": "Zero Trust Architecture Implementation Guide 2026 —.",
+    "timestamp": "2026-07-24 13:48:29",
+    "success": false,
+    "source": "search:zero trust architecture implementation guide"
+  },
+  "https://github.com/capetron/zero-trust-architecture-guide": {
+    "title": "GitHub - capetron/zero-trust-architecture-guide: Zero trust...",
+    "timestamp": "2026-07-24 13:48:41",
+    "success": true,
+    "source": "search:zero trust architecture implementation guide"
+  },
+  "https://calmops.com/security/zero-trust-architecture-implementation-guide/": {
+    "title": "Zero Trust Architecture: Implementation Guide - Calmops",
+    "timestamp": "2026-07-24 13:49:27",
+    "success": false,
+    "source": "search:zero trust architecture implementation guide"
+  },
+  "https://cyberreplay.com/blog/zero-trust-architecture-implementation/": {
+    "title": "Zero Trust Architecture: The Complete Implementation Guide for...",
+    "timestamp": "2026-07-24 13:50:16",
+    "success": true,
+    "source": "search:zero trust architecture implementation guide"
+  },
+  "https://bigid.com/blog/how-to-implement-zero-trust/": {
+    "title": "Implementing a Zero Trust Architecture | BigID",
+    "timestamp": "2026-07-24 13:51:03",
+    "success": true,
+    "source": "search:zero trust architecture implementation guide"
+  },
+  "https://www.decryptiondigest.com/blog/guide-zero-trust-network-architecture": {
+    "title": "Zero Trust Network Architecture 2026: Implementation Roadmap",
+    "timestamp": "2026-07-24 13:51:51",
+    "success": true,
+    "source": "search:zero trust architecture implementation guide"
+  }
+}

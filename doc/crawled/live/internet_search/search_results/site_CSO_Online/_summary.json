@@ -1,0 +1,16 @@
+{
+  "site": "CSO Online",
+  "crawled_at": "2026-07-24 12:31:52",
+  "total_found": 2,
+  "saved": 2,
+  "articles": [
+    {
+      "title": "Newsletters",
+      "url": "https://www.csoonline.com/newsletters/signup/"
+    },
+    {
+      "title": "Buyer’s Guides",
+      "url": "https://www.csoonline.com/enterprise-buyers-guide/"
+    }
+  ]
+}

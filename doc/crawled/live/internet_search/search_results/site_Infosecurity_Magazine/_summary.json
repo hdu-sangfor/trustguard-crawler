@@ -1,0 +1,16 @@
+{
+  "site": "Infosecurity Magazine",
+  "crawled_at": "2026-07-24 12:31:41",
+  "total_found": 2,
+  "saved": 2,
+  "articles": [
+    {
+      "title": "White Papers",
+      "url": "https://www.infosecurity-magazine.com/white-papers/"
+    },
+    {
+      "title": "Open AI Claims Its AI Models Went Rogue and Hacked Another Company",
+      "url": "https://www.infosecurity-magazine.com/news/open-ai-hacked-another-company/"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "site": "ZDNet Security",
+  "crawled_at": "2026-07-24 12:32:03",
+  "total_found": 2,
+  "saved": 2,
+  "articles": [
+    {
+      "title": "I wore the world's first HDR10 smart glasses",
+      "url": "https://www.zdnet.com/article/rayneo-air-4-pro-hdr10-smart-glasses-ces/"
+    },
+    {
+      "title": "TCL's new E Ink tablet beats the Remarkable and Kindle",
+      "url": "https://www.zdnet.com/article/tcl-note-a1-nxtpaper-ces/"
+    }
+  ]
+}
